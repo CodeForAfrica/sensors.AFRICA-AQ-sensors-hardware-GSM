@@ -8015,89 +8015,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </package>
 </packages>
 </library>
-<library name="MMBT2222_">
-<packages>
-<package name="SOT23-BEC">
-<description>&lt;b&gt;SOT-23&lt;/b&gt; Base, Emiter, Collector</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.2032" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.2032" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.2032" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.2032" layer="51"/>
-<wire x1="-1.4224" y1="-0.1524" x2="-1.4224" y2="0.6604" width="0.2032" layer="21"/>
-<wire x1="-1.4224" y1="0.6604" x2="-0.8636" y2="0.6604" width="0.2032" layer="21"/>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.1524" width="0.2032" layer="21"/>
-<wire x1="0.8636" y1="0.6604" x2="1.4224" y2="0.6604" width="0.2032" layer="21"/>
-<text x="1.2709" y="1.2709" size="1.01671875" layer="25" ratio="18">&gt;NAME</text>
-<text x="-1.9075" y="-3.179159375" size="0.813865625" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.228896875" y1="0.712128125" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.71196875" y1="-1.2968" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.17016875" y1="-1.29736875" x2="-0.7112" y2="-0.7112" layer="51"/>
-<smd name="C" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="E" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="B" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-</package>
-</packages>
-</library>
-<library name="EEEFN1C471P">
-<packages>
-<package name="CAP_EEEFN1C471P">
-<wire x1="-4.15" y1="2.65" x2="-4.15" y2="-2.65" width="0.127" layer="51"/>
-<wire x1="-4.15" y1="-2.65" x2="-2.65" y2="-4.15" width="0.127" layer="51"/>
-<wire x1="-2.65" y1="-4.15" x2="4.15" y2="-4.15" width="0.127" layer="51"/>
-<wire x1="4.15" y1="-4.15" x2="4.15" y2="4.15" width="0.127" layer="51"/>
-<wire x1="4.15" y1="4.15" x2="-2.65" y2="4.15" width="0.127" layer="51"/>
-<wire x1="-2.65" y1="4.15" x2="-4.15" y2="2.65" width="0.127" layer="51"/>
-<wire x1="-4.15" y1="-2.65" x2="-2.65" y2="-4.15" width="0.127" layer="21"/>
-<wire x1="-2.65" y1="-4.15" x2="4.15" y2="-4.15" width="0.127" layer="21"/>
-<wire x1="4.15" y1="4.15" x2="-2.65" y2="4.15" width="0.127" layer="21"/>
-<wire x1="-2.65" y1="4.15" x2="-4.15" y2="2.65" width="0.127" layer="21"/>
-<wire x1="-4.15" y1="2.65" x2="-4.15" y2="1.32" width="0.127" layer="21"/>
-<wire x1="-4.15" y1="-1.32" x2="-4.15" y2="-2.65" width="0.127" layer="21"/>
-<wire x1="4.15" y1="1.32" x2="4.15" y2="4.15" width="0.127" layer="21"/>
-<wire x1="4.15" y1="-4.15" x2="4.15" y2="-1.32" width="0.127" layer="21"/>
-<wire x1="-5.8" y1="1.25" x2="-4.4" y2="1.25" width="0.05" layer="39"/>
-<wire x1="-4.4" y1="1.25" x2="-4.4" y2="2.775" width="0.05" layer="39"/>
-<wire x1="-4.4" y1="2.775" x2="-2.775" y2="4.4" width="0.05" layer="39"/>
-<wire x1="-2.775" y1="4.4" x2="4.4" y2="4.4" width="0.05" layer="39"/>
-<wire x1="4.4" y1="4.4" x2="4.4" y2="1.25" width="0.05" layer="39"/>
-<wire x1="4.4" y1="1.25" x2="5.8" y2="1.25" width="0.05" layer="39"/>
-<wire x1="5.8" y1="1.25" x2="5.8" y2="-1.25" width="0.05" layer="39"/>
-<wire x1="5.8" y1="-1.25" x2="4.4" y2="-1.25" width="0.05" layer="39"/>
-<wire x1="4.4" y1="-1.25" x2="4.4" y2="-4.4" width="0.05" layer="39"/>
-<wire x1="4.4" y1="-4.4" x2="-2.775" y2="-4.4" width="0.05" layer="39"/>
-<wire x1="-2.775" y1="-4.4" x2="-4.4" y2="-2.775" width="0.05" layer="39"/>
-<wire x1="-4.4" y1="-2.775" x2="-4.4" y2="-1.25" width="0.05" layer="39"/>
-<wire x1="-4.4" y1="-1.25" x2="-5.8" y2="-1.25" width="0.05" layer="39"/>
-<wire x1="-5.8" y1="-1.25" x2="-5.8" y2="1.25" width="0.05" layer="39"/>
-<circle x="-4.8" y="2" radius="0.1" width="0.2" layer="51"/>
-<circle x="-4.8" y="2" radius="0.1" width="0.2" layer="21"/>
-<text x="-2.85" y="4.9" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.85" y="-4.9" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<smd name="1" x="-3.55" y="0" dx="4" dy="2" layer="1"/>
-<smd name="2" x="3.55" y="0" dx="4" dy="2" layer="1"/>
-</package>
-</packages>
-</library>
-<library name="CR0805AJ_-000EAS">
-<packages>
-<package name="RESC2012X60N">
-<text x="-1.66" y="-1.02" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-1.66" y="1.02" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.127" layer="51"/>
-<wire x1="1.05" y1="0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
-<wire x1="1.05" y1="-0.68" x2="1.05" y2="0.68" width="0.127" layer="51"/>
-<wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
-<wire x1="-0.12" y1="0.68" x2="0.12" y2="0.68" width="0.127" layer="21"/>
-<wire x1="-0.12" y1="-0.68" x2="0.12" y2="-0.68" width="0.127" layer="21"/>
-<wire x1="-1.665" y1="-0.94" x2="1.665" y2="-0.94" width="0.05" layer="39"/>
-<wire x1="-1.665" y1="0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
-<wire x1="-1.665" y1="-0.94" x2="-1.665" y2="0.94" width="0.05" layer="39"/>
-<wire x1="1.665" y1="-0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
-<smd name="1" x="-0.93" y="0" dx="0.97" dy="1.38" layer="1"/>
-<smd name="2" x="0.93" y="0" dx="0.97" dy="1.38" layer="1"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8756,106 +8673,6 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="-48.8" y="-177.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-50.29" y="-178.23" size="0.5" layer="27" align="top-left"/>
 </element>
-<element name="Q1" library="MMBT2222_" package="SOT23-BEC" value="MMBT2222" x="-48.4" y="-181.7" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="-48.4" y="-181.7" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="-48.4" y="-181.7" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="-48.4" y="-181.7" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ON Semiconductor" x="-48.4" y="-181.7" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="MMBT2222" x="-48.4" y="-181.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-47.1291" y="-180.4291" size="1.01671875" layer="25" ratio="18"/>
-<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="-48.4" y="-181.7" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-48.4" y="-181.7" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=snap" x="-48.4" y="-181.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-50.3075" y="-184.879159375" size="0.813865625" layer="27" ratio="10"/>
-</element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="51K" x="-49.3" y="-187.9" smashed="yes">
-<attribute name="NAME" x="-49.935" y="-187.265" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="70" x="-49.3" y="-187.9" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-49.3" y="-187.9" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-49.935" y="-189.805" size="1.27" layer="27"/>
-</element>
-<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="-49.3" y="-192.8" smashed="yes">
-<attribute name="NAME" x="-49.935" y="-192.165" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="70" x="-49.3" y="-192.8" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-49.3" y="-192.8" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-49.935" y="-194.705" size="1.27" layer="27"/>
-</element>
-<element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="-49.3" y="-197.7" smashed="yes">
-<attribute name="NAME" x="-49.935" y="-197.065" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="70" x="-49.3" y="-197.7" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-49.3" y="-197.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-49.935" y="-199.605" size="1.27" layer="27"/>
-</element>
-<element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k" x="-49.3" y="-202.6" smashed="yes">
-<attribute name="NAME" x="-49.935" y="-201.965" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="70" x="-49.3" y="-202.6" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-49.3" y="-202.6" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-49.935" y="-204.505" size="1.27" layer="27"/>
-</element>
-<element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="-49.3" y="-207.5" smashed="yes">
-<attribute name="NAME" x="-49.935" y="-206.865" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="70" x="-49.3" y="-207.5" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-49.3" y="-207.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-49.935" y="-209.405" size="1.27" layer="27"/>
-</element>
-<element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470r" x="-49.3" y="-212.4" smashed="yes">
-<attribute name="NAME" x="-49.935" y="-211.765" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="70" x="-49.3" y="-212.4" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-49.3" y="-212.4" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-49.935" y="-214.305" size="1.27" layer="27"/>
-</element>
-<element name="C5" library="EEEFN1C471P" package="CAP_EEEFN1C471P" value="EEEFN1C471P" x="-56.7" y="-208.2" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="-56.7" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/EEE-FN1C471P/Panasonic/view-part/?ref=eda" x="-56.7" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Capacitor,16VDC, 470uF,SMD'Electrolytic | Panasonic Electronic Components EEE-FN1C471P " x="-56.7" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Panasonic Electronic Components" x="-56.7" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="EEE-FN1C471P" x="-56.7" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-59.55" y="-203.3" size="1.27" layer="25"/>
-<attribute name="PACKAGE" value="RADIAL-2 Panasonic" x="-56.7" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-56.7" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6178008&amp;manufacturer=Panasonic Electronic Components&amp;part_name=EEE-FN1C471P&amp;search_term= 470uf 16v ±20% smd" x="-56.7" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/EEE-FN1C471P/Panasonic/view-part/?ref=snap" x="-56.7" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-59.55" y="-213.1" size="1.27" layer="27" align="top-left"/>
-</element>
-<element name="C6" library="EEEFN1C471P" package="CAP_EEEFN1C471P" value="EEEFN1C471P" x="-68.4" y="-208.2" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="-68.4" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/EEE-FN1C471P/Panasonic/view-part/?ref=eda" x="-68.4" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Capacitor,16VDC, 470uF,SMD'Electrolytic | Panasonic Electronic Components EEE-FN1C471P " x="-68.4" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Panasonic Electronic Components" x="-68.4" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="EEE-FN1C471P" x="-68.4" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-71.25" y="-203.3" size="1.27" layer="25"/>
-<attribute name="PACKAGE" value="RADIAL-2 Panasonic" x="-68.4" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-68.4" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6178008&amp;manufacturer=Panasonic Electronic Components&amp;part_name=EEE-FN1C471P&amp;search_term= 470uf 16v ±20% smd" x="-68.4" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/EEE-FN1C471P/Panasonic/view-part/?ref=snap" x="-68.4" y="-208.2" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-71.25" y="-213.1" size="1.27" layer="27" align="top-left"/>
-</element>
-<element name="R13" library="CR0805AJ_-000EAS" package="RESC2012X60N" value="100M" x="-72" y="-221.5" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="-72" y="-221.5" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/CR0805AJ/-000EAS/Bourns/view-part/?ref=eda" x="-72" y="-221.5" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Resistor, AS 0805 0R Jumper 125mW, AEC-Q, Anti-Sulfur | Bourns CR0805AJ/-000EAS " x="-72" y="-221.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Bourns" x="-72" y="-221.5" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="CR0805AJ/-000EAS" x="-72" y="-221.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-73.66" y="-220.48" size="0.5" layer="25"/>
-<attribute name="PACKAGE" value="0805 Bourns" x="-72" y="-221.5" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-72" y="-221.5" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4001965&amp;manufacturer=Bourns&amp;part_name=CR0805AJ/-000EAS&amp;search_term=0r 0805 resitor" x="-72" y="-221.5" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/CR0805AJ/-000EAS/Bourns/view-part/?ref=snap" x="-72" y="-221.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-73.66" y="-222.52" size="0.5" layer="27" align="top-left"/>
-</element>
-<element name="R12" library="CR0805AJ_-000EAS" package="RESC2012X60N" value="0R" x="-72" y="-225" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="-72" y="-225" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/CR0805AJ/-000EAS/Bourns/view-part/?ref=eda" x="-72" y="-225" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Resistor, AS 0805 0R Jumper 125mW, AEC-Q, Anti-Sulfur | Bourns CR0805AJ/-000EAS " x="-72" y="-225" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Bourns" x="-72" y="-225" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="CR0805AJ/-000EAS" x="-72" y="-225" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-73.66" y="-223.98" size="0.5" layer="25"/>
-<attribute name="PACKAGE" value="0805 Bourns" x="-72" y="-225" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-72" y="-225" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4001965&amp;manufacturer=Bourns&amp;part_name=CR0805AJ/-000EAS&amp;search_term=0r 0805 resitor" x="-72" y="-225" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/CR0805AJ/-000EAS/Bourns/view-part/?ref=snap" x="-72" y="-225" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-73.66" y="-226.02" size="0.5" layer="27" align="top-left"/>
-</element>
 </elements>
 <signals>
 <signal name="GND" class="2">
@@ -9001,20 +8818,8 @@ design rules under a new name.</description>
 <contactref element="D1" pad="1"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C3" pad="1"/>
-<contactref element="R8" pad="1"/>
-<contactref element="IC1" pad="3"/>
-<contactref element="R10" pad="1"/>
-<contactref element="R11" pad="1"/>
-<contactref element="C6" pad="2"/>
-<contactref element="C5" pad="2"/>
-<wire x1="-50.15" y1="-207.5" x2="-50.15" y2="-197.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-53.15" y1="-208.2" x2="-50.15" y2="-207.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-50.15" y1="-212.4" x2="-50.15" y2="-207.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.85" y1="-208.2" x2="-53.15" y2="-208.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-49.575" y1="-177.4" x2="-50.15" y2="-197.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.5" y1="-171.6" x2="-49.575" y2="-177.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-43.4" y1="-166.0912" x2="-42.5" y2="-171.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.6" y1="-158" x2="-43.4" y2="-166.0912" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.6" y1="-158" x2="-42.5" y2="-171.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.65" y1="-151.6" x2="-34.6" y2="-158" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.55" y1="-151.6" x2="-34.65" y2="-151.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-33.5" y1="-142.45" x2="-34.65" y2="-151.6" width="0" layer="19" extent="1-1"/>
@@ -9154,16 +8959,6 @@ design rules under a new name.</description>
 <contactref element="CHRG" pad="A"/>
 <contactref element="U2" pad="14"/>
 <contactref element="R1" pad="1"/>
-<contactref element="C2" pad="1"/>
-<contactref element="IC1" pad="2"/>
-<contactref element="C3" pad="2"/>
-<contactref element="R2" pad="2"/>
-<contactref element="C5" pad="1"/>
-<wire x1="-48.025" y1="-177.4" x2="-48.45" y2="-187.9" width="0" layer="19" extent="1-1"/>
-<wire x1="-48.7" y1="-171.6" x2="-48.025" y2="-177.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.1018" y1="-166.0912" x2="-48.7" y2="-171.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.25" y1="-208.2" x2="-48.45" y2="-187.9" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.35" y1="-141.7" x2="-45.1018" y2="-166.0912" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.975" y1="-91.09" x2="-30.35" y2="-141.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.3" y1="-27.25" x2="-29.975" y2="-91.09" width="0" layer="19" extent="1-1"/>
 <wire x1="-32.55" y1="-23.8" x2="-20.3" y2="-27.25" width="0" layer="19" extent="1-1"/>
@@ -9320,19 +9115,19 @@ design rules under a new name.</description>
 <signal name="V_LIPO">
 <contactref element="U1" pad="42"/>
 <contactref element="U1" pad="1"/>
+<contactref element="IC2" pad="3"/>
+<contactref element="CN1" pad="1"/>
 <contactref element="D2" pad="1"/>
 <contactref element="C9" pad="+"/>
 <contactref element="C10" pad="1"/>
 <contactref element="C11" pad="1"/>
-<contactref element="R13" pad="2"/>
-<contactref element="R12" pad="1"/>
 <wire x1="-35.25" y1="-83.7" x2="-33.935" y2="-88.9" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.75" y1="-83.7" x2="-35.25" y2="-83.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.5" y1="-77.9" x2="-29.75" y2="-83.7" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="-32.9" x2="-29.5" y2="-77.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-32.55" y1="-26.4" x2="-29.5" y2="-77.9" width="0" layer="19" extent="1-1"/>
+<wire x1="7.4" y1="34.8" x2="-32.55" y2="-26.4" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="-32.9" x2="-32.55" y2="-26.4" width="0" layer="19" extent="1-1"/>
 <wire x1="25.8" y1="-31.4" x2="25.4" y2="-32.9" width="0" layer="19" extent="1-1"/>
-<wire x1="-71.07" y1="-221.5" x2="-33.935" y2="-88.9" width="0" layer="19" extent="1-1"/>
-<wire x1="-72.93" y1="-225" x2="-71.07" y2="-221.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GSM_RX">
 <contactref element="U1" pad="31"/>
@@ -9491,50 +9286,12 @@ design rules under a new name.</description>
 <contactref element="RI" pad="A"/>
 <wire x1="-28.65" y1="-141.7" x2="-33.5" y2="-138.65" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$35">
-<contactref element="R2" pad="1"/>
-<contactref element="IC1" pad="1"/>
-<contactref element="Q1" pad="C"/>
-<wire x1="-48.4" y1="-180.6" x2="-50.15" y2="-187.9" width="0" layer="19" extent="1-1"/>
-<wire x1="-46.8036" y1="-166.0912" x2="-48.4" y2="-180.6" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$36">
-<contactref element="R3" pad="2"/>
-<contactref element="Q1" pad="B"/>
-<wire x1="-49.35" y1="-182.8" x2="-48.45" y2="-192.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$37">
-<contactref element="R8" pad="2"/>
-<contactref element="Q1" pad="E"/>
-<wire x1="-47.45" y1="-182.8" x2="-48.45" y2="-197.7" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VBAT_EN">
-<contactref element="R3" pad="1"/>
-</signal>
 <signal name="N$34">
-<contactref element="IC1" pad="4"/>
-<contactref element="R9" pad="2"/>
-<contactref element="R11" pad="2"/>
-<contactref element="C6" pad="1"/>
-<contactref element="R13" pad="1"/>
-<wire x1="-48.45" y1="-212.4" x2="-48.45" y2="-202.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-71.95" y1="-208.2" x2="-48.45" y2="-212.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-72.93" y1="-221.5" x2="-71.95" y2="-208.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.6982" y1="-166.0912" x2="-48.45" y2="-202.6" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$38">
-<contactref element="R10" pad="2"/>
-<contactref element="R9" pad="1"/>
-<contactref element="IC1" pad="5"/>
-<wire x1="-48.45" y1="-207.5" x2="-50.15" y2="-202.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-39.9964" y1="-166.0912" x2="-50.15" y2="-202.6" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$39">
-<contactref element="CN1" pad="1"/>
-<contactref element="R12" pad="2"/>
-<contactref element="IC2" pad="3"/>
-<wire x1="7.4" y1="34.8" x2="-32.55" y2="-26.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-71.07" y1="-225" x2="-32.55" y2="-26.4" width="0" layer="19" extent="1-1"/>
+<contactref element="C2" pad="1"/>
+<contactref element="IC1" pad="2"/>
+<contactref element="C3" pad="2"/>
+<wire x1="-48.7" y1="-171.6" x2="-48.025" y2="-177.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.1018" y1="-166.0912" x2="-48.7" y2="-171.6" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
