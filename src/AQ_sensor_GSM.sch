@@ -19222,46 +19222,6 @@ by exp-lbrs-replace2.ulp</description>
 <text x="-19.05" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="16.637" y="1.524" size="1.27" layer="21" ratio="10">15</text>
 </package>
-<package name="SW_PCM12SMTR" urn="urn:adsk.eagle:footprint:30300253/1" library_version="1">
-<circle x="-3.2" y="2.5" radius="0.1" width="0.25" layer="21"/>
-<circle x="-3.2" y="2.5" radius="0.1" width="0.25" layer="51"/>
-<wire x1="-3.35" y1="1.3" x2="3.35" y2="1.3" width="0.127" layer="51"/>
-<wire x1="3.35" y1="1.3" x2="3.35" y2="-1.3" width="0.127" layer="51"/>
-<wire x1="3.35" y1="-1.3" x2="1.5" y2="-1.3" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-1.3" x2="-1.5" y2="-1.3" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-1.3" x2="-3.35" y2="-1.3" width="0.127" layer="51"/>
-<wire x1="-3.35" y1="-1.3" x2="-3.35" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-1.3" x2="-1.5" y2="-2.8" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-2.8" x2="1.5" y2="-2.8" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-2.8" x2="1.5" y2="-1.3" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="1.3" x2="0.1" y2="1.3" width="0.127" layer="21"/>
-<wire x1="-2.9" y1="-1.3" x2="2.9" y2="-1.3" width="0.127" layer="21"/>
-<wire x1="-3.35" y1="-0.3" x2="-3.35" y2="0.3" width="0.127" layer="21"/>
-<wire x1="3.35" y1="0.3" x2="3.35" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="-2.85" y1="2.75" x2="2.85" y2="2.75" width="0.05" layer="39"/>
-<wire x1="4.4" y1="1.615" x2="4.4" y2="-1.615" width="0.05" layer="39"/>
-<wire x1="4.4" y1="-1.615" x2="1.75" y2="-1.615" width="0.05" layer="39"/>
-<wire x1="1.75" y1="-1.615" x2="1.75" y2="-3.05" width="0.05" layer="39"/>
-<wire x1="1.75" y1="-3.05" x2="-1.75" y2="-3.05" width="0.05" layer="39"/>
-<wire x1="-1.75" y1="-3.05" x2="-1.75" y2="-1.615" width="0.05" layer="39"/>
-<wire x1="-1.75" y1="-1.615" x2="-4.4" y2="-1.615" width="0.05" layer="39"/>
-<wire x1="-4.4" y1="-1.615" x2="-4.4" y2="1.615" width="0.05" layer="39"/>
-<wire x1="-4.4" y1="1.615" x2="-2.85" y2="1.615" width="0.05" layer="39"/>
-<wire x1="-2.85" y1="1.615" x2="-2.85" y2="2.75" width="0.05" layer="39"/>
-<wire x1="2.85" y1="2.75" x2="2.85" y2="1.615" width="0.05" layer="39"/>
-<wire x1="2.85" y1="1.615" x2="4.4" y2="1.615" width="0.05" layer="39"/>
-<smd name="1" x="-2.25" y="1.75" dx="0.7" dy="1.5" layer="1"/>
-<smd name="2" x="0.75" y="1.75" dx="0.7" dy="1.5" layer="1"/>
-<smd name="3" x="2.25" y="1.75" dx="0.7" dy="1.5" layer="1"/>
-<smd name="S1" x="-3.65" y="0.965" dx="1" dy="0.8" layer="1"/>
-<smd name="S2" x="-3.65" y="-0.965" dx="1" dy="0.8" layer="1"/>
-<smd name="S3" x="3.65" y="-0.965" dx="1" dy="0.8" layer="1"/>
-<smd name="S4" x="3.65" y="0.965" dx="1" dy="0.8" layer="1"/>
-<text x="-5.08" y="3.81" size="1.778" layer="25">&gt;NAME</text>
-<text x="-5.08" y="-5.08" size="1.778" layer="27">&gt;VALUE</text>
-<hole x="-1.5" y="0" drill="0.9"/>
-<hole x="1.5" y="0" drill="0.9"/>
-</package>
 <package name="TEXAS_INSTRUMENTS_LM1117IMP-3.3-NOPB_0" urn="urn:adsk.eagle:footprint:30300254/1" library_version="1">
 <description>PM-REG-LM1086-SOT4</description>
 <circle x="-3.075" y="3.3" radius="0.125" width="0.25" layer="21"/>
@@ -20340,11 +20300,6 @@ package type OT</description>
 <packageinstance name="FE15"/>
 </packageinstances>
 </package3d>
-<package3d name="SW_PCM12SMTR" urn="urn:adsk.eagle:package:30300294/2" type="model" library_version="4">
-<packageinstances>
-<packageinstance name="SW_PCM12SMTR"/>
-</packageinstances>
-</package3d>
 <package3d name="TEXAS_INSTRUMENTS_LM1117IMP-3.3-NOPB_0" urn="urn:adsk.eagle:package:30300295/2" type="model" library_version="4">
 <description>PM-REG-LM1086-SOT4</description>
 <packageinstances>
@@ -20557,28 +20512,6 @@ package type OT</description>
 <pin name="15" x="7.62" y="17.78" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-1.27" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-1.27" y="21.082" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-<symbol name="PCM12SMTR" urn="urn:adsk.eagle:symbol:30300216/1" library_version="1">
-<circle x="-1.524" y="2.54" radius="0.508" width="0.254" layer="94"/>
-<circle x="-1.524" y="-2.54" radius="0.508" width="0.254" layer="94"/>
-<circle x="1.524" y="0" radius="0.508" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-1.524" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-2.032" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.032" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="0" x2="-1.27" y2="-2.032" width="0.1524" layer="94"/>
-<pin name="1" x="-10.16" y="2.54" visible="pad" length="middle" direction="pas"/>
-<pin name="2" x="10.16" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="3" x="-10.16" y="-2.54" visible="pad" length="middle" direction="pas"/>
-<pin name="SHIELD" x="10.16" y="-5.08" length="middle" direction="pas" rot="R180"/>
-<text x="-5.084390625" y="5.338609375" size="1.779540625" layer="95">&gt;NAME</text>
-<text x="-5.18135" y="-9.661859375" size="1.778459375" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="TEXAS_INSTRUMENTS_LM1117IMP-3.3-NOPB_0_0" urn="urn:adsk.eagle:symbol:30300210/1" library_version="1">
 <description>PM-REG-LM1086-SOT4</description>
@@ -21090,35 +21023,6 @@ package type OT</description>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 <attribute name="POPULARITY" value="2" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PCM12SMTR" urn="urn:adsk.eagle:component:30300306/2" prefix="SW" library_version="4">
-<description>Switch Slide ON ON SPDT Side Slide 0.3A 6VDC 10000Cycles Gull Wing SMD T/R</description>
-<gates>
-<gate name="G$1" symbol="PCM12SMTR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SW_PCM12SMTR">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30300294/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Slide Switch SPDT Surface Mount, Right Angle "/>
-<attribute name="MF" value="C&amp;K"/>
-<attribute name="MP" value="PCM12SMTR"/>
-<attribute name="PACKAGE" value="DO-201 C&amp;amp;K Components"/>
-<attribute name="PRICE" value="None"/>
 </technology>
 </technologies>
 </device>
@@ -24744,6 +24648,93 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 </deviceset>
 </devicesets>
 </library>
+<library name="TL2285EE">
+<packages>
+<package name="SW_TL2285EE">
+<text x="-3.81" y="5.08" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.778" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="4" y1="4" x2="4" y2="-4" width="0.127" layer="21"/>
+<wire x1="-4" y1="-4" x2="-4" y2="4" width="0.127" layer="21"/>
+<wire x1="-4" y1="4" x2="4" y2="4" width="0.127" layer="51"/>
+<wire x1="4" y1="4" x2="4" y2="-4" width="0.127" layer="51"/>
+<wire x1="4" y1="-4" x2="-4" y2="-4" width="0.127" layer="51"/>
+<wire x1="-4" y1="-4" x2="-4" y2="4" width="0.127" layer="51"/>
+<wire x1="-4.25" y1="4.25" x2="4.25" y2="4.25" width="0.05" layer="39"/>
+<wire x1="4.25" y1="4.25" x2="4.25" y2="-4.25" width="0.05" layer="39"/>
+<wire x1="4.25" y1="-4.25" x2="-4.25" y2="-4.25" width="0.05" layer="39"/>
+<wire x1="-4.25" y1="-4.25" x2="-4.25" y2="4.25" width="0.05" layer="39"/>
+<circle x="-2.54" y="-4.5" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.54" y="-4.5" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-4" y1="4" x2="-3" y2="4" width="0.127" layer="21"/>
+<wire x1="3" y1="4" x2="4" y2="4" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-4" x2="-4" y2="-4" width="0.127" layer="21"/>
+<wire x1="3" y1="-4" x2="4" y2="-4" width="0.127" layer="21"/>
+<pad name="1" x="-2.5" y="-3" drill="0.9" shape="square"/>
+<pad name="2" x="0" y="-3" drill="0.9"/>
+<pad name="3" x="2.5" y="-3" drill="0.9"/>
+<pad name="4" x="-2.5" y="3" drill="0.9"/>
+<pad name="5" x="0" y="3" drill="0.9"/>
+<pad name="6" x="2.5" y="3" drill="0.9"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TL2285EE">
+<text x="-2.54" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-10.16" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<wire x1="-2.54" y1="5.08" x2="2.794" y2="7.2136" width="0.1524" layer="94"/>
+<circle x="2.54" y="7.62" radius="0.3302" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3302" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="2.921" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="2.921" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="2.794" y2="-2.9464" width="0.1524" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3302" width="0.1524" layer="94"/>
+<circle x="2.54" y="-7.62" radius="0.3302" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="2.921" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="2.921" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.1524" layer="94"/>
+<pin name="NC1" x="7.62" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="COM1" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="NO1" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="NC2" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="COM2" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="NO2" x="7.62" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TL2285EE" prefix="S">
+<description> &lt;a href="https://pricing.snapeda.com/parts/TL2285EE/E-Switch/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TL2285EE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SW_TL2285EE">
+<connects>
+<connect gate="G$1" pin="COM1" pad="3"/>
+<connect gate="G$1" pin="COM2" pad="4"/>
+<connect gate="G$1" pin="NC1" pad="1"/>
+<connect gate="G$1" pin="NC2" pad="6"/>
+<connect gate="G$1" pin="NO1" pad="2"/>
+<connect gate="G$1" pin="NO2" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/TL2285EE/E-Switch/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Pushbutton Switch DPDT Standard Through Hole "/>
+<attribute name="MF" value="E-Switch"/>
+<attribute name="MP" value="TL2285EE"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=653295&amp;manufacturer=E-Switch&amp;part_name=TL2285EE&amp;search_term= latching straight dpdt switch"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/TL2285EE/E-Switch/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -24798,13 +24789,12 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="DHT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="POWER_SW" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="PCM12SMTR" device="" package3d_urn="urn:adsk.eagle:package:30300294/2"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="D4" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="ON_SEMI_1N4148WS" device="ON_SEMI_1N4148WS_0_0" package3d_urn="urn:adsk.eagle:package:30300267/2"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U4" library="EC200UCNAB-N05-SNNSA" deviceset="EC200UCNAB-N05-SNNSA" device=""/>
+<part name="U4" library="EC200UCNAB-N05-SNNSA" deviceset="EC200UCNAB-N05-SNNSA" device="" override_package3d_urn="urn:adsk.eagle:package:43000310/2" override_package_urn="urn:adsk.eagle:footprint:43000311/1"/>
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="IC2" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="MCP73831" device="/OT" package3d_urn="urn:adsk.eagle:package:30300292/2"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -24852,12 +24842,12 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="IC1" library="MIC29302WU" deviceset="MIC29302WU" device=""/>
-<part name="C2" library="T495X477K010ATE100" deviceset="T495X477K010ATE100" device="" value="470uf"/>
-<part name="C3" library="06035C104K4T2A" deviceset="06035C104K4T2A" device="" value="100nf"/>
+<part name="IC1" library="MIC29302WU" deviceset="MIC29302WU" device="" override_package3d_urn="urn:adsk.eagle:package:43000286/2" override_package_urn="urn:adsk.eagle:footprint:43000287/1"/>
+<part name="C2" library="T495X477K010ATE100" deviceset="T495X477K010ATE100" device="" override_package3d_urn="urn:adsk.eagle:package:43000570/2" override_package_urn="urn:adsk.eagle:footprint:43000571/1" value="470uf"/>
+<part name="C3" library="06035C104K4T2A" deviceset="06035C104K4T2A" device="" override_package3d_urn="urn:adsk.eagle:package:43000526/2" override_package_urn="urn:adsk.eagle:footprint:43000527/1" value="100nf"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q1" library="MMBT2222_" deviceset="MMBT2222*" device=""/>
+<part name="Q1" library="MMBT2222_" deviceset="MMBT2222*" device="" override_package3d_urn="urn:adsk.eagle:package:43001449/2" override_package_urn="urn:adsk.eagle:footprint:43001450/1"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="51K"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K"/>
@@ -24867,23 +24857,23 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R"/>
-<part name="C5" library="EEEFN1C471P" deviceset="EEEFN1C471P" device=""/>
-<part name="C6" library="EEEFN1C471P" deviceset="EEEFN1C471P" device=""/>
+<part name="C5" library="EEEFN1C471P" deviceset="EEEFN1C471P" device="" override_package3d_urn="urn:adsk.eagle:package:43000277/2" override_package_urn="urn:adsk.eagle:footprint:43000278/1"/>
+<part name="C6" library="EEEFN1C471P" deviceset="EEEFN1C471P" device="" override_package3d_urn="urn:adsk.eagle:package:43000623/2" override_package_urn="urn:adsk.eagle:footprint:43000624/1"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R13" library="CR0805AJ_-000EAS" deviceset="CR0805AJ/-000EAS" device="" value="100M"/>
-<part name="R12" library="CR0805AJ_-000EAS" deviceset="CR0805AJ/-000EAS" device="" value="0R"/>
+<part name="R12" library="CR0805AJ_-000EAS" deviceset="CR0805AJ/-000EAS" device="" override_package3d_urn="urn:adsk.eagle:package:43001664/2" override_package_urn="urn:adsk.eagle:footprint:43001665/1" value="0R"/>
 <part name="C7" library="06035C104K4T2A" deviceset="06035C104K4T2A" device="" value="100nf"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D5" library="4.7V TVS Diode" deviceset="1N4148WS_RR" device="" value="ESD56151W04"/>
+<part name="D5" library="4.7V TVS Diode" deviceset="1N4148WS_RR" device="" override_package3d_urn="urn:adsk.eagle:package:43000509/2" override_package_urn="urn:adsk.eagle:footprint:43000510/1" value="ESD56151W04"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C12" library="T495X477K010ATE100" deviceset="T495X477K010ATE100" device="" value="470uf"/>
+<part name="C12" library="T495X477K010ATE100" deviceset="T495X477K010ATE100" device="" override_package3d_urn="urn:adsk.eagle:package:43000626/2" override_package_urn="urn:adsk.eagle:footprint:43000628/1" value="470uf"/>
 <part name="C13" library="06035C104K4T2A" deviceset="06035C104K4T2A" device="" value="100nf"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C14" library="100uf 25v capacitor" deviceset="EEEFT1E101AV" device=""/>
+<part name="C14" library="100uf 25v capacitor" deviceset="EEEFT1E101AV" device="" override_package3d_urn="urn:adsk.eagle:package:43000340/2" override_package_urn="urn:adsk.eagle:footprint:43000342/1"/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="10K" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33pF"/>
@@ -24893,14 +24883,14 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J2" library="Sim card nano XKNANO" deviceset="SIM8060-6-1-14-00-A" device=""/>
+<part name="J2" library="Sim card nano XKNANO" deviceset="SIM8060-6-1-14-00-A" device="" override_package3d_urn="urn:adsk.eagle:package:43000655/2" override_package_urn="urn:adsk.eagle:footprint:43000656/1"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="51K" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
 <part name="Q2" library="MMBT2222_" deviceset="MMBT2222*" device=""/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K"/>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q3" library="MMBT2222_" deviceset="MMBT2222*" device=""/>
+<part name="Q3" library="MMBT2222_" deviceset="MMBT2222*" device="" override_package3d_urn="urn:adsk.eagle:package:43000496/2" override_package_urn="urn:adsk.eagle:footprint:43000497/1"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K"/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -24911,6 +24901,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="GPS" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="SMACONNECTOR" device="_EDGE_UFL" package3d_urn="urn:adsk.eagle:package:30300291/2" value="50 Ohms"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BT_ANT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
+<part name="S1" library="TL2285EE" deviceset="TL2285EE" device="" override_package3d_urn="urn:adsk.eagle:package:43003845/2" override_package_urn="urn:adsk.eagle:footprint:43003846/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -24918,17 +24909,12 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <plain>
 <text x="294.64" y="15.24" size="1.778" layer="94">sensors.AFRICA MRC</text>
 <text x="345.44" y="10.16" size="1.778" layer="94">LAST UPDATE: 21/5/2020</text>
-<wire x1="5.08" y1="5.08" x2="111.76" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="5.08" y1="48.26" x2="5.08" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="86.36" y1="71.12" x2="5.08" y2="71.12" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="5.08" y1="71.12" x2="5.08" y2="119.38" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="5.08" y1="119.38" x2="86.36" y2="119.38" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="86.36" y1="119.38" x2="86.36" y2="71.12" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="111.76" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="185.42" y1="121.92" x2="185.42" y2="38.1" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="185.42" y1="38.1" x2="185.42" y2="30.48" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="185.42" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="111.76" y1="30.48" x2="111.76" y2="121.92" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="7.62" y1="127" x2="160.02" y2="127" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="160.02" y1="127" x2="160.02" y2="193.04" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="160.02" y1="193.04" x2="63.5" y2="193.04" width="0.1524" layer="94" style="shortdash"/>
@@ -24958,10 +24944,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <wire x1="342.9" y1="144.78" x2="322.58" y2="144.78" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="322.58" y1="144.78" x2="322.58" y2="154.94" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="322.58" y1="154.94" x2="322.58" y2="185.42" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="5.08" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="111.76" y1="48.26" x2="111.76" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="185.42" y1="30.48" x2="185.42" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="111.76" y1="5.08" x2="185.42" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="185.42" y1="38.1" x2="185.42" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="185.42" y1="38.1" x2="238.76" y2="38.1" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="238.76" y1="38.1" x2="256.54" y2="38.1" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="256.54" y1="38.1" x2="256.54" y2="27.94" width="0.1524" layer="94" style="shortdash"/>
@@ -24975,22 +24958,22 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <text x="363.22" y="246.38" size="1.778" layer="94">PMS5003</text>
 <text x="365.76" y="182.88" size="1.778" layer="94">DHT22</text>
 <text x="48.26" y="132.08" size="1.778" layer="94">NodeMCU v3 LOLIN</text>
-<text x="96.52" y="43.18" size="1.778" layer="94">POWER</text>
+<text x="121.92" y="38.1" size="1.778" layer="94">POWER</text>
 </plain>
 <instances>
-<instance part="MICRO_USB" gate="G$1" x="12.7" y="25.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="20.32618125" y="14.719" size="1.780159375" layer="95" rot="R180"/>
-<attribute name="VALUE" x="25.408209375" y="38.1205" size="1.78086875" layer="96" rot="R180"/>
+<instance part="MICRO_USB" gate="G$1" x="17.78" y="35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.40618125" y="24.879" size="1.780159375" layer="95" rot="R180"/>
+<attribute name="VALUE" x="30.488209375" y="48.2805" size="1.78086875" layer="96" rot="R180"/>
 </instance>
-<instance part="C1" gate="G$1" x="55.88" y="20.32" smashed="yes">
-<attribute name="NAME" x="57.404" y="20.701" size="1.778" layer="95"/>
-<attribute name="VALUE" x="57.404" y="15.621" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="83.82" y="25.4" smashed="yes">
+<attribute name="NAME" x="85.344" y="25.781" size="1.778" layer="95"/>
+<attribute name="VALUE" x="87.884" y="20.701" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="55.88" y="10.16" smashed="yes">
-<attribute name="VALUE" x="53.34" y="7.62" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="86.36" y="15.24" smashed="yes">
+<attribute name="VALUE" x="83.82" y="12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="27.94" y="25.4" smashed="yes">
-<attribute name="VALUE" x="25.4" y="22.86" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="33.02" y="35.56" smashed="yes">
+<attribute name="VALUE" x="30.48" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="X1" gate="-1" x="353.568" y="236.728" smashed="yes">
 <attribute name="NAME" x="356.108" y="235.966" size="1.524" layer="95"/>
@@ -25062,38 +25045,38 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <attribute name="NAME" x="332.2574" y="162.56" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="337.058" y="162.56" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+1" gate="1" x="58.42" y="31.75" smashed="yes">
-<attribute name="VALUE" x="55.88" y="26.67" size="1.778" layer="96" rot="R90"/>
+<instance part="P+1" gate="1" x="88.9" y="36.83" smashed="yes">
+<attribute name="VALUE" x="86.36" y="31.75" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="POWER" gate="G$1" x="69.85" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.422" y="41.656" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="74.422" y="43.815" size="1.778" layer="96" rot="R180"/>
+<instance part="POWER" gate="G$1" x="100.33" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="104.902" y="46.736" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="104.902" y="48.895" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R14" gate="G$1" x="57.15" y="38.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.96" y="36.6014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="60.96" y="41.402" size="1.778" layer="96" rot="R180"/>
+<instance part="R14" gate="G$1" x="87.63" y="43.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="91.44" y="41.6814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="91.44" y="46.482" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+4" gate="1" x="49.53" y="41.91" smashed="yes">
-<attribute name="VALUE" x="46.99" y="36.83" size="1.778" layer="96" rot="R90"/>
+<instance part="P+4" gate="1" x="80.01" y="52.07" smashed="yes">
+<attribute name="VALUE" x="77.47" y="46.99" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND32" gate="1" x="80.01" y="33.02" smashed="yes">
-<attribute name="VALUE" x="77.47" y="30.48" size="1.778" layer="96"/>
+<instance part="GND32" gate="1" x="110.49" y="38.1" smashed="yes">
+<attribute name="VALUE" x="107.95" y="35.56" size="1.778" layer="96"/>
 </instance>
-<instance part="U3" gate="G$0" x="68.58" y="33.02" smashed="yes">
-<attribute name="NAME" x="68.58" y="30.48" size="2.54" layer="95" align="top-left"/>
+<instance part="U3" gate="G$0" x="99.06" y="38.1" smashed="yes">
+<attribute name="NAME" x="99.06" y="35.56" size="2.54" layer="95" align="top-left"/>
 </instance>
-<instance part="GND33" gate="1" x="63.5" y="10.16" smashed="yes">
-<attribute name="VALUE" x="60.96" y="7.62" size="1.778" layer="96"/>
+<instance part="GND33" gate="1" x="93.98" y="15.24" smashed="yes">
+<attribute name="VALUE" x="91.44" y="12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V13" gate="G$1" x="100.33" y="31.75" smashed="yes">
-<attribute name="VALUE" x="97.79" y="26.67" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V13" gate="G$1" x="130.81" y="36.83" smashed="yes">
+<attribute name="VALUE" x="128.27" y="31.75" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C8" gate="G$1" x="93.98" y="20.32" smashed="yes">
-<attribute name="NAME" x="95.504" y="20.701" size="1.778" layer="95"/>
-<attribute name="VALUE" x="95.504" y="15.621" size="1.778" layer="96"/>
+<instance part="C8" gate="G$1" x="124.46" y="25.4" smashed="yes">
+<attribute name="NAME" x="125.984" y="25.781" size="1.778" layer="95"/>
+<attribute name="VALUE" x="125.984" y="20.701" size="1.778" layer="96"/>
 </instance>
-<instance part="GND34" gate="1" x="106.68" y="10.16" smashed="yes">
-<attribute name="VALUE" x="104.14" y="7.62" size="1.778" layer="96"/>
+<instance part="GND34" gate="1" x="137.16" y="15.24" smashed="yes">
+<attribute name="VALUE" x="134.62" y="12.7" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.1844" layer="94"/>
@@ -25129,10 +25112,6 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <instance part="GND37" gate="1" x="119.38" y="203.2" smashed="yes">
 <attribute name="VALUE" x="116.84" y="200.66" size="1.778" layer="96"/>
 </instance>
-<instance part="POWER_SW" gate="G$1" x="41.656" y="21.844" smashed="yes" rot="R180">
-<attribute name="NAME" x="46.740390625" y="16.505390625" size="1.779540625" layer="95" rot="R180"/>
-<attribute name="VALUE" x="46.83735" y="31.505859375" size="1.778459375" layer="96" rot="R180"/>
-</instance>
 <instance part="GND8" gate="1" x="96.52" y="201.93" smashed="yes">
 <attribute name="VALUE" x="93.98" y="199.39" size="1.778" layer="96"/>
 </instance>
@@ -25155,6 +25134,10 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <instance part="GND48" gate="1" x="145.542" y="231.14" smashed="yes">
 <attribute name="VALUE" x="143.002" y="228.6" size="1.778" layer="96"/>
 </instance>
+<instance part="S1" gate="G$1" x="53.34" y="20.32" smashed="yes">
+<attribute name="NAME" x="50.8" y="30.48" size="1.27" layer="95"/>
+<attribute name="VALUE" x="50.8" y="10.16" size="1.27" layer="96" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -25163,21 +25146,18 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="MICRO_USB" gate="G$1" pin="SHIELD"/>
-<wire x1="27.94" y1="27.94" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="30.48" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="33.02" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="38.1" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="40.64" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="MICRO_USB" gate="G$1" pin="GND"/>
-<wire x1="20.32" y1="27.94" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
-<junction x="27.94" y="30.48"/>
+<wire x1="25.4" y1="38.1" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="40.64" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
+<junction x="33.02" y="40.64"/>
 <pinref part="MICRO_USB" gate="G$1" pin="ID"/>
-<wire x1="20.32" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="25.4" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
-<junction x="27.94" y="27.94"/>
-<pinref part="POWER_SW" gate="G$1" pin="SHIELD"/>
-<wire x1="31.496" y1="26.924" x2="31.496" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="31.496" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="35.56" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="35.56" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
+<junction x="33.02" y="38.1"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="2"/>
@@ -25192,20 +25172,20 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 </segment>
 <segment>
 <pinref part="GND32" gate="1" pin="GND"/>
-<wire x1="80.01" y1="38.1" x2="80.01" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="110.49" y1="43.18" x2="110.49" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="POWER" gate="G$1" pin="C"/>
-<wire x1="74.93" y1="38.1" x2="80.01" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="105.41" y1="43.18" x2="110.49" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND33" gate="1" pin="GND"/>
 <pinref part="U3" gate="G$0" pin="GND"/>
-<wire x1="63.5" y1="12.7" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="17.78" x2="106.68" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND34" gate="1" pin="GND"/>
-<wire x1="93.98" y1="15.24" x2="106.68" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="15.24" x2="106.68" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="20.32" x2="137.16" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="20.32" x2="137.16" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -25215,7 +25195,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="15.24" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="20.32" x2="86.36" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND61" gate="1" pin="GND"/>
@@ -25275,9 +25255,9 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 </segment>
 <segment>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<wire x1="49.53" y1="39.37" x2="49.53" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="80.01" y1="49.53" x2="80.01" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="52.07" y1="38.1" x2="49.53" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="43.18" x2="80.01" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+3" gate="1" pin="+5V"/>
@@ -25287,17 +25267,22 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="22.86" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="27.94" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="27.94" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$0" pin="IN"/>
-<wire x1="58.42" y1="25.4" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="58.42" y1="29.21" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
-<junction x="58.42" y="25.4"/>
-<pinref part="POWER_SW" gate="G$1" pin="1"/>
-<wire x1="51.816" y1="19.304" x2="51.816" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="51.816" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
-<junction x="55.88" y="22.86"/>
+<wire x1="88.9" y1="34.29" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
+<junction x="88.9" y="30.48"/>
+<pinref part="S1" gate="G$1" pin="NO1"/>
+<wire x1="60.96" y1="22.86" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="22.86" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="27.94" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
+<junction x="83.82" y="27.94"/>
+<pinref part="S1" gate="G$1" pin="NO2"/>
+<wire x1="60.96" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="12.7" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
+<junction x="68.58" y="22.86"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
@@ -25309,18 +25294,18 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 </segment>
 <segment>
 <pinref part="U3" gate="G$0" pin="OUT"/>
-<wire x1="88.9" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="30.48" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$0" pin="TAB"/>
-<wire x1="88.9" y1="22.86" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="22.86" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="27.94" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
-<wire x1="91.44" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="25.4" x2="100.33" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="100.33" y1="25.4" x2="100.33" y2="29.21" width="0.1524" layer="91"/>
-<junction x="91.44" y="25.4"/>
+<wire x1="121.92" y1="30.48" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="30.48" x2="130.81" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="130.81" y1="30.48" x2="130.81" y2="34.29" width="0.1524" layer="91"/>
+<junction x="121.92" y="30.48"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="22.86" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
-<junction x="93.98" y="25.4"/>
+<wire x1="124.46" y1="27.94" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
+<junction x="124.46" y="30.48"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
@@ -25381,19 +25366,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="POWER" gate="G$1" pin="A"/>
-<wire x1="62.23" y1="38.1" x2="67.31" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VIN" class="0">
-<segment>
-<pinref part="MICRO_USB" gate="G$1" pin="VUSB"/>
-<wire x1="20.32" y1="17.78" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="17.78" x2="22.86" y2="14.986" width="0.1524" layer="91"/>
-<label x="20.32" y="18.034" size="1.778" layer="95"/>
-<wire x1="22.86" y1="14.986" x2="29.718" y2="14.986" width="0.1524" layer="91"/>
-<wire x1="29.718" y1="14.986" x2="29.718" y2="21.844" width="0.1524" layer="91"/>
-<pinref part="POWER_SW" gate="G$1" pin="2"/>
-<wire x1="29.718" y1="21.844" x2="31.496" y2="21.844" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="43.18" x2="97.79" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PMS_RX" class="0">
@@ -25423,15 +25396,15 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <net name="D+" class="0">
 <segment>
 <pinref part="MICRO_USB" gate="G$1" pin="D+"/>
-<wire x1="20.32" y1="22.86" x2="24.638" y2="22.86" width="0.1524" layer="91"/>
-<label x="20.32" y="22.86" size="1.778" layer="95"/>
+<wire x1="25.4" y1="33.02" x2="29.718" y2="33.02" width="0.1524" layer="91"/>
+<label x="25.4" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D-" class="0">
 <segment>
 <pinref part="MICRO_USB" gate="G$1" pin="D-"/>
-<wire x1="20.32" y1="20.32" x2="24.638" y2="20.32" width="0.1524" layer="91"/>
-<label x="20.32" y="20.32" size="1.778" layer="95"/>
+<wire x1="25.4" y1="30.48" x2="29.718" y2="30.48" width="0.1524" layer="91"/>
+<label x="25.4" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ESP_RST" class="0">
@@ -25537,6 +25510,17 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <pinref part="SV2" gate="G$1" pin="12"/>
 <wire x1="49.53" y1="173.99" x2="25.4" y2="173.99" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="173.99" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="MICRO_USB" gate="G$1" pin="VUSB"/>
+<pinref part="S1" gate="G$1" pin="COM1"/>
+<wire x1="25.4" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="27.94" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="COM2"/>
+<wire x1="45.72" y1="25.4" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
+<junction x="45.72" y="25.4"/>
 </segment>
 </net>
 </nets>
@@ -27095,6 +27079,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
