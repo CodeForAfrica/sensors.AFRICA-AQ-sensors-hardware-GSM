@@ -24325,6 +24325,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="ESP_RESET" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="KMR621NGLFS" device="" package3d_urn="urn:adsk.eagle:package:30300293/2"/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="X2" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="SMACONNECTOR" device="_EDGE_UFL" package3d_urn="urn:adsk.eagle:package:30300291/2" value="50 Ohms"/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25304,6 +25306,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-48.26" y1="220.98" x2="-134.62" y2="220.98" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="-134.62" y1="220.98" x2="-134.62" y2="248.92" width="0.1524" layer="94" style="shortdash"/>
 <text x="-66.04" y="243.84" size="1.778" layer="94">TEST PADS</text>
+<wire x1="-202.184" y1="175.006" x2="-140.208" y2="175.006" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-140.208" y1="175.006" x2="-140.208" y2="133.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-140.208" y1="133.35" x2="-202.184" y2="133.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-202.184" y1="133.35" x2="-202.184" y2="175.006" width="0.1524" layer="94" style="shortdash"/>
+<text x="-160.274" y="172.212" size="1.778" layer="94">GNSS ANTENNA</text>
 </plain>
 <instances>
 <instance part="U4" gate="G$1" x="25.4" y="165.1" smashed="yes">
@@ -25367,6 +25374,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="51K" gate="G$1" x="-58.42" y="93.726" smashed="yes">
 <attribute name="NAME" x="-62.23" y="95.2246" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-62.23" y="90.424" size="1.778" layer="96"/>
+</instance>
+<instance part="X2" gate="G$1" x="-171.704" y="157.226" smashed="yes" rot="R270">
+<attribute name="NAME" x="-169.164" y="149.606" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-171.704" y="149.606" size="1.27" layer="95" rot="R270"/>
+</instance>
+<instance part="GND12" gate="1" x="-171.958" y="139.7" smashed="yes">
+<attribute name="VALUE" x="-174.498" y="137.16" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -25514,6 +25528,27 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-103.378" y1="185.42" x2="-103.378" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="-103.378" y1="190.5" x2="-99.06" y2="190.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="GND3"/>
+<wire x1="-179.324" y1="159.766" x2="-187.198" y2="159.766" width="0.1524" layer="91"/>
+<wire x1="-187.198" y1="159.766" x2="-187.198" y2="154.686" width="0.1524" layer="91"/>
+<wire x1="-187.198" y1="154.686" x2="-187.198" y2="146.304" width="0.1524" layer="91"/>
+<wire x1="-187.198" y1="146.304" x2="-171.958" y2="146.304" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="GND1"/>
+<wire x1="-171.958" y1="146.304" x2="-157.988" y2="146.304" width="0.1524" layer="91"/>
+<wire x1="-157.988" y1="146.304" x2="-157.988" y2="154.686" width="0.1524" layer="91"/>
+<wire x1="-157.988" y1="154.686" x2="-157.988" y2="159.766" width="0.1524" layer="91"/>
+<wire x1="-157.988" y1="159.766" x2="-164.084" y2="159.766" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="GND2"/>
+<wire x1="-164.084" y1="154.686" x2="-157.988" y2="154.686" width="0.1524" layer="91"/>
+<junction x="-157.988" y="154.686"/>
+<pinref part="X2" gate="G$1" pin="GND4"/>
+<wire x1="-179.324" y1="154.686" x2="-187.198" y2="154.686" width="0.1524" layer="91"/>
+<junction x="-187.198" y="154.686"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="-171.958" y1="142.24" x2="-171.958" y2="146.304" width="0.1524" layer="91"/>
+<junction x="-171.958" y="146.304"/>
+</segment>
 </net>
 <net name="N$23" class="0">
 <segment>
@@ -25540,6 +25575,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U4" gate="G$1" pin="ANT_GNSS"/>
 <wire x1="-10.16" y1="210.82" x2="-27.94" y2="210.82" width="0.1524" layer="91"/>
 <label x="-30.48" y="210.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="ANT"/>
+<wire x1="-171.704" y1="164.846" x2="-171.704" y2="166.878" width="0.1524" layer="91"/>
+<wire x1="-171.704" y1="166.878" x2="-163.83" y2="166.878" width="0.1524" layer="91"/>
+<label x="-171.196" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BT_ANT" class="0">

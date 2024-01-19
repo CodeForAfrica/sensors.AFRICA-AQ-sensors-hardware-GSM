@@ -24212,13 +24212,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="H3" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:30300289/1"/>
 <part name="H4" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:30300289/1"/>
 <part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="DHT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SW1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="PCM12SMTR" device="" package3d_urn="urn:adsk.eagle:package:30300294/2"/>
-<part name="SW2" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="PCM12SMTR" device="" package3d_urn="urn:adsk.eagle:package:30300294/2"/>
-<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="D4" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="ON_SEMI_1N4148WS" device="ON_SEMI_1N4148WS_0_0" package3d_urn="urn:adsk.eagle:package:30300267/2"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -24326,6 +24323,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="ESP_RESET" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="KMR621NGLFS" device="" package3d_urn="urn:adsk.eagle:package:30300293/2"/>
+<part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24533,9 +24532,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND61" gate="1" x="204.724" y="19.05" smashed="yes">
 <attribute name="VALUE" x="202.184" y="16.51" size="1.778" layer="96"/>
 </instance>
-<instance part="GND13" gate="1" x="136.398" y="237.998" smashed="yes" rot="R270">
-<attribute name="VALUE" x="133.858" y="240.538" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="DHT" gate="G$1" x="119.38" y="213.36" smashed="yes">
 <attribute name="NAME" x="122.936" y="208.788" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="125.095" y="208.788" size="1.778" layer="96" rot="R90"/>
@@ -24551,13 +24547,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="46.740390625" y="16.505390625" size="1.779540625" layer="95" rot="R180"/>
 <attribute name="VALUE" x="46.83735" y="31.505859375" size="1.778459375" layer="96" rot="R180"/>
 </instance>
-<instance part="SW2" gate="G$1" x="153.924" y="232.918" smashed="yes" rot="R180">
-<attribute name="NAME" x="159.008390625" y="227.579390625" size="1.779540625" layer="95" rot="R180"/>
-<attribute name="VALUE" x="159.10535" y="242.579859375" size="1.778459375" layer="96" rot="R180"/>
-</instance>
-<instance part="GND12" gate="1" x="166.116" y="226.06" smashed="yes">
-<attribute name="VALUE" x="163.576" y="223.52" size="1.778" layer="96"/>
-</instance>
 <instance part="GND8" gate="1" x="96.52" y="201.93" smashed="yes">
 <attribute name="VALUE" x="93.98" y="199.39" size="1.778" layer="96"/>
 </instance>
@@ -24572,6 +24561,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </instance>
 <instance part="+3V4" gate="G$1" x="97.79" y="171.45" smashed="yes" rot="R270">
 <attribute name="VALUE" x="92.71" y="173.99" size="1.778" layer="96"/>
+</instance>
+<instance part="ESP_RESET" gate="G$1" x="157.988" y="234.95" smashed="yes">
+<attribute name="NAME" x="152.908" y="238.252" size="1.778" layer="95"/>
+<attribute name="VALUE" x="152.908" y="229.87" size="1.778" layer="96"/>
+</instance>
+<instance part="GND48" gate="1" x="145.542" y="231.14" smashed="yes">
+<attribute name="VALUE" x="143.002" y="228.6" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -24668,17 +24664,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="119.38" y1="208.28" x2="119.38" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="SW2" gate="G$1" pin="SHIELD"/>
-<wire x1="138.938" y1="237.998" x2="143.764" y2="237.998" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SW2" gate="G$1" pin="1"/>
-<pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="164.084" y1="230.378" x2="166.116" y2="230.378" width="0.1524" layer="91"/>
-<wire x1="166.116" y1="230.378" x2="166.116" y2="228.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="PMS" gate="G$1" pin="C"/>
 <wire x1="96.52" y1="208.28" x2="96.52" y2="204.47" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -24687,6 +24672,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="GND47" gate="1" pin="GND"/>
 <pinref part="SV1" gate="G$1" pin="9"/>
 <wire x1="95.25" y1="166.37" x2="72.39" y2="166.37" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND48" gate="1" pin="GND"/>
+<pinref part="ESP_RESET" gate="G$1" pin="1"/>
+<wire x1="145.542" y1="233.68" x2="145.542" y2="234.95" width="0.1524" layer="91"/>
+<wire x1="145.542" y1="234.95" x2="150.368" y2="234.95" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="1">
@@ -24866,9 +24857,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="50.8" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SW2" gate="G$1" pin="2"/>
-<wire x1="143.764" y1="232.918" x2="135.636" y2="232.918" width="0.1524" layer="91"/>
-<label x="131.826" y="232.918" size="1.778" layer="95"/>
+<pinref part="ESP_RESET" gate="G$1" pin="2"/>
+<wire x1="165.608" y1="234.95" x2="172.974" y2="234.95" width="0.1524" layer="91"/>
+<label x="169.164" y="235.204" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DHT_LED" class="0">

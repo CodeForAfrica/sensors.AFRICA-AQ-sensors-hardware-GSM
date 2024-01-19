@@ -24252,7 +24252,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X4" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="SMACONNECTOR" device="_EDGE_UFL" package3d_urn="urn:adsk.eagle:package:30300291/2" value="50 Ohms"/>
+<part name="GSM" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="SMACONNECTOR" device="_EDGE_UFL" package3d_urn="urn:adsk.eagle:package:30300291/2" value="50 Ohms"/>
 <part name="GND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
@@ -24325,7 +24325,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="ESP_RESET" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="KMR621NGLFS" device="" package3d_urn="urn:adsk.eagle:package:30300293/2"/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X2" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="SMACONNECTOR" device="_EDGE_UFL" package3d_urn="urn:adsk.eagle:package:30300291/2" value="50 Ohms"/>
+<part name="GPS" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="SMACONNECTOR" device="_EDGE_UFL" package3d_urn="urn:adsk.eagle:package:30300291/2" value="50 Ohms"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -25320,7 +25320,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND11" gate="1" x="68.58" y="78.74" smashed="yes">
 <attribute name="VALUE" x="68.58" y="78.486" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="X4" gate="G$1" x="-100.584" y="157.226" smashed="yes" rot="R270">
+<instance part="GSM" gate="G$1" x="-100.584" y="157.226" smashed="yes" rot="R270">
 <attribute name="NAME" x="-98.044" y="149.606" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-100.584" y="149.606" size="1.27" layer="95" rot="R270"/>
 </instance>
@@ -25375,7 +25375,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="-62.23" y="95.2246" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-62.23" y="90.424" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="G$1" x="-171.704" y="157.226" smashed="yes" rot="R270">
+<instance part="GPS" gate="G$1" x="-171.704" y="157.226" smashed="yes" rot="R270">
 <attribute name="NAME" x="-169.164" y="149.606" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-171.704" y="149.606" size="1.27" layer="95" rot="R270"/>
 </instance>
@@ -25484,20 +25484,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="68.58" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X4" gate="G$1" pin="GND3"/>
+<pinref part="GSM" gate="G$1" pin="GND3"/>
 <wire x1="-108.204" y1="159.766" x2="-116.078" y2="159.766" width="0.1524" layer="91"/>
 <wire x1="-116.078" y1="159.766" x2="-116.078" y2="154.686" width="0.1524" layer="91"/>
 <wire x1="-116.078" y1="154.686" x2="-116.078" y2="146.304" width="0.1524" layer="91"/>
 <wire x1="-116.078" y1="146.304" x2="-100.838" y2="146.304" width="0.1524" layer="91"/>
-<pinref part="X4" gate="G$1" pin="GND1"/>
+<pinref part="GSM" gate="G$1" pin="GND1"/>
 <wire x1="-100.838" y1="146.304" x2="-86.868" y2="146.304" width="0.1524" layer="91"/>
 <wire x1="-86.868" y1="146.304" x2="-86.868" y2="154.686" width="0.1524" layer="91"/>
 <wire x1="-86.868" y1="154.686" x2="-86.868" y2="159.766" width="0.1524" layer="91"/>
 <wire x1="-86.868" y1="159.766" x2="-92.964" y2="159.766" width="0.1524" layer="91"/>
-<pinref part="X4" gate="G$1" pin="GND2"/>
+<pinref part="GSM" gate="G$1" pin="GND2"/>
 <wire x1="-92.964" y1="154.686" x2="-86.868" y2="154.686" width="0.1524" layer="91"/>
 <junction x="-86.868" y="154.686"/>
-<pinref part="X4" gate="G$1" pin="GND4"/>
+<pinref part="GSM" gate="G$1" pin="GND4"/>
 <wire x1="-108.204" y1="154.686" x2="-116.078" y2="154.686" width="0.1524" layer="91"/>
 <junction x="-116.078" y="154.686"/>
 <pinref part="GND53" gate="1" pin="GND"/>
@@ -25529,20 +25529,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-103.378" y1="190.5" x2="-99.06" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X2" gate="G$1" pin="GND3"/>
+<pinref part="GPS" gate="G$1" pin="GND3"/>
 <wire x1="-179.324" y1="159.766" x2="-187.198" y2="159.766" width="0.1524" layer="91"/>
 <wire x1="-187.198" y1="159.766" x2="-187.198" y2="154.686" width="0.1524" layer="91"/>
 <wire x1="-187.198" y1="154.686" x2="-187.198" y2="146.304" width="0.1524" layer="91"/>
 <wire x1="-187.198" y1="146.304" x2="-171.958" y2="146.304" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="GND1"/>
+<pinref part="GPS" gate="G$1" pin="GND1"/>
 <wire x1="-171.958" y1="146.304" x2="-157.988" y2="146.304" width="0.1524" layer="91"/>
 <wire x1="-157.988" y1="146.304" x2="-157.988" y2="154.686" width="0.1524" layer="91"/>
 <wire x1="-157.988" y1="154.686" x2="-157.988" y2="159.766" width="0.1524" layer="91"/>
 <wire x1="-157.988" y1="159.766" x2="-164.084" y2="159.766" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="GND2"/>
+<pinref part="GPS" gate="G$1" pin="GND2"/>
 <wire x1="-164.084" y1="154.686" x2="-157.988" y2="154.686" width="0.1524" layer="91"/>
 <junction x="-157.988" y="154.686"/>
-<pinref part="X2" gate="G$1" pin="GND4"/>
+<pinref part="GPS" gate="G$1" pin="GND4"/>
 <wire x1="-179.324" y1="154.686" x2="-187.198" y2="154.686" width="0.1524" layer="91"/>
 <junction x="-187.198" y="154.686"/>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -25577,7 +25577,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="-30.48" y="210.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X2" gate="G$1" pin="ANT"/>
+<pinref part="GPS" gate="G$1" pin="ANT"/>
 <wire x1="-171.704" y1="164.846" x2="-171.704" y2="166.878" width="0.1524" layer="91"/>
 <wire x1="-171.704" y1="166.878" x2="-163.83" y2="166.878" width="0.1524" layer="91"/>
 <label x="-171.196" y="167.64" size="1.778" layer="95"/>
@@ -25676,7 +25676,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="GSM_ANT" class="0">
 <segment>
-<pinref part="X4" gate="G$1" pin="ANT"/>
+<pinref part="GSM" gate="G$1" pin="ANT"/>
 <wire x1="-100.584" y1="164.846" x2="-100.584" y2="166.878" width="0.1524" layer="91"/>
 <wire x1="-100.584" y1="166.878" x2="-92.71" y2="166.878" width="0.1524" layer="91"/>
 <label x="-100.076" y="167.64" size="1.778" layer="95"/>
