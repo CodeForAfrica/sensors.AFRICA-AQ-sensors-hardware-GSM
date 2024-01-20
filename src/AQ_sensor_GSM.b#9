@@ -8359,7 +8359,7 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="78.8" y="38.4" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="80.09" y="37.37" size="0.5" layer="28" rot="MR0" align="top-left"/>
 </element>
-<element name="Q1" library="MMBT2222_" package="SOT23-BEC" value="MMBT2222" x="92.3" y="31.3" smashed="yes" rot="R180">
+<element name="Q1" library="MMBT2222_" package="SOT23-BEC" override_package3d_urn="urn:adsk.eagle:package:43001449/2" override_package_urn="urn:adsk.eagle:footprint:43001450/1" value="MMBT2222" x="92.3" y="31.3" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="92.3" y="31.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="92.3" y="31.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="92.3" y="31.3" size="1.778" layer="27" rot="R180" display="off"/>
@@ -8557,7 +8557,7 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="16.1" y="47" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="16.93" y="45.51" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="J2" library="Sim card nano XKNANO" package="GCT_SIM8060-6-1-14-00-A" value="SIM8060-6-1-14-00-A" x="25.9" y="56.1" smashed="yes" rot="R270">
+<element name="J2" library="Sim card nano XKNANO" package="GCT_SIM8060-6-1-14-00-A" override_package3d_urn="urn:adsk.eagle:package:43000655/2" override_package_urn="urn:adsk.eagle:footprint:43000656/1" value="SIM8060-6-1-14-00-A" x="25.9" y="56.1" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="45.2" y="70.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SIM8060-6-1-14-00-A/Global+Connector+Technology/view-part/?ref=eda" x="45.2" y="70.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" 6 Position Card Connector NANO SIM Surface Mount, Right Angle Gold " x="45.2" y="70.3" size="1.778" layer="27" rot="R270" display="off"/>
