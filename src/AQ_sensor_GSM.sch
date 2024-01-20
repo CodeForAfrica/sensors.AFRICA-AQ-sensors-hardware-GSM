@@ -24735,6 +24735,200 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 </deviceset>
 </devicesets>
 </library>
+<library name="PJ-002BH">
+<packages>
+<package name="CUI_PJ-002BH">
+<text x="-0.69128125" y="6.14136875" size="1.272359375" layer="25">&gt;NAME</text>
+<text x="-0.690896875" y="-6.41833125" size="1.27165" layer="27">&gt;VALUE</text>
+<wire x1="0.5" y1="-1.75" x2="-0.5" y2="-1.75" width="0.0001" layer="46"/>
+<wire x1="-0.5" y1="-1.75" x2="-0.5" y2="1.75" width="0.0001" layer="46"/>
+<wire x1="-0.5" y1="1.75" x2="0.5" y2="1.75" width="0.0001" layer="46"/>
+<wire x1="0.5" y1="1.75" x2="0.5" y2="-1.75" width="0.0001" layer="46"/>
+<wire x1="6.5" y1="-1.5" x2="5.5" y2="-1.5" width="0.0001" layer="46"/>
+<wire x1="5.5" y1="-1.5" x2="5.5" y2="1.5" width="0.0001" layer="46"/>
+<wire x1="5.5" y1="1.5" x2="6.5" y2="1.5" width="0.0001" layer="46"/>
+<wire x1="6.5" y1="1.5" x2="6.5" y2="-1.5" width="0.0001" layer="46"/>
+<wire x1="1.5" y1="4.2" x2="1.5" y2="5.2" width="0.0001" layer="46"/>
+<wire x1="1.5" y1="5.2" x2="4.5" y2="5.2" width="0.0001" layer="46"/>
+<wire x1="4.5" y1="5.2" x2="4.5" y2="4.2" width="0.0001" layer="46"/>
+<wire x1="4.5" y1="4.2" x2="1.5" y2="4.2" width="0.0001" layer="46"/>
+<wire x1="-0.7" y1="4.5" x2="13.7" y2="4.5" width="0.127" layer="51"/>
+<wire x1="13.7" y1="4.5" x2="13.7" y2="-4.5" width="0.127" layer="51"/>
+<wire x1="13.7" y1="-4.5" x2="-0.7" y2="-4.5" width="0.127" layer="51"/>
+<wire x1="-0.7" y1="-4.5" x2="-0.7" y2="4.5" width="0.127" layer="51"/>
+<wire x1="13.7" y1="4.5" x2="13.7" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="13.7" y1="-4.5" x2="-0.7" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="4.5" x2="0.45" y2="4.5" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-4.5" x2="-0.7" y2="-2.65" width="0.127" layer="21"/>
+<wire x1="5.55" y1="4.5" x2="13.7" y2="4.5" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="2.55" x2="-0.7" y2="4.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="4.75" x2="0.45" y2="4.75" width="0.05" layer="39"/>
+<wire x1="0.45" y1="4.75" x2="0.45" y2="6.1" width="0.05" layer="39"/>
+<wire x1="0.45" y1="6.1" x2="5.55" y2="6.1" width="0.05" layer="39"/>
+<wire x1="5.55" y1="6.1" x2="5.55" y2="4.75" width="0.05" layer="39"/>
+<wire x1="5.55" y1="4.75" x2="14" y2="4.75" width="0.05" layer="39"/>
+<wire x1="14" y1="4.75" x2="14" y2="-4.75" width="0.05" layer="39"/>
+<wire x1="14" y1="-4.75" x2="-1" y2="-4.75" width="0.05" layer="39"/>
+<wire x1="-1" y1="-4.75" x2="-1" y2="-2.35" width="0.05" layer="39"/>
+<circle x="-2" y="0" radius="0.2" width="0.4" layer="21"/>
+<wire x1="-1" y1="2.25" x2="-1" y2="4.75" width="0.05" layer="39"/>
+<wire x1="-1" y1="2.25" x2="-1.55" y2="2.25" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="2.25" x2="-1.55" y2="-2.35" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="-2.35" x2="-1" y2="-2.35" width="0.05" layer="39"/>
+<pad name="1" x="0" y="0" drill="1" diameter="2.5" shape="long" rot="R90"/>
+<pad name="2" x="6" y="0" drill="1" diameter="2.25" shape="long" rot="R90"/>
+<pad name="3" x="3" y="4.7" drill="1" diameter="2.25" shape="long" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PJ-002BH">
+<wire x1="-5.715" y1="1.27" x2="-5.715" y2="3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-5.715" y1="3.81" x2="-1.27" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-5.715" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.635" x2="0" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="0" y1="4.445" x2="-1.27" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="4.445" x2="-1.27" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-2.54" x2="-3.81" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-4.445" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<polygon width="0.1524" layer="94">
+<vertex x="0" y="-2.54"/>
+<vertex x="-0.508" y="-1.27"/>
+<vertex x="0.508" y="-1.27"/>
+</polygon>
+<pin name="1" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="5.08" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PJ-002BH" prefix="J">
+<description>2.5 mm Center Pin, 5.0 A, Right Angle, Through Hole, Dc Power Jack Connector &lt;a href="https://pricing.snapeda.com/parts/PJ-002BH/CUI%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;  &lt;a href="https://pricing.snapeda.com/parts/PJ-002BH/CUI%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PJ-002BH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CUI_PJ-002BH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/PJ-002BH/CUI+Devices/view-part/?ref=eda"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/dc-power-connectors/jacks/pj-002bh?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
+<attribute name="DESCRIPTION" value="2.5 x 6.5 mm, 5.0 A, Horizontal, Through Hole, Dc Power Jack Connector"/>
+<attribute name="MF" value="CUI Devices"/>
+<attribute name="MP" value="PJ-002BH"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=329039&amp;manufacturer=CUI Devices&amp;part_name=PJ-002BH&amp;search_term=dc power jack"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/PJ-002BH/CUI+Devices/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="LM7805S_NOPB">
+<packages>
+<package name="TO254P1524X483-4N">
+<rectangle x1="3.755" y1="0.27" x2="5.205" y2="1.53" layer="31"/>
+<rectangle x1="3.755" y1="2.07" x2="5.205" y2="3.33" layer="31"/>
+<rectangle x1="3.755" y1="3.87" x2="5.205" y2="5.13" layer="31"/>
+<rectangle x1="3.755" y1="-1.53" x2="5.205" y2="-0.27" layer="31"/>
+<rectangle x1="3.755" y1="-3.33" x2="5.205" y2="-2.07" layer="31"/>
+<rectangle x1="3.755" y1="-5.13" x2="5.205" y2="-3.87" layer="31"/>
+<rectangle x1="6.295" y1="0.27" x2="7.745" y2="1.53" layer="31"/>
+<rectangle x1="6.295" y1="2.07" x2="7.745" y2="3.33" layer="31"/>
+<rectangle x1="6.295" y1="3.87" x2="7.745" y2="5.13" layer="31"/>
+<rectangle x1="6.295" y1="-1.53" x2="7.745" y2="-0.27" layer="31"/>
+<rectangle x1="6.295" y1="-3.33" x2="7.745" y2="-2.07" layer="31"/>
+<rectangle x1="6.295" y1="-5.13" x2="7.745" y2="-3.87" layer="31"/>
+<rectangle x1="1.215" y1="0.27" x2="2.665" y2="1.53" layer="31"/>
+<rectangle x1="1.215" y1="2.07" x2="2.665" y2="3.33" layer="31"/>
+<rectangle x1="1.215" y1="3.87" x2="2.665" y2="5.13" layer="31"/>
+<rectangle x1="1.215" y1="-1.53" x2="2.665" y2="-0.27" layer="31"/>
+<rectangle x1="1.215" y1="-3.33" x2="2.665" y2="-2.07" layer="31"/>
+<rectangle x1="1.215" y1="-5.13" x2="2.665" y2="-3.87" layer="31"/>
+<wire x1="6.373" y1="5.08" x2="6.373" y2="-5.08" width="0.127" layer="51"/>
+<wire x1="6.373" y1="-5.08" x2="-2.648" y2="-5.08" width="0.127" layer="51"/>
+<wire x1="-2.648" y1="-5.08" x2="-2.648" y2="5.08" width="0.127" layer="51"/>
+<wire x1="-2.648" y1="5.08" x2="6.373" y2="5.08" width="0.127" layer="51"/>
+<wire x1="0.35" y1="5.08" x2="-2.648" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-2.648" y1="5.08" x2="-2.648" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-2.648" y1="-5.08" x2="0.35" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-8.545" y1="3.285" x2="-8.545" y2="-3.285" width="0.05" layer="39"/>
+<wire x1="-8.545" y1="-3.285" x2="-2.898" y2="-3.285" width="0.05" layer="39"/>
+<wire x1="-2.898" y1="-3.285" x2="-2.898" y2="-5.67" width="0.05" layer="39"/>
+<wire x1="-2.898" y1="-5.67" x2="8.54" y2="-5.67" width="0.05" layer="39"/>
+<wire x1="8.54" y1="-5.67" x2="8.54" y2="5.67" width="0.05" layer="39"/>
+<wire x1="8.54" y1="5.67" x2="-2.898" y2="5.67" width="0.05" layer="39"/>
+<wire x1="-2.898" y1="5.67" x2="-2.898" y2="3.285" width="0.05" layer="39"/>
+<wire x1="-2.898" y1="3.285" x2="-8.545" y2="3.285" width="0.05" layer="39"/>
+<circle x="-9" y="2.54" radius="0.1" width="0.2" layer="21"/>
+<circle x="-9" y="2.54" radius="0.1" width="0.2" layer="51"/>
+<text x="-9" y="6" size="1.27" layer="25">&gt;NAME</text>
+<text x="-9" y="-6" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="1" x="-6.4" y="2.54" dx="3.79" dy="0.99" layer="1" roundness="25"/>
+<smd name="2" x="-6.4" y="0" dx="3.79" dy="0.99" layer="1" roundness="25"/>
+<smd name="3" x="-6.4" y="-2.54" dx="3.79" dy="0.99" layer="1" roundness="25"/>
+<smd name="4" x="4.48" y="0" dx="7.62" dy="10.84" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LM7805S/NOPB">
+<wire x1="-12.7" y1="5.08" x2="12.7" y2="5.08" width="0.41" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-5.08" width="0.41" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="-12.7" y2="-5.08" width="0.41" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="5.08" width="0.41" layer="94"/>
+<text x="-12.7" y="6.08" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-12.7" y="-9.08" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="IN" x="-17.78" y="2.54" length="middle" direction="in"/>
+<pin name="OUT" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="17.78" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LM7805S/NOPB" prefix="U">
+<description> &lt;a href="https://pricing.snapeda.com/parts/LM7805S/NOPB/Texas%20Instruments/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LM7805S/NOPB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO254P1524X483-4N">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/LM7805S/NOPB/Texas+Instruments/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" 1.5-A, 30-V, linear voltage regulator "/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="MP" value="LM7805S/NOPB"/>
+<attribute name="PACKAGE" value="TO263-3 Texas Instruments"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=546227&amp;manufacturer=Texas Instruments&amp;part_name=LM7805S/NOPB&amp;search_term=lm7805"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/LM7805S/NOPB/Texas+Instruments/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -24902,6 +25096,10 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BT_ANT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="S1" library="TL2285EE" deviceset="TL2285EE" device="" override_package3d_urn="urn:adsk.eagle:package:43003845/2" override_package_urn="urn:adsk.eagle:footprint:43003846/1"/>
+<part name="J3" library="PJ-002BH" deviceset="PJ-002BH" device="" override_package3d_urn="urn:adsk.eagle:package:43007122/2" override_package_urn="urn:adsk.eagle:footprint:43007123/1"/>
+<part name="U1" library="LM7805S_NOPB" deviceset="LM7805S/NOPB" device="" override_package3d_urn="urn:adsk.eagle:package:43007127/2" override_package_urn="urn:adsk.eagle:footprint:43007128/1"/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26532,6 +26730,20 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <instance part="GND35" gate="1" x="59.69" y="232.918" smashed="yes">
 <attribute name="VALUE" x="57.15" y="230.378" size="1.778" layer="96"/>
 </instance>
+<instance part="J3" gate="G$1" x="-88.9" y="144.78" smashed="yes">
+<attribute name="NAME" x="-93.98" y="149.86" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-93.98" y="139.7" size="1.778" layer="96"/>
+</instance>
+<instance part="U1" gate="G$1" x="-50.8" y="142.24" smashed="yes">
+<attribute name="NAME" x="-63.5" y="148.32" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="-63.5" y="133.16" size="2.0828" layer="96" ratio="10" rot="SR0"/>
+</instance>
+<instance part="GND13" gate="1" x="-76.2" y="128.778" smashed="yes">
+<attribute name="VALUE" x="-78.74" y="126.238" size="1.778" layer="96"/>
+</instance>
+<instance part="P+10" gate="1" x="-18.288" y="145.034" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-23.368" y="147.574" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26662,6 +26874,23 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <wire x1="59.69" y1="235.458" x2="59.69" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="59.69" y1="246.38" x2="60.96" y2="246.38" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="-76.2" y1="132.08" x2="-76.2" y2="131.318" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="3"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="-83.82" y1="144.78" x2="-83.82" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="142.24" x2="-76.2" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="142.24" x2="-68.58" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="142.24" x2="-68.58" y2="129.54" width="0.1524" layer="91"/>
+<junction x="-83.82" y="142.24"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<wire x1="-68.58" y1="129.54" x2="-33.02" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="129.54" x2="-33.02" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="131.318" x2="-76.2" y2="142.24" width="0.1524" layer="91"/>
+<junction x="-76.2" y="131.318"/>
+<junction x="-76.2" y="142.24"/>
+</segment>
 </net>
 <net name="V_LIPO" class="0">
 <segment>
@@ -26739,6 +26968,12 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="-7.62" y1="187.96" x2="-7.62" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="205.74" x2="58.42" y2="205.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+10" gate="1" pin="+5V"/>
+<pinref part="U1" gate="G$1" pin="OUT"/>
+<wire x1="-20.828" y1="145.034" x2="-20.828" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-20.828" y1="144.78" x2="-33.02" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -26866,6 +27101,14 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <wire x1="-30.226" y1="261.366" x2="-30.226" y2="266.192" width="0.1524" layer="91"/>
 <wire x1="-30.226" y1="266.192" x2="-16.764" y2="266.192" width="0.1524" layer="91"/>
 <junction x="-16.764" y="266.192"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="U1" gate="G$1" pin="IN"/>
+<wire x1="-83.82" y1="147.32" x2="-68.58" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="147.32" x2="-68.58" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

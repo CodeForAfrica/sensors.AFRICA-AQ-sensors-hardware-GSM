@@ -157,7 +157,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTE" projecturn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTEjMjAyMzA3MjY2NTg1NDY3MDE" f3durn="urn:adsk.wipprod:dm.lineage:gV2F3_lrREmxJ0ZJ77GXSA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="26ea6607-6fa7-4d53-a2a3-a988ac36dfc4" lastsyncedrevisionid="26ea6607-6fa7-4d53-a2a3-a988ac36dfc4" lastboardhashguid="9696fc66-e963-1da9-3eae-ab8084b0bb33" lastpushedtime="2024-01-19T08:27:21Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTE" projecturn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTEjMjAyMzA3MjY2NTg1NDY3MDE" f3durn="urn:adsk.wipprod:dm.lineage:lqURVGpJR0KZ_38OLQ5e-A" pcbguid="9898305f-9db7-40df-8e00-4728c76bc586" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="367afab6-d797-4230-a14e-a78314836e8b" lastsyncedrevisionid="367afab6-d797-4230-a14e-a78314836e8b" lastboardhashguid="d6e86733-5550-2885-9ee2-f745b597333b" lastpushedtime="2024-01-19T09:52:28Z" linktopcb3d="true"/>
 <fusionteam huburn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTE" projecturn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTEjMjAyMTEwMDU0NTIxNTU1MjY" folderUrn="urn:adsk.wipprod:fs.folder:co.V4eMQQrZRL-wTqnvGmJ6Nw" urn="urn:adsk.wipprod:dm.lineage:IWwQklixSQOxdVvh3w9Smg"  versionUrn="urn:adsk.wipprod:fs.file:vf.IWwQklixSQOxdVvh3w9Smg?version=3" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="2c5e9229-c9e2-5237-d97d-cb8a5109001e"/>
 <plain>
 <wire x1="0" y1="0" x2="110" y2="0" width="0" layer="20"/>
@@ -8334,7 +8334,7 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MIC29302WU/Microchip/view-part/?ref=snap" x="65.7" y="29.7" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="71.28911875" y="22.84063125" size="1.27025" layer="28" rot="MR0"/>
 </element>
-<element name="C2" library="T495X477K010ATE100" package="CAPMP7343X430N" value="470uf" x="78.2" y="30.9" smashed="yes" rot="MR90">
+<element name="C2" library="T495X477K010ATE100" package="CAPMP7343X430N" override_package3d_urn="urn:adsk.eagle:package:43000570/2" override_package_urn="urn:adsk.eagle:footprint:43000571/1" value="470uf" x="78.2" y="30.9" smashed="yes" rot="MR90">
 <attribute name="AVAILABILITY" value="In Stock" x="78.2" y="30.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/T495X477K010ATE100/KEMET/view-part/?ref=eda" x="78.2" y="30.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DESCRIPTION" value=" 470uF Solid MnO2 Tantalum Electrolytic Capacitor, 10 V dc +/-10%, T495 Series | KEMET T495X477K010ATE100 " x="78.2" y="30.9" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -8347,7 +8347,7 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/T495X477K010ATE100/KEMET/view-part/?ref=snap" x="78.2" y="30.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="74" y="27.69" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C3" library="06035C104K4T2A" package="CAPC1608X90N" value="100nf" x="78.8" y="38.4" smashed="yes" rot="MR0">
+<element name="C3" library="06035C104K4T2A" package="CAPC1608X90N" override_package3d_urn="urn:adsk.eagle:package:43000526/2" override_package_urn="urn:adsk.eagle:footprint:43000527/1" value="100nf" x="78.8" y="38.4" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="In Stock" x="78.8" y="38.4" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=eda" x="78.8" y="38.4" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DESCRIPTION" value=" Capacitor MLCC 0603 100nF 50V | AVX 06035C104K4T2A " x="78.8" y="38.4" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -8359,7 +8359,7 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="78.8" y="38.4" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="80.09" y="37.37" size="0.5" layer="28" rot="MR0" align="top-left"/>
 </element>
-<element name="Q1" library="MMBT2222_" package="SOT23-BEC" value="MMBT2222" x="92.3" y="31.3" smashed="yes" rot="R180">
+<element name="Q1" library="MMBT2222_" package="SOT23-BEC" override_package3d_urn="urn:adsk.eagle:package:43001449/2" override_package_urn="urn:adsk.eagle:footprint:43001450/1" value="MMBT2222" x="92.3" y="31.3" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="92.3" y="31.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="92.3" y="31.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="92.3" y="31.3" size="1.778" layer="27" rot="R180" display="off"/>
@@ -8420,7 +8420,7 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/EEE-FN1C471P/Panasonic/view-part/?ref=snap" x="58.1" y="54.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="53.2" y="57.35" size="1.27" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="C6" library="EEEFN1C471P" package="CAP_EEEFN1C471P" value="EEEFN1C471P" x="68.8" y="54.5" smashed="yes" rot="R270">
+<element name="C6" library="EEEFN1C471P" package="CAP_EEEFN1C471P" override_package3d_urn="urn:adsk.eagle:package:43000623/2" override_package_urn="urn:adsk.eagle:footprint:43000624/1" value="EEEFN1C471P" x="68.8" y="54.5" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="68.8" y="54.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/EEE-FN1C471P/Panasonic/view-part/?ref=eda" x="68.8" y="54.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" Capacitor,16VDC, 470uF,SMD'Electrolytic | Panasonic Electronic Components EEE-FN1C471P " x="68.8" y="54.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -8439,7 +8439,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Resistor, AS 0805 0R Jumper 125mW, AEC-Q, Anti-Sulfur | Bourns CR0805AJ/-000EAS " x="82.4" y="51.2" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="Bourns" x="82.4" y="51.2" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MP" value="CR0805AJ/-000EAS" x="82.4" y="51.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="81.38" y="52.86" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="83.98" y="50.96" size="0.5" layer="26" rot="MR270"/>
 <attribute name="PACKAGE" value="0805 Bourns" x="82.4" y="51.2" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="82.4" y="51.2" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4001965&amp;manufacturer=Bourns&amp;part_name=CR0805AJ/-000EAS&amp;search_term=0r 0805 resitor" x="82.4" y="51.2" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -8452,12 +8452,12 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Resistor, AS 0805 0R Jumper 125mW, AEC-Q, Anti-Sulfur | Bourns CR0805AJ/-000EAS " x="82.2" y="56.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Bourns" x="82.2" y="56.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MP" value="CR0805AJ/-000EAS" x="82.2" y="56.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="83.22" y="54.54" size="0.5" layer="26" rot="MR90"/>
+<attribute name="NAME" x="83.22" y="54.24" size="0.5" layer="26" rot="MR90"/>
 <attribute name="PACKAGE" value="0805 Bourns" x="82.2" y="56.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PRICE" value="None" x="82.2" y="56.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4001965&amp;manufacturer=Bourns&amp;part_name=CR0805AJ/-000EAS&amp;search_term=0r 0805 resitor" x="82.2" y="56.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/CR0805AJ/-000EAS/Bourns/view-part/?ref=snap" x="82.2" y="56.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="81.18" y="54.54" size="0.5" layer="28" rot="MR90" align="top-left"/>
+<attribute name="VALUE" x="83.68" y="55.74" size="0.5" layer="28" rot="MR90" align="top-left"/>
 </element>
 <element name="C7" library="06035C104K4T2A" package="CAPC1608X90N" value="100nf" x="86.8" y="51.4" smashed="yes" rot="MR270">
 <attribute name="AVAILABILITY" value="In Stock" x="86.8" y="51.4" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -8483,7 +8483,7 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/1N4148WS%20RR/Taiwan+Semiconductor/view-part/?ref=snap" x="90.3" y="51.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="89.06" y="48.296" size="1.27" layer="28" rot="MR90" align="top-left"/>
 </element>
-<element name="C12" library="T495X477K010ATE100" package="CAPMP7343X430N" value="470uf" x="97.1" y="55.2" smashed="yes" rot="MR90">
+<element name="C12" library="T495X477K010ATE100" package="CAPMP7343X430N" override_package3d_urn="urn:adsk.eagle:package:43000626/2" override_package_urn="urn:adsk.eagle:footprint:43000628/1" value="470uf" x="97.1" y="55.2" smashed="yes" rot="MR90">
 <attribute name="AVAILABILITY" value="In Stock" x="97.1" y="55.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/T495X477K010ATE100/KEMET/view-part/?ref=eda" x="97.1" y="55.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DESCRIPTION" value=" 470uF Solid MnO2 Tantalum Electrolytic Capacitor, 10 V dc +/-10%, T495 Series | KEMET T495X477K010ATE100 " x="97.1" y="55.2" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -8557,7 +8557,7 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="16.1" y="47" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="16.93" y="45.51" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="J2" library="Sim card nano XKNANO" package="GCT_SIM8060-6-1-14-00-A" value="SIM8060-6-1-14-00-A" x="25.9" y="56.1" smashed="yes" rot="R270">
+<element name="J2" library="Sim card nano XKNANO" package="GCT_SIM8060-6-1-14-00-A" override_package3d_urn="urn:adsk.eagle:package:43000655/2" override_package_urn="urn:adsk.eagle:footprint:43000656/1" value="SIM8060-6-1-14-00-A" x="25.9" y="56.1" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="45.2" y="70.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SIM8060-6-1-14-00-A/Global+Connector+Technology/view-part/?ref=eda" x="45.2" y="70.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" 6 Position Card Connector NANO SIM Surface Mount, Right Angle Gold " x="45.2" y="70.3" size="1.778" layer="27" rot="R270" display="off"/>

@@ -24853,11 +24853,11 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="IC1" library="MIC29302WU" deviceset="MIC29302WU" device="" override_package3d_urn="urn:adsk.eagle:package:43000286/2" override_package_urn="urn:adsk.eagle:footprint:43000287/1"/>
-<part name="C2" library="T495X477K010ATE100" deviceset="T495X477K010ATE100" device="" value="470uf"/>
-<part name="C3" library="06035C104K4T2A" deviceset="06035C104K4T2A" device="" value="100nf"/>
+<part name="C2" library="T495X477K010ATE100" deviceset="T495X477K010ATE100" device="" override_package3d_urn="urn:adsk.eagle:package:43000570/2" override_package_urn="urn:adsk.eagle:footprint:43000571/1" value="470uf"/>
+<part name="C3" library="06035C104K4T2A" deviceset="06035C104K4T2A" device="" override_package3d_urn="urn:adsk.eagle:package:43000526/2" override_package_urn="urn:adsk.eagle:footprint:43000527/1" value="100nf"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q1" library="MMBT2222_" deviceset="MMBT2222*" device=""/>
+<part name="Q1" library="MMBT2222_" deviceset="MMBT2222*" device="" override_package3d_urn="urn:adsk.eagle:package:43001449/2" override_package_urn="urn:adsk.eagle:footprint:43001450/1"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="51K"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K"/>
@@ -24868,7 +24868,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R"/>
 <part name="C5" library="EEEFN1C471P" deviceset="EEEFN1C471P" device="" override_package3d_urn="urn:adsk.eagle:package:43000277/2" override_package_urn="urn:adsk.eagle:footprint:43000278/1"/>
-<part name="C6" library="EEEFN1C471P" deviceset="EEEFN1C471P" device=""/>
+<part name="C6" library="EEEFN1C471P" deviceset="EEEFN1C471P" device="" override_package3d_urn="urn:adsk.eagle:package:43000623/2" override_package_urn="urn:adsk.eagle:footprint:43000624/1"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -24879,7 +24879,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D5" library="4.7V TVS Diode" deviceset="1N4148WS_RR" device="" override_package3d_urn="urn:adsk.eagle:package:43000509/2" override_package_urn="urn:adsk.eagle:footprint:43000510/1" value="ESD56151W04"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C12" library="T495X477K010ATE100" deviceset="T495X477K010ATE100" device="" value="470uf"/>
+<part name="C12" library="T495X477K010ATE100" deviceset="T495X477K010ATE100" device="" override_package3d_urn="urn:adsk.eagle:package:43000626/2" override_package_urn="urn:adsk.eagle:footprint:43000628/1" value="470uf"/>
 <part name="C13" library="06035C104K4T2A" deviceset="06035C104K4T2A" device="" value="100nf"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -24893,7 +24893,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J2" library="Sim card nano XKNANO" deviceset="SIM8060-6-1-14-00-A" device=""/>
+<part name="J2" library="Sim card nano XKNANO" deviceset="SIM8060-6-1-14-00-A" device="" override_package3d_urn="urn:adsk.eagle:package:43000655/2" override_package_urn="urn:adsk.eagle:footprint:43000656/1"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="51K" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
 <part name="Q2" library="MMBT2222_" deviceset="MMBT2222*" device=""/>
