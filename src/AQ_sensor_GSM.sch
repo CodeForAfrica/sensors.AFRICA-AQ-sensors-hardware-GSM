@@ -24626,6 +24626,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R"/>
 <part name="M_RI" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE"/>
 <part name="C2" library="T495X477K010ATE100" deviceset="T495X477K010ATE100" device="" override_package3d_urn="urn:adsk.eagle:package:43000626/2" override_package_urn="urn:adsk.eagle:footprint:43000628/1" value="470uf"/>
+<part name="GSMANTENNA2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -25758,6 +25759,10 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <attribute name="VALUE" x="-180.34" y="190.754" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="-180.34" y="198.628" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="GSMANTENNA2" gate="G$1" x="-182.88" y="241.3" smashed="yes">
+<attribute name="VALUE" x="-185.42" y="236.474" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="-185.42" y="244.348" size="1.778" layer="95" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26053,6 +26058,11 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <pinref part="U4" gate="G$1" pin="ANT_MAIN"/>
 <wire x1="-10.16" y1="205.74" x2="-27.94" y2="205.74" width="0.1524" layer="91"/>
 <label x="-30.48" y="205.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="GSMANTENNA2" gate="G$1" pin="1"/>
+<wire x1="-175.26" y1="241.3" x2="-165.1" y2="241.3" width="0.1524" layer="91"/>
+<label x="-162.56" y="241.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="2.8V" class="0">

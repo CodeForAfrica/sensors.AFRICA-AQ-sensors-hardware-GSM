@@ -26385,10 +26385,11 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <label x="-40.64" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$33" class="0">
+<net name="MAIN_DTR" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="MAIN_DTR"/>
 <wire x1="-10.16" y1="142.24" x2="-27.94" y2="142.24" width="0.1524" layer="91"/>
+<label x="-35.56" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1.8V" class="0">

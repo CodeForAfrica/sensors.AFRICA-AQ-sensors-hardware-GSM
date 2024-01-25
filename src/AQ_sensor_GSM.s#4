@@ -23360,182 +23360,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="100uf 25v capacitor">
-<packages>
-<package name="CAP_EEEFT1E101AV">
-<polygon width="0.01" layer="1">
-<vertex x="-3.55" y="-1.6"/>
-<vertex x="-3.55" y="-0.6"/>
-<vertex x="-4.2" y="-0.6"/>
-<vertex x="-4.2" y="0.6"/>
-<vertex x="-3.55" y="0.6"/>
-<vertex x="-3.55" y="1.6"/>
-<vertex x="-1.55" y="1.6"/>
-<vertex x="-1.55" y="0.6"/>
-<vertex x="-0.6" y="0.6"/>
-<vertex x="-0.6" y="-0.6"/>
-<vertex x="-1.55" y="-0.6"/>
-<vertex x="-1.55" y="-1.6"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-3.55" y="-1.6"/>
-<vertex x="-3.55" y="-0.6"/>
-<vertex x="-4.2" y="-0.6"/>
-<vertex x="-4.2" y="0.6"/>
-<vertex x="-3.55" y="0.6"/>
-<vertex x="-3.55" y="1.6"/>
-<vertex x="-1.55" y="1.6"/>
-<vertex x="-1.55" y="0.6"/>
-<vertex x="-0.6" y="0.6"/>
-<vertex x="-0.6" y="-0.6"/>
-<vertex x="-1.55" y="-0.6"/>
-<vertex x="-1.55" y="-1.6"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-3.65" y="-1.7"/>
-<vertex x="-3.65" y="-0.7"/>
-<vertex x="-4.3" y="-0.7"/>
-<vertex x="-4.3" y="0.7"/>
-<vertex x="-3.65" y="0.7"/>
-<vertex x="-3.65" y="1.7"/>
-<vertex x="-1.45" y="1.7"/>
-<vertex x="-1.45" y="0.7"/>
-<vertex x="-0.5" y="0.7"/>
-<vertex x="-0.5" y="-0.7"/>
-<vertex x="-1.45" y="-0.7"/>
-<vertex x="-1.45" y="-1.7"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="3.55" y="-1.6"/>
-<vertex x="3.55" y="-0.6"/>
-<vertex x="4.2" y="-0.6"/>
-<vertex x="4.2" y="0.6"/>
-<vertex x="3.55" y="0.6"/>
-<vertex x="3.55" y="1.6"/>
-<vertex x="1.55" y="1.6"/>
-<vertex x="1.55" y="0.6"/>
-<vertex x="0.6" y="0.6"/>
-<vertex x="0.6" y="-0.6"/>
-<vertex x="1.55" y="-0.6"/>
-<vertex x="1.55" y="-1.6"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="3.65" y="-1.7"/>
-<vertex x="3.65" y="-0.7"/>
-<vertex x="4.3" y="-0.7"/>
-<vertex x="4.3" y="0.7"/>
-<vertex x="3.65" y="0.7"/>
-<vertex x="3.65" y="1.7"/>
-<vertex x="1.45" y="1.7"/>
-<vertex x="1.45" y="0.7"/>
-<vertex x="0.5" y="0.7"/>
-<vertex x="0.5" y="-0.7"/>
-<vertex x="1.45" y="-0.7"/>
-<vertex x="1.45" y="-1.7"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="3.55" y="-1.6"/>
-<vertex x="3.55" y="-0.6"/>
-<vertex x="4.2" y="-0.6"/>
-<vertex x="4.2" y="0.6"/>
-<vertex x="3.55" y="0.6"/>
-<vertex x="3.55" y="1.6"/>
-<vertex x="1.55" y="1.6"/>
-<vertex x="1.55" y="0.6"/>
-<vertex x="0.6" y="0.6"/>
-<vertex x="0.6" y="-0.6"/>
-<vertex x="1.55" y="-0.6"/>
-<vertex x="1.55" y="-1.6"/>
-</polygon>
-<wire x1="-3.3" y1="2.3" x2="-3.3" y2="-2.3" width="0.127" layer="51"/>
-<wire x1="-3.3" y1="-2.3" x2="-2.3" y2="-3.3" width="0.127" layer="51"/>
-<wire x1="-2.3" y1="-3.3" x2="3.3" y2="-3.3" width="0.127" layer="51"/>
-<wire x1="3.3" y1="-3.3" x2="3.3" y2="3.3" width="0.127" layer="51"/>
-<wire x1="3.3" y1="3.3" x2="-2.3" y2="3.3" width="0.127" layer="51"/>
-<wire x1="-2.3" y1="3.3" x2="-3.3" y2="2.3" width="0.127" layer="51"/>
-<wire x1="-3.3" y1="-2.3" x2="-2.3" y2="-3.3" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="-3.3" x2="3.3" y2="-3.3" width="0.127" layer="21"/>
-<wire x1="3.3" y1="3.3" x2="-2.3" y2="3.3" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="3.3" x2="-3.3" y2="2.3" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="2.3" x2="-3.3" y2="1.92" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="-1.92" x2="-3.3" y2="-2.3" width="0.127" layer="21"/>
-<wire x1="3.3" y1="1.92" x2="3.3" y2="3.3" width="0.127" layer="21"/>
-<wire x1="3.3" y1="-3.3" x2="3.3" y2="-1.92" width="0.127" layer="21"/>
-<wire x1="-4.45" y1="0.85" x2="-3.8" y2="0.85" width="0.05" layer="39"/>
-<wire x1="3.8" y1="0.85" x2="4.45" y2="0.85" width="0.05" layer="39"/>
-<wire x1="4.45" y1="0.85" x2="4.45" y2="-0.85" width="0.05" layer="39"/>
-<wire x1="4.45" y1="-0.85" x2="3.8" y2="-0.85" width="0.05" layer="39"/>
-<wire x1="-3.8" y1="-0.85" x2="-4.45" y2="-0.85" width="0.05" layer="39"/>
-<wire x1="-4.45" y1="-0.85" x2="-4.45" y2="0.85" width="0.05" layer="39"/>
-<circle x="-4.15" y="1.35" radius="0.1" width="0.2" layer="51"/>
-<circle x="-4.15" y="1.35" radius="0.1" width="0.2" layer="21"/>
-<text x="-2.7" y="4.05" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.7" y="-4.05" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="-3.8" y1="0.85" x2="-3.8" y2="1.85" width="0.05" layer="39"/>
-<wire x1="-3.8" y1="1.85" x2="-3.55" y2="1.85" width="0.05" layer="39"/>
-<wire x1="-3.55" y1="1.85" x2="-3.55" y2="2.425" width="0.05" layer="39"/>
-<wire x1="-3.55" y1="2.425" x2="-2.425" y2="3.55" width="0.05" layer="39"/>
-<wire x1="-2.425" y1="3.55" x2="3.55" y2="3.55" width="0.05" layer="39"/>
-<wire x1="3.55" y1="3.55" x2="3.55" y2="1.85" width="0.05" layer="39"/>
-<wire x1="3.55" y1="1.85" x2="3.8" y2="1.85" width="0.05" layer="39"/>
-<wire x1="3.8" y1="1.85" x2="3.8" y2="0.85" width="0.05" layer="39"/>
-<wire x1="3.8" y1="-0.85" x2="3.8" y2="-1.85" width="0.05" layer="39"/>
-<wire x1="3.8" y1="-1.85" x2="3.55" y2="-1.85" width="0.05" layer="39"/>
-<wire x1="3.55" y1="-1.85" x2="3.55" y2="-3.55" width="0.05" layer="39"/>
-<wire x1="3.55" y1="-3.55" x2="-2.425" y2="-3.55" width="0.05" layer="39"/>
-<wire x1="-2.425" y1="-3.55" x2="-3.55" y2="-2.425" width="0.05" layer="39"/>
-<wire x1="-3.55" y1="-2.425" x2="-3.55" y2="-1.85" width="0.05" layer="39"/>
-<wire x1="-3.55" y1="-1.85" x2="-3.8" y2="-1.85" width="0.05" layer="39"/>
-<wire x1="-3.8" y1="-1.85" x2="-3.8" y2="-0.85" width="0.05" layer="39"/>
-<smd name="1" x="-2.55" y="0" dx="1.8" dy="1.8" layer="1" stop="no" cream="no"/>
-<smd name="2" x="2.55" y="0" dx="1.8" dy="1.8" layer="1" rot="R180" stop="no" cream="no"/>
-</package>
-</packages>
-<symbols>
-<symbol name="EEEFT1E101AV">
-<text x="-2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="2.286" y1="2.54" x2="2.286" y2="-2.54" width="0.254" layer="94" curve="70"/>
-<wire x1="0.508" y1="2.54" x2="0.508" y2="0" width="0.254" layer="94"/>
-<rectangle x1="-1.173" y1="-1.532" x2="-0.284" y2="-1.405" layer="94"/>
-<rectangle x1="-0.792" y1="-1.913" x2="-0.665" y2="-1.024" layer="94"/>
-<wire x1="0.508" y1="0" x2="0.508" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="94"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="EEEFT1E101AV" prefix="C">
-<description> &lt;a href="https://pricing.snapeda.com/parts/EEE-FT1E101AV/Panasonic%20Electronic%20Components/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="EEEFT1E101AV" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAP_EEEFT1E101AV">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/EEE-FT1E101AV/Panasonic/view-part/?ref=eda"/>
-<attribute name="DESCRIPTION" value=" CAP ALUM 100UF 20% 25V SMD "/>
-<attribute name="MF" value="Panasonic Electronic Components"/>
-<attribute name="MP" value="EEE-FT1E101AV"/>
-<attribute name="PACKAGE" value="RADIAL-2 Panasonic"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6178766&amp;manufacturer=Panasonic Electronic Components&amp;part_name=EEE-FT1E101AV&amp;search_term=eeeft1e101av"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/EEE-FT1E101AV/Panasonic/view-part/?ref=snap"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Sim card nano XKNANO">
 <packages>
 <package name="GCT_SIM8060-6-1-14-00-A">
@@ -24736,7 +24560,6 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="C13" library="06035C104K4T2A" deviceset="06035C104K4T2A" device="" value="100nf"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C14" library="100uf 25v capacitor" deviceset="EEEFT1E101AV" device="" override_package3d_urn="urn:adsk.eagle:package:43000340/2" override_package_urn="urn:adsk.eagle:footprint:43000342/1"/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="10K" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33pF"/>
@@ -24806,6 +24629,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="GND62" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R"/>
 <part name="RI4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE"/>
+<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="D" package3d_urn="urn:adsk.eagle:package:23424/2" value="100uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -26533,10 +26357,6 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <instance part="GND31" gate="1" x="87.63" y="235.458" smashed="yes">
 <attribute name="VALUE" x="85.09" y="232.918" size="1.778" layer="96"/>
 </instance>
-<instance part="C14" gate="G$1" x="60.96" y="251.46" smashed="yes" rot="R270">
-<attribute name="NAME" x="64.77" y="254" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="55.88" y="254" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="GND35" gate="1" x="59.69" y="232.918" smashed="yes">
 <attribute name="VALUE" x="57.15" y="230.378" size="1.778" layer="96"/>
 </instance>
@@ -26557,6 +26377,10 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <instance part="LIPO_SW" gate="G$1" x="129.54" y="251.46" smashed="yes">
 <attribute name="NAME" x="124.46" y="251.46" size="1.27" layer="95"/>
 <attribute name="VALUE" x="127" y="241.3" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="C21" gate="G$1" x="60.452" y="248.92" smashed="yes">
+<attribute name="NAME" x="51.435" y="249.4026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="61.595" y="244.3226" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -26683,12 +26507,6 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <wire x1="88.9" y1="237.998" x2="88.9" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND35" gate="1" pin="GND"/>
-<pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="59.69" y1="235.458" x2="59.69" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="59.69" y1="246.38" x2="60.96" y2="246.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="-76.2" y1="132.08" x2="-76.2" y2="131.318" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="3"/>
@@ -26704,6 +26522,12 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <wire x1="-76.2" y1="131.318" x2="-76.2" y2="142.24" width="0.1524" layer="91"/>
 <junction x="-76.2" y="131.318"/>
 <junction x="-76.2" y="142.24"/>
+</segment>
+<segment>
+<pinref part="GND35" gate="1" pin="GND"/>
+<pinref part="C21" gate="G$1" pin="-"/>
+<wire x1="59.69" y1="235.458" x2="60.452" y2="235.458" width="0.1524" layer="91"/>
+<wire x1="60.452" y1="235.458" x2="60.452" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_LIPO" class="0">
@@ -26728,18 +26552,18 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <label x="-68.834" y="220.218" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="254" x2="60.96" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="261.62" x2="76.2" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="261.62" x2="88.9" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="261.62" x2="106.68" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="254" x2="76.2" y2="261.62" width="0.1524" layer="91"/>
-<junction x="76.2" y="261.62"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="254" x2="88.9" y2="261.62" width="0.1524" layer="91"/>
 <junction x="88.9" y="261.62"/>
 <label x="96.52" y="264.16" size="1.778" layer="95"/>
+<pinref part="C21" gate="G$1" pin="+"/>
+<wire x1="60.452" y1="251.46" x2="60.452" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="60.452" y1="261.62" x2="76.2" y2="261.62" width="0.1524" layer="91"/>
+<junction x="76.2" y="261.62"/>
 </segment>
 <segment>
 <pinref part="LIPO_SW" gate="G$1" pin="COM1"/>
