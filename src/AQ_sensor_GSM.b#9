@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -28,11 +28,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -157,7 +157,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTE" projecturn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTEjMjAyMzA3MjY2NTg1NDY3MDE" f3durn="urn:adsk.wipprod:dm.lineage:4tuDPTHdRdSTZYxOlH9RyA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="1ceb4309-ed3c-4217-8a76-1cebe61f26d1" lastsyncedrevisionid="1ceb4309-ed3c-4217-8a76-1cebe61f26d1" lastboardhashguid="fccf0954-10f5-36a8-ca4a-59a6916a2e50" lastpushedtime="2024-01-22T12:08:41Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTE" projecturn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTEjMjAyMzA3MjY2NTg1NDY3MDE" f3durn="urn:adsk.wipprod:dm.lineage:4tuDPTHdRdSTZYxOlH9RyA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="c804a53d-c93c-4f06-9b6b-fa685e743c54" lastsyncedrevisionid="c804a53d-c93c-4f06-9b6b-fa685e743c54" lastboardhashguid="92788377-9b1f-5216-e220-f2b094295dc1" lastpushedtime="2024-01-22T14:46:15Z" linktopcb3d="true"/>
 <fusionteam huburn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTE" projecturn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTEjMjAyMTEwMDU0NTIxNTU1MjY" folderUrn="urn:adsk.wipprod:fs.folder:co.V4eMQQrZRL-wTqnvGmJ6Nw" urn="urn:adsk.wipprod:dm.lineage:IWwQklixSQOxdVvh3w9Smg"  versionUrn="urn:adsk.wipprod:fs.file:vf.IWwQklixSQOxdVvh3w9Smg?version=3" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="2c5e9229-c9e2-5237-d97d-cb8a5109001e"/>
 <plain>
 <wire x1="0" y1="0" x2="110" y2="0" width="0" layer="20"/>
@@ -7862,11 +7862,11 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="53.05" y="4.29" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="47.969709375" y="-2.060359375" size="1.000059375" layer="27"/>
 </element>
-<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF" x="89.88" y="40.8" smashed="yes" rot="MR270">
-<attribute name="NAME" x="90.545" y="39.135" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="73" x="89.88" y="40.8" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="89.88" y="40.8" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="92.485" y="43.135" size="1.27" layer="28" rot="MR270"/>
+<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF" x="91.48" y="40.6" smashed="yes" rot="MR270">
+<attribute name="NAME" x="92.145" y="38.935" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="73" x="91.48" y="40.6" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="91.48" y="40.6" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="94.085" y="42.935" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="X1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="53048-08" package3d_urn="urn:adsk.eagle:package:30300278/2" value="53048-08" x="21.5" y="3.91" smashed="yes" rot="R180">
 <attribute name="MF" value="WALDOM/MOLEX" x="21.5" y="3.91" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7904,63 +7904,63 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="26" x="45.8" y="12.11" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="47.552778125" y="15.866140625" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="67.3" y="43.21" smashed="yes">
-<attribute name="NAME" x="66.665" y="40.545" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="70" x="67.3" y="43.21" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="67.3" y="43.21" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="66.465" y="44.505" size="1.27" layer="27"/>
+<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="70.9" y="41.41" smashed="yes">
+<attribute name="NAME" x="70.265" y="38.745" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="70.9" y="41.41" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="70.9" y="41.41" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="70.065" y="42.705" size="1.27" layer="27"/>
 </element>
-<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="90.23" y="55.54" smashed="yes" rot="MR0">
-<attribute name="NAME" x="88.665" y="55.075" size="1.27" layer="26" rot="MR0"/>
-<attribute name="POPULARITY" value="70" x="90.23" y="55.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="90.23" y="55.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="91.965" y="56.735" size="1.27" layer="28" rot="MR0"/>
+<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="66.76" y="58.43" smashed="yes" rot="MR270">
+<attribute name="NAME" x="67.225" y="56.865" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="70" x="66.76" y="58.43" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="66.76" y="58.43" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="65.565" y="60.165" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="POWER" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="RED" x="67.44" y="12.09" smashed="yes" rot="R90">
 <attribute name="NAME" x="72.042940625" y="14.117240625" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="26" x="67.44" y="12.09" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="68.7192" y="10.7615" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K" x="98.13" y="28.19" smashed="yes" rot="R90">
-<attribute name="NAME" x="100.795" y="26.755" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="70" x="98.13" y="28.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="98.13" y="28.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="98.635" y="29.955" size="1.27" layer="27" rot="R90"/>
+<element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K" x="100.13" y="36.39" smashed="yes" rot="R90">
+<attribute name="NAME" x="102.795" y="34.955" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="70" x="100.13" y="36.39" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="100.13" y="36.39" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="100.635" y="38.155" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U3" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="TEXAS_INSTRUMENTS_LM1117IMP-3.3-NOPB_0" package3d_urn="urn:adsk.eagle:package:30300295/2" value="TEXAS_INSTRUMENTS_LM1117IMP-3.3-NOPBTEXAS_INSTRUMENTS_LM1117IMP-3.3-NOPB_0_0" x="97.18" y="38.37" smashed="yes" rot="MR180">
-<attribute name="CIIVA_IDS" value="19361124" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="CODE__IPC" value="SOT223-4" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="CODE__JEDEC" value="TO-261-AA" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="CODE__JEITA" value="" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Datasheet URL" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="COMPONENT_LINK_1_URL" value="http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM1117-N&amp;fileType=pdf" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="COMP_TYPE" value="LDO IC" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="HIGH__RELIABILITY" value="Y" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="IMPORTED" value="yes" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="IMPORTED_FROM" value="vault" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="IMPORT_TS" value="1521845365" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="Texas Instruments" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="LM1117IMP-3.3/NOPB" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="95.529" y="38.751" size="0.8" layer="26" rot="MR180"/>
-<attribute name="PACKAGE" value="DCY0004A" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PACKAGE_DESCRIPTION" value="Molded SOT-223, 6.50 x 3.56 x 1.6mm Body, 4 Lead, 2.3mm Pitch" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PACKAGE_TOP_MARKING" value="XYTT*N05B" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PIN_COUNT" value="4" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="POWER_WISE" value="N" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PREFIX" value="U" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RELEASE_DATE" value="1464077430" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="ROHS" value="Yes" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VAULT_GUID" value="7E820BF6-F141-44C1-8A74-392CB201F257" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VAULT_REVISION" value="16019014-2FBF-4157-ADF5-B132B4DC413A" x="97.18" y="38.37" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="U3" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="TEXAS_INSTRUMENTS_LM1117IMP-3.3-NOPB_0" package3d_urn="urn:adsk.eagle:package:30300295/2" value="TEXAS_INSTRUMENTS_LM1117IMP-3.3-NOPBTEXAS_INSTRUMENTS_LM1117IMP-3.3-NOPB_0_0" x="101.78" y="38.07" smashed="yes" rot="MR180">
+<attribute name="CIIVA_IDS" value="19361124" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="CODE__IPC" value="SOT223-4" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="CODE__JEDEC" value="TO-261-AA" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="CODE__JEITA" value="" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Datasheet URL" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM1117-N&amp;fileType=pdf" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="COMP_TYPE" value="LDO IC" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HIGH__RELIABILITY" value="Y" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="IMPORTED" value="yes" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="IMPORTED_FROM" value="vault" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="IMPORT_TS" value="1521845365" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="LM1117IMP-3.3/NOPB" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="100.129" y="38.451" size="0.8" layer="26" rot="MR180"/>
+<attribute name="PACKAGE" value="DCY0004A" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE_DESCRIPTION" value="Molded SOT-223, 6.50 x 3.56 x 1.6mm Body, 4 Lead, 2.3mm Pitch" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE_TOP_MARKING" value="XYTT*N05B" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PIN_COUNT" value="4" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POWER_WISE" value="N" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PREFIX" value="U" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RELEASE_DATE" value="1464077430" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="ROHS" value="Yes" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VAULT_GUID" value="7E820BF6-F141-44C1-8A74-392CB201F257" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VAULT_REVISION" value="16019014-2FBF-4157-ADF5-B132B4DC413A" x="101.78" y="38.07" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF" x="89.62" y="35.93" smashed="yes" rot="MR270">
-<attribute name="NAME" x="88.085" y="36.765" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="73" x="89.62" y="35.93" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="89.62" y="35.93" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="92.025" y="37.465" size="1.27" layer="28" rot="MR270"/>
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF" x="92.32" y="33.03" smashed="yes" rot="MR270">
+<attribute name="NAME" x="90.785" y="33.865" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="73" x="92.32" y="33.03" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="92.32" y="33.03" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="94.725" y="34.565" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="H1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:30300289/1" value="MOUNT-PAD-ROUND2.8" x="106" y="4" smashed="yes">
 <attribute name="POPULARITY" value="6" x="106" y="4" size="1.778" layer="27" display="off"/>
@@ -7979,27 +7979,27 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="26" x="51.3058" y="12.04416875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="53.7408" y="10.64916875" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="72.7387" y="42.314309375" smashed="yes" rot="R180">
-<attribute name="NAME" x="74.8737" y="44.379309375" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="70" x="72.7387" y="42.314309375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="72.7387" y="42.314309375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="74.5737" y="40.719309375" size="1.27" layer="27" rot="R180"/>
+<element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="82.1387" y="41.014309375" smashed="yes" rot="R180">
+<attribute name="NAME" x="84.2737" y="43.079309375" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="70" x="82.1387" y="41.014309375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="82.1387" y="41.014309375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="83.9737" y="39.419309375" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="U4" library="EC200UCNAB-N05-SNNSA" package="XCVR_EC200UCNAB-N05-SNNSA" override_package3d_urn="urn:adsk.eagle:package:43000310/2" override_package_urn="urn:adsk.eagle:footprint:43000311/1" value="EC200UCNAB-N05-SNNSA" x="25.7" y="43.7" smashed="yes" rot="R180" grouprefs="GSM_GROUP">
-<attribute name="AVAILABILITY" value="In Stock" x="25.7" y="43.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/EC200UCNAB-N05-SNNSA/Quectel/view-part/?ref=eda" x="25.7" y="43.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" Quectel Wireless Solutions External Passive, 1559-1606, GNSS L1, Spiral, -, SMA Male (center pin), Terminal, 50 oe10 " x="25.7" y="43.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Quectel" x="25.7" y="43.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="EC200UCNAB-N05-SNNSA" x="25.7" y="43.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="26.15" y="41.25" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="None" x="25.7" y="43.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="25.7" y="43.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/EC200UCNAB-N05-SNNSA/Quectel/view-part/?ref=snap" x="25.7" y="43.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="42.95" y="59.95" size="1.27" layer="27" rot="R180" align="top-left"/>
+<element name="U4" library="EC200UCNAB-N05-SNNSA" package="XCVR_EC200UCNAB-N05-SNNSA" override_package3d_urn="urn:adsk.eagle:package:43000310/2" override_package_urn="urn:adsk.eagle:footprint:43000311/1" value="EC200UCNAB-N05-SNNSA" x="27.1" y="43.1" smashed="yes" rot="R180" grouprefs="GSM_GROUP">
+<attribute name="AVAILABILITY" value="In Stock" x="27.1" y="43.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/EC200UCNAB-N05-SNNSA/Quectel/view-part/?ref=eda" x="27.1" y="43.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" Quectel Wireless Solutions External Passive, 1559-1606, GNSS L1, Spiral, -, SMA Male (center pin), Terminal, 50 oe10 " x="27.1" y="43.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Quectel" x="27.1" y="43.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="EC200UCNAB-N05-SNNSA" x="27.1" y="43.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="27.55" y="40.65" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="None" x="27.1" y="43.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="27.1" y="43.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/EC200UCNAB-N05-SNNSA/Quectel/view-part/?ref=snap" x="27.1" y="43.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="44.35" y="59.35" size="1.27" layer="27" rot="R180" align="top-left"/>
 </element>
-<element name="IC2" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:30300292/2" value="MCP73831/OT" x="92.3" y="27.6" smashed="yes" rot="MR0">
-<attribute name="NAME" x="94.205" y="29.505" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="94.205" y="24.171" size="1.27" layer="28" rot="MR0"/>
+<element name="IC2" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:30300292/2" value="MCP73831/OT" x="101.4" y="27.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="103.305" y="29.805" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="103.305" y="24.471" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="CHRG" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="RED" x="62.2" y="12.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.735" y="14.135" size="1.27" layer="25" rot="R270"/>
@@ -8011,39 +8011,39 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="26" x="55.8" y="-6.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="59.535" y="11.005" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="97.7" y="22.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="95.335" y="22.165" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="70" x="107.5" y="10.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="107.5" y="10.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="98.335" y="24.505" size="1.27" layer="27" rot="R180"/>
+<element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="99.9" y="28.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="100.335" y="25.735" size="1.27" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="70" x="112.2" y="37.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="112.2" y="37.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="97.995" y="28.735" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="91" y="22.6" smashed="yes" rot="MR180">
-<attribute name="NAME" x="90.365" y="21.965" size="1.27" layer="26" rot="MR180"/>
-<attribute name="POPULARITY" value="70" x="76.5" y="15.2" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="76.5" y="15.2" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="90.365" y="24.505" size="1.27" layer="28" rot="MR180"/>
+<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="92.5" y="24.7" smashed="yes" rot="MR90">
+<attribute name="NAME" x="93.135" y="24.065" size="1.27" layer="26" rot="MR90"/>
+<attribute name="POPULARITY" value="70" x="99.9" y="10.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="99.9" y="10.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="90.595" y="24.065" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2K" x="86.3" y="28.3" smashed="yes" rot="MR270">
-<attribute name="NAME" x="85.665" y="28.935" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="70" x="83.8" y="47.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="83.8" y="47.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="88.205" y="28.935" size="1.27" layer="28" rot="MR270"/>
+<element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2K" x="85.9" y="40" smashed="yes" rot="MR270">
+<attribute name="NAME" x="85.265" y="40.635" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="70" x="83.4" y="59.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="83.4" y="59.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="87.805" y="40.635" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="CN1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="JST-PH-2-SMT-RA" package3d_urn="urn:adsk.eagle:package:30300271/2" value="" x="66.9" y="3.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.44" y="-0.31" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="69.44" y="11.12" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF" x="86.8" y="23.2" smashed="yes" rot="MR0">
-<attribute name="NAME" x="87.435" y="23.835" size="1.27" layer="26" rot="MR0"/>
-<attribute name="POPULARITY" value="73" x="86.8" y="23.2" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="86.8" y="23.2" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="87.435" y="21.295" size="1.27" layer="28" rot="MR0"/>
+<element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF" x="87.2" y="24.9" smashed="yes" rot="MR270">
+<attribute name="NAME" x="86.565" y="25.535" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="73" x="87.2" y="24.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="87.2" y="24.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="89.105" y="25.535" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="PANASONIC_D" package3d_urn="urn:adsk.eagle:package:23424/2" value="100uF" x="77.4" y="54.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="78.4" y="55.85" size="1.016" layer="25" rot="R270"/>
-<attribute name="POPULARITY" value="16" x="77.4" y="54.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="77.4" y="54.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="75.425" y="55.85" size="1.016" layer="27" rot="R270"/>
+<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="PANASONIC_D" package3d_urn="urn:adsk.eagle:package:23424/2" value="100uF" x="98.7" y="55.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="97.7" y="53.35" size="1.016" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="16" x="98.7" y="55.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="98.7" y="55.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="100.675" y="53.35" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33pF" x="35.8" y="59.3" smashed="yes" rot="MR90" grouprefs="GSM_GROUP">
 <attribute name="NAME" x="37.435" y="57.965" size="1.27" layer="26" rot="MR90"/>
@@ -8051,73 +8051,73 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="35.8" y="59.3" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="32.895" y="57.965" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10pF" x="29.4" y="59" smashed="yes" rot="MR270" grouprefs="GSM_GROUP">
-<attribute name="NAME" x="28.765" y="59.635" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="73" x="34.3" y="64.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="34.3" y="64.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="33.505" y="97.335" size="1.27" layer="28" rot="MR270"/>
+<element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10pF" x="30.7" y="59.6" smashed="yes" rot="MR270" grouprefs="GSM_GROUP">
+<attribute name="NAME" x="30.065" y="60.235" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="73" x="35.6" y="65.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="35.6" y="65.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="34.805" y="97.935" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="D2" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="ON_SEMICONDUCTOR_MMSZ5231BT1G_0" package3d_urn="urn:adsk.eagle:package:30300268/2" value="ON_SEMICONDUCTOR_MMSZ5231BT1GON_SEMICONDUCTOR_MMSZ5231BT1G_0_0" x="32.7" y="18.2" smashed="yes" grouprefs="GSM_GROUP">
-<attribute name="CIIVA_IDS" value="804101" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer URL" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="COMPONENT_LINK_1_URL" value="http://www.onsemi.com/" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="COMPONENT_LINK_3_DESCRIPTION" value="Package Specification" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="COMPONENT_LINK_3_URL" value="http://www.onsemi.com/pub_link/Collateral/425-04.PDF" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="http://www.onsemi.com/pub_link/Collateral/MMSZ5221BT1-D.PDF" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET_VERSION" value="Rev. 12" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Manufacturer Recommended" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="IMPORTED" value="yes" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="IMPORTED_FROM" value="vault" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="IMPORT_TS" value="1521844429" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="On Semiconductor" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNTING_TECHNOLOGY" value="Surface Mount" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MMSZ5231BT1G" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="32.01" y="19.885" size="1" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123-2-425-04" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE_DESCRIPTION" value="2-Pin SOD, Body 1.6 x 2.69 mm" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE_VERSION" value="Rev. G, 10/2009" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="PACKING" value="Tape and Reel" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="D" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="P_MAX_W" value="0.5" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="RELEASE_DATE" value="1407150685" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="No" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="VAULT_GUID" value="27F6BF34-1EB2-4973-A1B4-1410F52D084D" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="VAULT_REVISION" value="BBBB861B-93F7-43FE-93E6-D586C34E6C45" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="VZ_TYP_V" value="5.1" x="32.7" y="13.3" size="1.778" layer="27" display="off"/>
+<element name="D2" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="ON_SEMICONDUCTOR_MMSZ5231BT1G_0" package3d_urn="urn:adsk.eagle:package:30300268/2" value="ON_SEMICONDUCTOR_MMSZ5231BT1GON_SEMICONDUCTOR_MMSZ5231BT1G_0_0" x="7.8" y="19.8" smashed="yes" grouprefs="GSM_GROUP">
+<attribute name="CIIVA_IDS" value="804101" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer URL" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.onsemi.com/" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="COMPONENT_LINK_3_DESCRIPTION" value="Package Specification" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="COMPONENT_LINK_3_URL" value="http://www.onsemi.com/pub_link/Collateral/425-04.PDF" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="http://www.onsemi.com/pub_link/Collateral/MMSZ5221BT1-D.PDF" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET_VERSION" value="Rev. 12" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Manufacturer Recommended" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="IMPORTED" value="yes" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="IMPORTED_FROM" value="vault" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="IMPORT_TS" value="1521844429" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="On Semiconductor" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNTING_TECHNOLOGY" value="Surface Mount" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MMSZ5231BT1G" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="7.11" y="21.485" size="1" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123-2-425-04" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE_DESCRIPTION" value="2-Pin SOD, Body 1.6 x 2.69 mm" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE_VERSION" value="Rev. G, 10/2009" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="PACKING" value="Tape and Reel" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="PREFIX" value="D" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="P_MAX_W" value="0.5" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="RELEASE_DATE" value="1407150685" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS" value="No" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="VAULT_GUID" value="27F6BF34-1EB2-4973-A1B4-1410F52D084D" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="VAULT_REVISION" value="BBBB861B-93F7-43FE-93E6-D586C34E6C45" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
+<attribute name="VZ_TYP_V" value="5.1" x="7.8" y="14.9" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D3" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="SEMTECH_SMF05C_0" package3d_urn="urn:adsk.eagle:package:30300266/2" value="SEMTECH_SMF05CSEMTECH_SMF05C_0_0" x="5.4" y="17.2" smashed="yes" grouprefs="GSM_GROUP">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="http://www.semtech.com/images/datasheet/smf05c.pdf" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="DIODE TVS DIODE 5VWM 12.5VC SC70-6" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="SMF05CCT-ND" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="JUNCTION_CAPACITANCE" value="130pF max" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PRODUCT_PAGE" value="http://www.semtech.com/apps/product.php?pn=SMF05C" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Semtech" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="SC70-6L" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="947-SMF05C.TCT" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SMF05C" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="3.825" y="19.15" size="1" layer="25"/>
-<attribute name="PACKAGE" value="SC-70-6" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="D" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="REVERSE_STAND-OFF_VOLTAGE" value="5V" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="yes" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+125°C" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C" x="5.4" y="26.7" size="1.778" layer="27" display="off"/>
+<element name="D3" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="SEMTECH_SMF05C_0" package3d_urn="urn:adsk.eagle:package:30300266/2" value="SEMTECH_SMF05CSEMTECH_SMF05C_0_0" x="7.2" y="15" smashed="yes" grouprefs="GSM_GROUP">
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="http://www.semtech.com/images/datasheet/smf05c.pdf" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="DIODE TVS DIODE 5VWM 12.5VC SC70-6" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SMF05CCT-ND" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="JUNCTION_CAPACITANCE" value="130pF max" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="LEAD_FREE" value="yes" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PRODUCT_PAGE" value="http://www.semtech.com/apps/product.php?pn=SMF05C" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Semtech" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="SC70-6L" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="947-SMF05C.TCT" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="SMF05C" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="5.625" y="16.95" size="1" layer="25"/>
+<attribute name="PACKAGE" value="SC-70-6" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="PREFIX" value="D" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="REVERSE_STAND-OFF_VOLTAGE" value="5V" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS" value="yes" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+125°C" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C" x="7.2" y="24.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="GSM" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="SMA_EDGELAUNCH_UFL" package3d_urn="urn:adsk.eagle:package:30300291/2" value="50 Ohms" x="1.9" y="31.2" smashed="yes" grouprefs="GSM_GROUP">
 <attribute name="NAME" x="-1.02" y="119.985" size="1.016" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="6.98" y="23.58" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="GSM_RST" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="SW_KMR621NGLFS" package3d_urn="urn:adsk.eagle:package:30300293/2" value="KMR621NGLFS" x="40.3" y="17.6" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Unavailable" x="40.3" y="17.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount " x="40.3" y="17.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="C&amp;K" x="40.3" y="17.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="KMR621NG LFS" x="40.3" y="17.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="38.5" y="14.8" size="0.8128" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="None" x="40.3" y="17.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="40.3" y="17.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="42.9" y="14.8" size="0.8128" layer="27" rot="R90"/>
+<element name="GSM_RST" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="SW_KMR621NGLFS" package3d_urn="urn:adsk.eagle:package:30300293/2" value="KMR621NGLFS" x="35" y="21.1" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="35" y="21.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount " x="35" y="21.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="C&amp;K" x="35" y="21.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="KMR621NG LFS" x="35" y="21.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="37.8" y="19.3" size="0.8128" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="None" x="35" y="21.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="35" y="21.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="37.8" y="23.7" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="D1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="ON_SEMI_1N4148WS_0" package3d_urn="urn:adsk.eagle:package:30300267/2" value="ON_SEMI_1N4148WSON_SEMI_1N4148WS_0_0" x="42.4" y="59.4" smashed="yes" rot="MR90">
 <attribute name="CENTROID_NOT_SPECIFIED" value="No" x="42.4" y="59.4" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -8151,55 +8151,42 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="41.665" y="59.495" size="1" layer="37"/>
 <attribute name="VALUE" x="41.665" y="60.638" size="0.0254" layer="27"/>
 </element>
-<element name="IC1" library="MIC29302WU" package="TO263-5" override_package3d_urn="urn:adsk.eagle:package:43000286/2" override_package_urn="urn:adsk.eagle:footprint:43000287/1" value="MIC29302WU" x="65.7" y="31.4" smashed="yes" rot="MR270">
-<attribute name="AVAILABILITY" value="In Stock" x="65.7" y="31.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MIC29302WU/Microchip/view-part/?ref=eda" x="65.7" y="31.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DESCRIPTION" value=" Linear Voltage Regulator IC Positive Adjustable 1 Output 3A TO-263-5 " x="65.7" y="31.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MF" value="Microchip" x="65.7" y="31.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MP" value="MIC29302WU" x="65.7" y="31.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="64.694809375" y="37.394809375" size="1.27155" layer="26" rot="MR0"/>
-<attribute name="PACKAGE" value="TO-263-5 Microchip" x="65.7" y="31.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="PRICE" value="None" x="65.7" y="31.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=423468&amp;manufacturer=Microchip&amp;part_name=MIC29302WU&amp;search_term=mic29302wu" x="65.7" y="31.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MIC29302WU/Microchip/view-part/?ref=snap" x="65.7" y="31.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="71.28911875" y="24.54063125" size="1.27025" layer="28" rot="MR0"/>
+<element name="IC1" library="MIC29302WU" package="TO263-5" override_package3d_urn="urn:adsk.eagle:package:43000286/2" override_package_urn="urn:adsk.eagle:footprint:43000287/1" value="MIC29302WU" x="65.5" y="29.9" smashed="yes" rot="MR270">
+<attribute name="AVAILABILITY" value="In Stock" x="65.5" y="29.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MIC29302WU/Microchip/view-part/?ref=eda" x="65.5" y="29.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value=" Linear Voltage Regulator IC Positive Adjustable 1 Output 3A TO-263-5 " x="65.5" y="29.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Microchip" x="65.5" y="29.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MP" value="MIC29302WU" x="65.5" y="29.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="64.494809375" y="35.894809375" size="1.27155" layer="26" rot="MR0"/>
+<attribute name="PACKAGE" value="TO-263-5 Microchip" x="65.5" y="29.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PRICE" value="None" x="65.5" y="29.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=423468&amp;manufacturer=Microchip&amp;part_name=MIC29302WU&amp;search_term=mic29302wu" x="65.5" y="29.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MIC29302WU/Microchip/view-part/?ref=snap" x="65.5" y="29.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="71.08911875" y="23.04063125" size="1.27025" layer="28" rot="MR0"/>
 </element>
-<element name="C2" library="T495X477K010ATE100" package="CAPMP7343X430N" override_package3d_urn="urn:adsk.eagle:package:43000570/2" override_package_urn="urn:adsk.eagle:footprint:43000571/1" value="470uf" x="79.5" y="32.7" smashed="yes" rot="MR90">
-<attribute name="AVAILABILITY" value="In Stock" x="79.5" y="32.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/T495X477K010ATE100/KEMET/view-part/?ref=eda" x="79.5" y="32.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DESCRIPTION" value=" 470uF Solid MnO2 Tantalum Electrolytic Capacitor, 10 V dc +/-10%, T495 Series | KEMET T495X477K010ATE100 " x="79.5" y="32.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MF" value="KEMET" x="79.5" y="32.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MP" value="T495X477K010ATE100" x="79.5" y="32.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="82.8" y="28.88" size="1.27" layer="26" rot="MR90"/>
-<attribute name="PACKAGE" value="SMD-2 Kemet" x="79.5" y="32.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="PRICE" value="None" x="79.5" y="32.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=554043&amp;manufacturer=KEMET&amp;part_name=T495X477K010ATE100&amp;search_term= 470uf 10v 100mω ±10% case-e-7343 tantalum capacitors rohs" x="79.5" y="32.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/T495X477K010ATE100/KEMET/view-part/?ref=snap" x="79.5" y="32.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="75.3" y="29.49" size="1.27" layer="28" rot="MR90"/>
+<element name="C3" library="06035C104K4T2A" package="CAPC1608X90N" override_package3d_urn="urn:adsk.eagle:package:43000526/2" override_package_urn="urn:adsk.eagle:footprint:43000527/1" value="100nf" x="80.3" y="39.5" smashed="yes" rot="MR270">
+<attribute name="AVAILABILITY" value="In Stock" x="80.3" y="39.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=eda" x="80.3" y="39.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value=" Capacitor MLCC 0603 100nF 50V | AVX 06035C104K4T2A " x="80.3" y="39.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="AVX" x="80.3" y="39.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MP" value="06035C104K4T2A" x="80.3" y="39.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="78.87" y="40.29" size="0.5" layer="26" rot="MR270"/>
+<attribute name="PACKAGE" value="1608 AVX" x="80.3" y="39.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PRICE" value="None" x="80.3" y="39.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="80.3" y="39.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="81.33" y="40.79" size="0.5" layer="28" rot="MR270" align="top-left"/>
 </element>
-<element name="C3" library="06035C104K4T2A" package="CAPC1608X90N" override_package3d_urn="urn:adsk.eagle:package:43000526/2" override_package_urn="urn:adsk.eagle:footprint:43000527/1" value="100nf" x="78.8" y="40.1" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="In Stock" x="78.8" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=eda" x="78.8" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" Capacitor MLCC 0603 100nF 50V | AVX 06035C104K4T2A " x="78.8" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="AVX" x="78.8" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="06035C104K4T2A" x="78.8" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="79.59" y="41.53" size="0.5" layer="26" rot="MR0"/>
-<attribute name="PACKAGE" value="1608 AVX" x="78.8" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="78.8" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="78.8" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="80.09" y="39.07" size="0.5" layer="28" rot="MR0" align="top-left"/>
-</element>
-<element name="Q1" library="MMBT2222_" package="SOT23-BEC" override_package3d_urn="urn:adsk.eagle:package:43001449/2" override_package_urn="urn:adsk.eagle:footprint:43001450/1" value="MMBT2222" x="90.1" y="32.7" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="In Stock" x="90.1" y="32.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="90.1" y="32.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="90.1" y="32.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="ON Semiconductor" x="90.1" y="32.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="MMBT2222" x="90.1" y="32.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="87.7291" y="33.0291" size="1.01671875" layer="25" ratio="18" rot="R180"/>
-<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="90.1" y="32.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="90.1" y="32.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=snap" x="90.1" y="32.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="92.0075" y="35.879159375" size="0.813865625" layer="27" ratio="10" rot="R180"/>
+<element name="Q1" library="MMBT2222_" package="SOT23-BEC" override_package3d_urn="urn:adsk.eagle:package:43001449/2" override_package_urn="urn:adsk.eagle:footprint:43001450/1" value="MMBT2222" x="91.4" y="33.3" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="In Stock" x="91.4" y="33.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="91.4" y="33.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="91.4" y="33.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="91.4" y="33.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="MMBT2222" x="91.4" y="33.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="89.0291" y="33.6291" size="1.01671875" layer="25" ratio="18" rot="R180"/>
+<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="91.4" y="33.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="91.4" y="33.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=snap" x="91.4" y="33.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="93.3075" y="36.479159375" size="0.813865625" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="51K" x="78.2" y="24.7" smashed="yes" rot="MR180">
 <attribute name="NAME" x="77.365" y="23.265" size="1.27" layer="26" rot="MR180"/>
@@ -8207,146 +8194,133 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="78.2" y="24.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="77.365" y="27.205" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="92.3" y="37.1" smashed="yes">
-<attribute name="NAME" x="91.465" y="38.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="70" x="92.3" y="37.1" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="92.3" y="37.1" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="91.665" y="35.195" size="1.27" layer="27"/>
+<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="91.9" y="40.3" smashed="yes">
+<attribute name="NAME" x="91.065" y="41.835" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="91.9" y="40.3" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="91.9" y="40.3" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="91.265" y="38.395" size="1.27" layer="27"/>
 </element>
-<element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="89.7" y="28.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="90.735" y="26.165" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="70" x="89.7" y="28.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="89.7" y="28.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="90.335" y="30.005" size="1.27" layer="27" rot="R180"/>
+<element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="91.6" y="26.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="92.635" y="24.965" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="70" x="91.6" y="26.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="91.6" y="26.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="92.235" y="28.805" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k" x="61.4" y="39.7" smashed="yes" rot="MR180">
-<attribute name="NAME" x="60.765" y="39.065" size="1.27" layer="26" rot="MR180"/>
-<attribute name="POPULARITY" value="70" x="61.4" y="39.7" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="61.4" y="39.7" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="60.765" y="41.605" size="1.27" layer="28" rot="MR180"/>
+<element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k" x="57.5" y="40" smashed="yes" rot="MR180">
+<attribute name="NAME" x="56.865" y="39.365" size="1.27" layer="26" rot="MR180"/>
+<attribute name="POPULARITY" value="70" x="57.5" y="40" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="57.5" y="40" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" x="56.865" y="41.905" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="67.8" y="40" smashed="yes" rot="MR0">
-<attribute name="NAME" x="68.435" y="40.635" size="1.27" layer="26" rot="MR0"/>
-<attribute name="POPULARITY" value="70" x="67.8" y="40" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="67.8" y="40" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="68.435" y="38.095" size="1.27" layer="28" rot="MR0"/>
+<element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="66.3" y="40.3" smashed="yes" rot="MR0">
+<attribute name="NAME" x="66.935" y="40.935" size="1.27" layer="26" rot="MR0"/>
+<attribute name="POPULARITY" value="70" x="66.3" y="40.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="66.3" y="40.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="66.935" y="38.395" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R" x="74" y="40.1" smashed="yes" rot="MR0">
-<attribute name="NAME" x="74.635" y="40.735" size="1.27" layer="26" rot="MR0"/>
-<attribute name="POPULARITY" value="70" x="74" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="74" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="74.635" y="38.195" size="1.27" layer="28" rot="MR0"/>
+<element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R" x="73.5" y="39.9" smashed="yes" rot="MR270">
+<attribute name="NAME" x="72.865" y="40.535" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="70" x="73.5" y="39.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="73.5" y="39.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="75.405" y="40.535" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C5" library="EEEFN1C471P" package="CAP_EEEFN1C471P" override_package3d_urn="urn:adsk.eagle:package:43000277/2" override_package_urn="urn:adsk.eagle:footprint:43000278/1" value="EEEFN1C471P" x="53.5" y="56.5" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="53.5" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/EEE-FN1C471P/Panasonic/view-part/?ref=eda" x="53.5" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" Capacitor,16VDC, 470uF,SMD'Electrolytic | Panasonic Electronic Components EEE-FN1C471P " x="53.5" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Panasonic Electronic Components" x="53.5" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="EEE-FN1C471P" x="53.5" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="56.5" y="63.15" size="1.27" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="RADIAL-2 Panasonic" x="53.5" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="53.5" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6178008&amp;manufacturer=Panasonic Electronic Components&amp;part_name=EEE-FN1C471P&amp;search_term= 470uf 16v ±20% smd" x="53.5" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/EEE-FN1C471P/Panasonic/view-part/?ref=snap" x="53.5" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="48.6" y="59.35" size="1.27" layer="27" rot="R270" align="top-left"/>
+<element name="C6" library="EEEFN1C471P" package="CAP_EEEFN1C471P" override_package3d_urn="urn:adsk.eagle:package:43000623/2" override_package_urn="urn:adsk.eagle:footprint:43000624/1" value="EEEFN1C471P" x="71.4" y="56.2" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="71.4" y="56.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/EEE-FN1C471P/Panasonic/view-part/?ref=eda" x="71.4" y="56.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" Capacitor,16VDC, 470uF,SMD'Electrolytic | Panasonic Electronic Components EEE-FN1C471P " x="71.4" y="56.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="71.4" y="56.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="EEE-FN1C471P" x="71.4" y="56.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="75.4" y="62.45" size="1.27" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="RADIAL-2 Panasonic" x="71.4" y="56.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="71.4" y="56.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6178008&amp;manufacturer=Panasonic Electronic Components&amp;part_name=EEE-FN1C471P&amp;search_term= 470uf 16v ±20% smd" x="71.4" y="56.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/EEE-FN1C471P/Panasonic/view-part/?ref=snap" x="71.4" y="56.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="66.5" y="59.05" size="1.27" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="C6" library="EEEFN1C471P" package="CAP_EEEFN1C471P" override_package3d_urn="urn:adsk.eagle:package:43000623/2" override_package_urn="urn:adsk.eagle:footprint:43000624/1" value="EEEFN1C471P" x="66.8" y="56.6" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="66.8" y="56.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/EEE-FN1C471P/Panasonic/view-part/?ref=eda" x="66.8" y="56.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" Capacitor,16VDC, 470uF,SMD'Electrolytic | Panasonic Electronic Components EEE-FN1C471P " x="66.8" y="56.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Panasonic Electronic Components" x="66.8" y="56.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="EEE-FN1C471P" x="66.8" y="56.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="70.8" y="62.85" size="1.27" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="RADIAL-2 Panasonic" x="66.8" y="56.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="66.8" y="56.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6178008&amp;manufacturer=Panasonic Electronic Components&amp;part_name=EEE-FN1C471P&amp;search_term= 470uf 16v ±20% smd" x="66.8" y="56.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/EEE-FN1C471P/Panasonic/view-part/?ref=snap" x="66.8" y="56.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="61.9" y="59.45" size="1.27" layer="27" rot="R270" align="top-left"/>
+<element name="C7" library="06035C104K4T2A" package="CAPC1608X90N" value="100nf" x="63.2" y="57.9" smashed="yes" rot="MR270">
+<attribute name="AVAILABILITY" value="In Stock" x="63.2" y="57.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=eda" x="63.2" y="57.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value=" Capacitor MLCC 0603 100nF 50V | AVX 06035C104K4T2A " x="63.2" y="57.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="AVX" x="63.2" y="57.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MP" value="06035C104K4T2A" x="63.2" y="57.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="62.37" y="59.39" size="0.5" layer="26" rot="MR270"/>
+<attribute name="PACKAGE" value="1608 AVX" x="63.2" y="57.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PRICE" value="None" x="63.2" y="57.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="63.2" y="57.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="64.03" y="59.39" size="0.5" layer="28" rot="MR270" align="top-left"/>
 </element>
-<element name="C7" library="06035C104K4T2A" package="CAPC1608X90N" value="100nf" x="86.8" y="51.4" smashed="yes" rot="MR270">
-<attribute name="AVAILABILITY" value="In Stock" x="86.8" y="51.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=eda" x="86.8" y="51.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DESCRIPTION" value=" Capacitor MLCC 0603 100nF 50V | AVX 06035C104K4T2A " x="86.8" y="51.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MF" value="AVX" x="86.8" y="51.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MP" value="06035C104K4T2A" x="86.8" y="51.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="85.97" y="52.89" size="0.5" layer="26" rot="MR270"/>
-<attribute name="PACKAGE" value="1608 AVX" x="86.8" y="51.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="PRICE" value="None" x="86.8" y="51.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="86.8" y="51.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="87.63" y="52.89" size="0.5" layer="28" rot="MR270" align="top-left"/>
+<element name="D5" library="4.7V TVS Diode" package="DIO_1N4148WS_RR" override_package3d_urn="urn:adsk.eagle:package:43000509/2" override_package_urn="urn:adsk.eagle:footprint:43000510/1" value="ESD56151W04" x="86" y="52.3" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="In Stock" x="86" y="52.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1N4148WS%20RR/Taiwan+Semiconductor/view-part/?ref=eda" x="86" y="52.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" 150mA, 100V High Speed SMD Switching Diode " x="86" y="52.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Taiwan Semiconductor" x="86" y="52.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="1N4148WS RR" x="86" y="52.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="89.204" y="53.54" size="1.27" layer="26" rot="MR0"/>
+<attribute name="PACKAGE" value="SOD-323F Taiwan Semiconductor" x="86" y="52.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="86" y="52.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/1N4148WS%20RR/Taiwan+Semiconductor/view-part/?ref=snap" x="86" y="52.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="89.204" y="51.06" size="1.27" layer="28" rot="MR0" align="top-left"/>
 </element>
-<element name="D5" library="4.7V TVS Diode" package="DIO_1N4148WS_RR" override_package3d_urn="urn:adsk.eagle:package:43000509/2" override_package_urn="urn:adsk.eagle:footprint:43000510/1" value="ESD56151W04" x="90.3" y="51.5" smashed="yes" rot="MR90">
-<attribute name="AVAILABILITY" value="In Stock" x="90.3" y="51.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1N4148WS%20RR/Taiwan+Semiconductor/view-part/?ref=eda" x="90.3" y="51.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DESCRIPTION" value=" 150mA, 100V High Speed SMD Switching Diode " x="90.3" y="51.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MF" value="Taiwan Semiconductor" x="90.3" y="51.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MP" value="1N4148WS RR" x="90.3" y="51.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="91.54" y="48.296" size="1.27" layer="26" rot="MR90"/>
-<attribute name="PACKAGE" value="SOD-323F Taiwan Semiconductor" x="90.3" y="51.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="PRICE" value="None" x="90.3" y="51.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/1N4148WS%20RR/Taiwan+Semiconductor/view-part/?ref=snap" x="90.3" y="51.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="89.06" y="48.296" size="1.27" layer="28" rot="MR90" align="top-left"/>
+<element name="C12" library="T495X477K010ATE100" package="CAPMP7343X430N" override_package3d_urn="urn:adsk.eagle:package:43000626/2" override_package_urn="urn:adsk.eagle:footprint:43000628/1" value="470uf" x="77.3" y="56.6" smashed="yes" rot="MR90">
+<attribute name="AVAILABILITY" value="In Stock" x="77.3" y="56.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/T495X477K010ATE100/KEMET/view-part/?ref=eda" x="77.3" y="56.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value=" 470uF Solid MnO2 Tantalum Electrolytic Capacitor, 10 V dc +/-10%, T495 Series | KEMET T495X477K010ATE100 " x="77.3" y="56.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="KEMET" x="77.3" y="56.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MP" value="T495X477K010ATE100" x="77.3" y="56.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="79.7" y="53.28" size="1.27" layer="26" rot="MR90"/>
+<attribute name="PACKAGE" value="SMD-2 Kemet" x="77.3" y="56.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PRICE" value="None" x="77.3" y="56.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=554043&amp;manufacturer=KEMET&amp;part_name=T495X477K010ATE100&amp;search_term= 470uf 10v 100mω ±10% case-e-7343 tantalum capacitors rohs" x="77.3" y="56.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/T495X477K010ATE100/KEMET/view-part/?ref=snap" x="77.3" y="56.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="73.6" y="52.89" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C12" library="T495X477K010ATE100" package="CAPMP7343X430N" override_package3d_urn="urn:adsk.eagle:package:43000626/2" override_package_urn="urn:adsk.eagle:footprint:43000628/1" value="470uf" x="97.1" y="55.2" smashed="yes" rot="MR90">
-<attribute name="AVAILABILITY" value="In Stock" x="97.1" y="55.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/T495X477K010ATE100/KEMET/view-part/?ref=eda" x="97.1" y="55.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DESCRIPTION" value=" 470uF Solid MnO2 Tantalum Electrolytic Capacitor, 10 V dc +/-10%, T495 Series | KEMET T495X477K010ATE100 " x="97.1" y="55.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MF" value="KEMET" x="97.1" y="55.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MP" value="T495X477K010ATE100" x="97.1" y="55.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="99.5" y="51.88" size="1.27" layer="26" rot="MR90"/>
-<attribute name="PACKAGE" value="SMD-2 Kemet" x="97.1" y="55.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="PRICE" value="None" x="97.1" y="55.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=554043&amp;manufacturer=KEMET&amp;part_name=T495X477K010ATE100&amp;search_term= 470uf 10v 100mω ±10% case-e-7343 tantalum capacitors rohs" x="97.1" y="55.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/T495X477K010ATE100/KEMET/view-part/?ref=snap" x="97.1" y="55.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="93.4" y="51.49" size="1.27" layer="28" rot="MR90"/>
+<element name="C13" library="06035C104K4T2A" package="CAPC1608X90N" value="100nf" x="92.4" y="52.3" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="In Stock" x="92.4" y="52.3" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=eda" x="92.4" y="52.3" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" Capacitor MLCC 0603 100nF 50V | AVX 06035C104K4T2A " x="92.4" y="52.3" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="AVX" x="92.4" y="52.3" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="06035C104K4T2A" x="92.4" y="52.3" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="90.91" y="51.47" size="0.5" layer="26" rot="MR180"/>
+<attribute name="PACKAGE" value="1608 AVX" x="92.4" y="52.3" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="92.4" y="52.3" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="92.4" y="52.3" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" x="90.91" y="53.13" size="0.5" layer="28" rot="MR180" align="top-left"/>
 </element>
-<element name="C13" library="06035C104K4T2A" package="CAPC1608X90N" value="100nf" x="96.6" y="62" smashed="yes" rot="MR180">
-<attribute name="AVAILABILITY" value="In Stock" x="96.6" y="62" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=eda" x="96.6" y="62" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DESCRIPTION" value=" Capacitor MLCC 0603 100nF 50V | AVX 06035C104K4T2A " x="96.6" y="62" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="AVX" x="96.6" y="62" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MP" value="06035C104K4T2A" x="96.6" y="62" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="95.11" y="61.17" size="0.5" layer="26" rot="MR180"/>
-<attribute name="PACKAGE" value="1608 AVX" x="96.6" y="62" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PRICE" value="None" x="96.6" y="62" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="96.6" y="62" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="95.11" y="62.83" size="0.5" layer="28" rot="MR180" align="top-left"/>
+<element name="10K" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="36.8" y="25.6" smashed="yes" rot="MR90" grouprefs="GSM_GROUP">
+<attribute name="NAME" x="37.435" y="24.965" size="1.27" layer="26" rot="MR90"/>
+<attribute name="POPULARITY" value="70" x="36.8" y="25.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="36.8" y="25.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="34.895" y="24.965" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="10K" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="37.1" y="29" smashed="yes" rot="MR90" grouprefs="GSM_GROUP">
-<attribute name="NAME" x="37.735" y="28.365" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="70" x="37.1" y="29" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="37.1" y="29" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="35.195" y="28.365" size="1.27" layer="28" rot="MR90"/>
+<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33pF" x="6.5" y="10.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.735" y="9.165" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="73" x="6.5" y="10.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="6.5" y="10.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="8.135" y="13.505" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33pF" x="6.3" y="12.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="7.535" y="11.365" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="73" x="6.3" y="12.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="6.3" y="12.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="7.935" y="15.705" size="1.27" layer="27" rot="R180"/>
+<element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33pF" x="22.1" y="33.8" smashed="yes" rot="MR90" grouprefs="GSM_GROUP">
+<attribute name="NAME" x="22.735" y="33.165" size="1.27" layer="26" rot="MR90"/>
+<attribute name="POPULARITY" value="73" x="22.1" y="33.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="22.1" y="33.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="20.195" y="33.165" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33pF" x="22.4" y="37.2" smashed="yes" rot="MR90" grouprefs="GSM_GROUP">
-<attribute name="NAME" x="23.035" y="36.565" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="73" x="22.4" y="37.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="22.4" y="37.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="20.495" y="36.565" size="1.27" layer="28" rot="MR90"/>
+<element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33pF" x="22" y="26.5" smashed="yes" rot="MR90" grouprefs="GSM_GROUP">
+<attribute name="NAME" x="22.635" y="25.865" size="1.27" layer="26" rot="MR90"/>
+<attribute name="POPULARITY" value="73" x="22" y="26.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="22" y="26.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="20.095" y="25.865" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33pF" x="22.3" y="29.9" smashed="yes" rot="MR90" grouprefs="GSM_GROUP">
-<attribute name="NAME" x="22.935" y="29.265" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="73" x="22.3" y="29.9" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="22.3" y="29.9" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="20.395" y="29.265" size="1.27" layer="28" rot="MR90"/>
-</element>
-<element name="C18" library="06035C104K4T2A" package="CAPC1608X90N" value="100nf" x="29.4" y="29.2" smashed="yes" rot="MR90" grouprefs="GSM_GROUP">
-<attribute name="AVAILABILITY" value="In Stock" x="29.4" y="29.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=eda" x="29.4" y="29.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DESCRIPTION" value=" Capacitor MLCC 0603 100nF 50V | AVX 06035C104K4T2A " x="29.4" y="29.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MF" value="AVX" x="29.4" y="29.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MP" value="06035C104K4T2A" x="29.4" y="29.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="31.13" y="28.31" size="0.5" layer="26" rot="MR90"/>
-<attribute name="PACKAGE" value="1608 AVX" x="29.4" y="29.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="PRICE" value="None" x="29.4" y="29.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="29.4" y="29.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="28.57" y="27.71" size="0.5" layer="28" rot="MR90" align="top-left"/>
+<element name="C18" library="06035C104K4T2A" package="CAPC1608X90N" value="100nf" x="29.1" y="25.8" smashed="yes" rot="MR90" grouprefs="GSM_GROUP">
+<attribute name="AVAILABILITY" value="In Stock" x="29.1" y="25.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=eda" x="29.1" y="25.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value=" Capacitor MLCC 0603 100nF 50V | AVX 06035C104K4T2A " x="29.1" y="25.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="AVX" x="29.1" y="25.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MP" value="06035C104K4T2A" x="29.1" y="25.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="30.83" y="24.91" size="0.5" layer="26" rot="MR90"/>
+<attribute name="PACKAGE" value="1608 AVX" x="29.1" y="25.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PRICE" value="None" x="29.1" y="25.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="29.1" y="25.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="28.27" y="24.31" size="0.5" layer="28" rot="MR90" align="top-left"/>
 </element>
 <element name="J2" library="Sim card nano XKNANO" package="GCT_SIM8060-6-1-14-00-A" override_package3d_urn="urn:adsk.eagle:package:43000655/2" override_package_urn="urn:adsk.eagle:footprint:43000656/1" value="SIM8060-6-1-14-00-A" x="19.8" y="18.3" smashed="yes" rot="R270" grouprefs="GSM_GROUP">
 <attribute name="AVAILABILITY" value="In Stock" x="39.1" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -8360,90 +8334,90 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SIM8060-6-1-14-00-A/Global+Connector+Technology/view-part/?ref=snap" x="39.1" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="10.8" y="30.2" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="51K" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="44.1" y="29" smashed="yes" rot="MR270" grouprefs="GSM_GROUP">
-<attribute name="NAME" x="46.965" y="30.135" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="70" x="44.1" y="29" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="44.1" y="29" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="46.005" y="29.635" size="1.27" layer="28" rot="MR270"/>
+<element name="51K" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="43.8" y="25.6" smashed="yes" rot="MR270" grouprefs="GSM_GROUP">
+<attribute name="NAME" x="46.665" y="26.735" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="70" x="43.8" y="25.6" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="43.8" y="25.6" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="45.705" y="26.235" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="Q2" library="MMBT2222_" package="SOT23-BEC" value="MMBT2222" x="56.2" y="36.8" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="56.2" y="36.8" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="56.2" y="36.8" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="56.2" y="36.8" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ON Semiconductor" x="56.2" y="36.8" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="MMBT2222" x="56.2" y="36.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="57.4709" y="38.0709" size="1.01671875" layer="25" ratio="18"/>
-<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="56.2" y="36.8" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="56.2" y="36.8" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=snap" x="56.2" y="36.8" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="54.2925" y="33.620840625" size="0.813865625" layer="27" ratio="10"/>
+<element name="Q2" library="MMBT2222_" package="SOT23-BEC" value="MMBT2222" x="56.1" y="40" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="56.1" y="40" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="56.1" y="40" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="56.1" y="40" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="56.1" y="40" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MMBT2222" x="56.1" y="40" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="57.3709" y="41.2709" size="1.01671875" layer="25" ratio="18"/>
+<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="56.1" y="40" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="56.1" y="40" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=snap" x="56.1" y="40" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="54.1925" y="36.820840625" size="0.813865625" layer="27" ratio="10"/>
 </element>
-<element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="56.1" y="41.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="56.735" y="40.765" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="70" x="56.1" y="41.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="56.1" y="41.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="56.735" y="43.305" size="1.27" layer="27" rot="R180"/>
+<element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="59" y="61.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="59.635" y="61.065" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="70" x="59" y="61.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="59" y="61.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="59.635" y="63.605" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="56.3" y="32.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="56.935" y="32.265" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="70" x="61.2" y="37.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="61.2" y="37.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="56.935" y="34.805" size="1.27" layer="27" rot="R180"/>
+<element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="59.2" y="56.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.135" y="55.065" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="70" x="64.1" y="61.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="64.1" y="61.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="59.835" y="58.705" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="Q3" library="MMBT2222_" package="SOT23-BEC" override_package3d_urn="urn:adsk.eagle:package:43000496/2" override_package_urn="urn:adsk.eagle:footprint:43000497/1" value="MMBT2222" x="47.9" y="26.6" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="47.9" y="26.6" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="47.9" y="26.6" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="47.9" y="26.6" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ON Semiconductor" x="47.9" y="26.6" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="MMBT2222" x="47.9" y="26.6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="50.1709" y="26.2709" size="1.01671875" layer="25" ratio="18"/>
-<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="47.9" y="26.6" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="47.9" y="26.6" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=snap" x="47.9" y="26.6" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="45.9925" y="23.420840625" size="0.813865625" layer="27" ratio="10"/>
+<element name="Q3" library="MMBT2222_" package="SOT23-BEC" override_package3d_urn="urn:adsk.eagle:package:43000496/2" override_package_urn="urn:adsk.eagle:footprint:43000497/1" value="MMBT2222" x="59.1" y="51.7" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="59.1" y="51.7" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="59.1" y="51.7" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="59.1" y="51.7" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="59.1" y="51.7" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MMBT2222" x="59.1" y="51.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="61.3709" y="51.3709" size="1.01671875" layer="25" ratio="18"/>
+<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="59.1" y="51.7" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="59.1" y="51.7" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=snap" x="59.1" y="51.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="57.1925" y="48.520840625" size="0.813865625" layer="27" ratio="10"/>
 </element>
-<element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="54.7" y="22.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="55.935" y="20.465" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="70" x="54.7" y="22.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="54.7" y="22.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="55.335" y="24.105" size="1.27" layer="27" rot="R180"/>
+<element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="58.9" y="27.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.135" y="25.465" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="70" x="58.9" y="27.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="58.9" y="27.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="59.535" y="29.105" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="54.2" y="26.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="55.535" y="29.465" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="70" x="59.1" y="31.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="59.1" y="31.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="54.835" y="28.505" size="1.27" layer="27" rot="R180"/>
+<element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="56.9" y="32.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.235" y="35.165" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="70" x="61.8" y="37.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="61.8" y="37.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="57.535" y="34.205" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="ESP_RESET" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="SW_KMR621NGLFS" package3d_urn="urn:adsk.eagle:package:30300293/2" value="KMR621NGLFS" x="48.2" y="17.7" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Unavailable" x="48.2" y="17.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount " x="48.2" y="17.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="C&amp;K" x="48.2" y="17.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="KMR621NG LFS" x="48.2" y="17.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="45.7" y="14.9" size="0.8128" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="None" x="48.2" y="17.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="48.2" y="17.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="50.8" y="14.9" size="0.8128" layer="27" rot="R90"/>
+<element name="ESP_RESET" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="SW_KMR621NGLFS" package3d_urn="urn:adsk.eagle:package:30300293/2" value="KMR621NGLFS" x="35" y="15.1" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="35" y="15.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount " x="35" y="15.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="C&amp;K" x="35" y="15.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="KMR621NG LFS" x="35" y="15.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="37.8" y="12.6" size="0.8128" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="None" x="35" y="15.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="35" y="15.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="37.8" y="17.7" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="GPS" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="SMA_EDGELAUNCH_UFL" package3d_urn="urn:adsk.eagle:package:30300291/2" value="50 Ohms" x="1.6" y="47.2" smashed="yes" grouprefs="GSM_GROUP">
 <attribute name="NAME" x="10.68" y="120.785" size="1.016" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="6.68" y="39.58" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="BT_ANT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01" package3d_urn="urn:adsk.eagle:package:38028/1" value="" x="53.3" y="46.9" smashed="yes">
-<attribute name="NAME" x="51.83" y="48.897" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="52.03" y="45.376" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
+<element name="BT_ANT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01" package3d_urn="urn:adsk.eagle:package:38028/1" value="" x="19.6" y="61.7" smashed="yes">
+<attribute name="NAME" x="14.43" y="61.797" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="18.33" y="60.176" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
 </element>
-<element name="S1" library="TL2285EE" package="SW_TL2285EE" override_package3d_urn="urn:adsk.eagle:package:43003845/2" override_package_urn="urn:adsk.eagle:footprint:43003846/1" value="TL2285EE" x="37" y="6.7" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="37" y="6.7" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/TL2285EE/E-Switch/view-part/?ref=eda" x="37" y="6.7" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Pushbutton Switch DPDT Standard Through Hole " x="37" y="6.7" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="E-Switch" x="37" y="6.7" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TL2285EE" x="37" y="6.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="33.19" y="11.78" size="1.778" layer="25"/>
-<attribute name="PACKAGE" value="None" x="37" y="6.7" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="37" y="6.7" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=653295&amp;manufacturer=E-Switch&amp;part_name=TL2285EE&amp;search_term= latching straight dpdt switch" x="37" y="6.7" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/TL2285EE/E-Switch/view-part/?ref=snap" x="37" y="6.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="33.19" y="1.62" size="1.778" layer="27" align="top-left"/>
+<element name="S1" library="TL2285EE" package="SW_TL2285EE" override_package3d_urn="urn:adsk.eagle:package:43003845/2" override_package_urn="urn:adsk.eagle:footprint:43003846/1" value="TL2285EE" x="37" y="6" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="37" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/TL2285EE/E-Switch/view-part/?ref=eda" x="37" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Pushbutton Switch DPDT Standard Through Hole " x="37" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="E-Switch" x="37" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="TL2285EE" x="37" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="29.19" y="7.88" size="1.778" layer="25"/>
+<attribute name="PACKAGE" value="None" x="37" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="37" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=653295&amp;manufacturer=E-Switch&amp;part_name=TL2285EE&amp;search_term= latching straight dpdt switch" x="37" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/TL2285EE/E-Switch/view-part/?ref=snap" x="37" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="33.19" y="0.92" size="1.778" layer="27" align="top-left"/>
 </element>
 <element name="J3" library="PJ-002BH" package="CUI_PJ-002BH" override_package3d_urn="urn:adsk.eagle:package:43007122/2" override_package_urn="urn:adsk.eagle:footprint:43007123/1" value="PJ-002BH" x="79.9" y="13.8" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="79.9" y="13.8" size="1.778" layer="27" rot="R270" display="off"/>
@@ -8459,90 +8433,90 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/PJ-002BH/CUI+Devices/view-part/?ref=snap" x="79.9" y="13.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="73.48166875" y="14.490896875" size="1.27165" layer="27" rot="R270"/>
 </element>
-<element name="U1" library="LM7805S_NOPB" package="TO254P1524X483-4N" override_package3d_urn="urn:adsk.eagle:package:43007127/2" override_package_urn="urn:adsk.eagle:footprint:43007128/1" value="LM7805S/NOPB" x="77.9" y="32.5" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="In Stock" x="77.9" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/LM7805S/NOPB/Texas+Instruments/view-part/?ref=eda" x="77.9" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" 1.5-A, 30-V, linear voltage regulator " x="77.9" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Texas Instruments" x="77.9" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="LM7805S/NOPB" x="77.9" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="86.9" y="26.5" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="TO263-3 Texas Instruments" x="77.9" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="77.9" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=546227&amp;manufacturer=Texas Instruments&amp;part_name=LM7805S/NOPB&amp;search_term=lm7805" x="77.9" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/LM7805S/NOPB/Texas+Instruments/view-part/?ref=snap" x="77.9" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="86.9" y="38.5" size="1.27" layer="27" rot="R180" align="top-left"/>
+<element name="U1" library="LM7805S_NOPB" package="TO254P1524X483-4N" override_package3d_urn="urn:adsk.eagle:package:43007127/2" override_package_urn="urn:adsk.eagle:footprint:43007128/1" value="LM7805S/NOPB" x="73.5" y="31.9" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="In Stock" x="73.5" y="31.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/LM7805S/NOPB/Texas+Instruments/view-part/?ref=eda" x="73.5" y="31.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" 1.5-A, 30-V, linear voltage regulator " x="73.5" y="31.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="73.5" y="31.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="LM7805S/NOPB" x="73.5" y="31.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="82.5" y="25.9" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="TO263-3 Texas Instruments" x="73.5" y="31.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="73.5" y="31.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=546227&amp;manufacturer=Texas Instruments&amp;part_name=LM7805S/NOPB&amp;search_term=lm7805" x="73.5" y="31.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/LM7805S/NOPB/Texas+Instruments/view-part/?ref=snap" x="73.5" y="31.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="82.5" y="37.9" size="1.27" layer="27" rot="R180" align="top-left"/>
 </element>
-<element name="Q4" library="MMBT2222_" package="SOT23-BEC" override_package3d_urn="urn:adsk.eagle:package:43001449/2" override_package_urn="urn:adsk.eagle:footprint:43001450/1" value="MMBT2222" x="30" y="44.5" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="In Stock" x="34.9" y="44.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="34.9" y="44.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="34.9" y="44.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="ON Semiconductor" x="34.9" y="44.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="MMBT2222" x="34.9" y="44.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="30.4291" y="47.5709" size="1.01671875" layer="26" ratio="18" rot="MR0"/>
-<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="34.9" y="44.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="34.9" y="44.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=snap" x="34.9" y="44.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="31.9075" y="41.320840625" size="0.813865625" layer="28" ratio="10" rot="MR0"/>
+<element name="Q4" library="MMBT2222_" package="SOT23-BEC" override_package3d_urn="urn:adsk.eagle:package:43001449/2" override_package_urn="urn:adsk.eagle:footprint:43001450/1" value="MMBT2222" x="30.1" y="41.7" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="In Stock" x="35" y="41.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="35" y="41.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="35" y="41.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="35" y="41.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="MMBT2222" x="35" y="41.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="30.5291" y="44.7709" size="1.01671875" layer="26" ratio="18" rot="MR0"/>
+<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="35" y="41.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="35" y="41.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=snap" x="35" y="41.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="32.0075" y="38.520840625" size="0.813865625" layer="28" ratio="10" rot="MR0"/>
 </element>
-<element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="44.7" y="36.7" smashed="yes" rot="MR270">
-<attribute name="NAME" x="42.965" y="35.135" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="70" x="42.2" y="42.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="42.2" y="42.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="47.605" y="38.135" size="1.27" layer="28" rot="MR270"/>
+<element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="44.4" y="33.3" smashed="yes" rot="MR270">
+<attribute name="NAME" x="42.665" y="31.735" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="70" x="41.9" y="39" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="41.9" y="39" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="47.305" y="34.735" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="37.5" y="36.7" smashed="yes" rot="MR90">
-<attribute name="NAME" x="40.735" y="35.265" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="70" x="40" y="36.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="40" y="36.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="35.095" y="35.765" size="1.27" layer="28" rot="MR90"/>
+<element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="37.2" y="33.3" smashed="yes" rot="MR90">
+<attribute name="NAME" x="40.435" y="31.865" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="70" x="39.7" y="33.3" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="39.7" y="33.3" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="34.795" y="32.365" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R" x="29.6" y="37" smashed="yes" rot="MR270">
-<attribute name="NAME" x="27.965" y="38.435" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="70" x="36.9" y="37" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="36.9" y="37" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="32.505" y="38.535" size="1.27" layer="28" rot="MR270"/>
+<element name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R" x="29.3" y="33.6" smashed="yes" rot="MR270">
+<attribute name="NAME" x="27.665" y="35.035" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="70" x="36.6" y="33.6" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="36.6" y="33.6" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="32.205" y="35.135" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="RI1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE" x="-15.7" y="19.2" smashed="yes" rot="MR180">
-<attribute name="NAME" x="-16.335" y="19.835" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="26" x="-20.7" y="31.4" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="-13.795" y="19.835" size="1.27" layer="28" rot="MR270"/>
+<element name="N_MODE" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE" x="45.6" y="15.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.335" y="21.935" size="1.27" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="26" x="57.8" y="10.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="46.235" y="17.505" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="U5" library="TXS0108EPWR" package="SOP65P640X120-20N" override_package3d_urn="urn:adsk.eagle:package:43007258/2" override_package_urn="urn:adsk.eagle:footprint:43007259/1" value="TXS0108EPWR" x="18.8" y="46.6" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="In Stock" x="18.8" y="46.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/TXS0108EPWR/Texas+Instruments/view-part/?ref=eda" x="18.8" y="46.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" 8-bit bidirectional voltage-level shifter for open-drain and push-pull application " x="18.8" y="46.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Texas Instruments" x="18.8" y="46.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="TXS0108EPWR" x="18.8" y="46.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="22.3" y="50.35" size="1.27" layer="26" rot="MR0"/>
-<attribute name="PACKAGE" value="TSSOP-20 Texas Instruments" x="18.8" y="46.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="18.8" y="46.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=105750&amp;manufacturer=Texas Instruments&amp;part_name=TXS0108EPWR&amp;search_term=txs0108epwr" x="18.8" y="46.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/TXS0108EPWR/Texas+Instruments/view-part/?ref=snap" x="18.8" y="46.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="22.3" y="42.85" size="1.27" layer="28" rot="MR0" align="top-left"/>
+<element name="U5" library="TXS0108EPWR" package="SOP65P640X120-20N" override_package3d_urn="urn:adsk.eagle:package:43007258/2" override_package_urn="urn:adsk.eagle:footprint:43007259/1" value="TXS0108EPWR" x="16.7" y="43.7" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="In Stock" x="16.7" y="43.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/TXS0108EPWR/Texas+Instruments/view-part/?ref=eda" x="16.7" y="43.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" 8-bit bidirectional voltage-level shifter for open-drain and push-pull application " x="16.7" y="43.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="16.7" y="43.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="TXS0108EPWR" x="16.7" y="43.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="20.2" y="47.45" size="1.27" layer="26" rot="MR0"/>
+<attribute name="PACKAGE" value="TSSOP-20 Texas Instruments" x="16.7" y="43.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="16.7" y="43.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=105750&amp;manufacturer=Texas Instruments&amp;part_name=TXS0108EPWR&amp;search_term=txs0108epwr" x="16.7" y="43.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/TXS0108EPWR/Texas+Instruments/view-part/?ref=snap" x="16.7" y="43.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="20.2" y="39.95" size="1.27" layer="28" rot="MR0" align="top-left"/>
 </element>
-<element name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="120K" x="38.1" y="43.5" smashed="yes" rot="MR270">
-<attribute name="NAME" x="37.465" y="44.135" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="70" x="38.1" y="43.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="38.1" y="43.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="40.005" y="44.135" size="1.27" layer="28" rot="MR270"/>
+<element name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="120K" x="37.7" y="42" smashed="yes" rot="MR270">
+<attribute name="NAME" x="37.065" y="42.635" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="70" x="37.7" y="42" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="37.7" y="42" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="39.605" y="42.635" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K" x="38.8" y="24.6" smashed="yes">
-<attribute name="NAME" x="37.565" y="26.235" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="70" x="38.8" y="24.6" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="38.8" y="24.6" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="37.665" y="22.095" size="1.27" layer="27"/>
+<element name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K" x="56.9" y="46.8" smashed="yes">
+<attribute name="NAME" x="55.665" y="48.435" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="56.9" y="46.8" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="56.9" y="46.8" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="55.765" y="44.295" size="1.27" layer="27"/>
 </element>
-<element name="C19" library="06035C104K4T2A" package="CAPC1608X90N" value="100nf" x="32.7" y="24.7" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="32.7" y="24.7" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=eda" x="32.7" y="24.7" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Capacitor MLCC 0603 100nF 50V | AVX 06035C104K4T2A " x="32.7" y="24.7" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="AVX" x="32.7" y="24.7" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="06035C104K4T2A" x="32.7" y="24.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.91" y="25.93" size="0.5" layer="25"/>
-<attribute name="PACKAGE" value="1608 AVX" x="32.7" y="24.7" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="32.7" y="24.7" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="32.7" y="24.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="31.91" y="23.57" size="0.5" layer="27" align="top-left"/>
+<element name="C19" library="06035C104K4T2A" package="CAPC1608X90N" value="100nf" x="54.2" y="27.3" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="54.2" y="27.3" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=eda" x="54.2" y="27.3" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Capacitor MLCC 0603 100nF 50V | AVX 06035C104K4T2A " x="54.2" y="27.3" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="AVX" x="54.2" y="27.3" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="06035C104K4T2A" x="54.2" y="27.3" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="53.41" y="28.53" size="0.5" layer="25"/>
+<attribute name="PACKAGE" value="1608 AVX" x="54.2" y="27.3" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="54.2" y="27.3" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="54.2" y="27.3" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="53.41" y="26.17" size="0.5" layer="27" align="top-left"/>
 </element>
 <element name="C20" library="06035C104K4T2A" package="CAPC1608X90N" value="100nf" x="26.1" y="47.8" smashed="yes" rot="MR90">
 <attribute name="AVAILABILITY" value="In Stock" x="26.1" y="47.8" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -8556,30 +8530,30 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/06035C104K4T2A/AVX+%252F+Kyocera/view-part/?ref=snap" x="26.1" y="47.8" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="25.27" y="46.31" size="0.5" layer="28" rot="MR90" align="top-left"/>
 </element>
-<element name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="51K" x="15.8" y="36.9" smashed="yes" rot="MR90">
-<attribute name="NAME" x="17.235" y="35.365" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="70" x="15.8" y="36.9" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="15.8" y="36.9" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="14.695" y="72.365" size="1.27" layer="28" rot="MR90"/>
+<element name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="51K" x="15.5" y="33.5" smashed="yes" rot="MR90">
+<attribute name="NAME" x="16.935" y="31.965" size="1.27" layer="26" rot="MR90"/>
+<attribute name="POPULARITY" value="70" x="15.5" y="33.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="15.5" y="33.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="14.395" y="68.965" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="51K" x="15.9" y="29.7" smashed="yes" rot="MR270">
-<attribute name="NAME" x="14.465" y="31.035" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="70" x="15.9" y="29.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="15.9" y="29.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="18.505" y="30.935" size="1.27" layer="28" rot="MR270"/>
+<element name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="51K" x="15.6" y="26.3" smashed="yes" rot="MR270">
+<attribute name="NAME" x="14.165" y="27.635" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="70" x="15.6" y="26.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="15.6" y="26.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="18.205" y="27.535" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LIPO_SW" library="TL2285EE" package="SW_TL2285EE" override_package3d_urn="urn:adsk.eagle:package:43003845/2" override_package_urn="urn:adsk.eagle:footprint:43003846/1" value="TL2285EE" x="92.8" y="7" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="81.8" y="22.2" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/TL2285EE/E-Switch/view-part/?ref=eda" x="81.8" y="22.2" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Pushbutton Switch DPDT Standard Through Hole " x="81.8" y="22.2" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="E-Switch" x="81.8" y="22.2" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TL2285EE" x="81.8" y="22.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="83.59" y="-1.32" size="1.778" layer="25"/>
-<attribute name="PACKAGE" value="None" x="81.8" y="22.2" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="81.8" y="22.2" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=653295&amp;manufacturer=E-Switch&amp;part_name=TL2285EE&amp;search_term= latching straight dpdt switch" x="81.8" y="22.2" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/TL2285EE/E-Switch/view-part/?ref=snap" x="81.8" y="22.2" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="88.99" y="1.92" size="1.778" layer="27" align="top-left"/>
+<element name="LIPO_SW" library="TL2285EE" package="SW_TL2285EE" override_package3d_urn="urn:adsk.eagle:package:43003845/2" override_package_urn="urn:adsk.eagle:footprint:43003846/1" value="TL2285EE" x="92.8" y="5.8" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="81.8" y="21" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/TL2285EE/E-Switch/view-part/?ref=eda" x="81.8" y="21" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Pushbutton Switch DPDT Standard Through Hole " x="81.8" y="21" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="E-Switch" x="81.8" y="21" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="TL2285EE" x="81.8" y="21" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="90.29" y="11.98" size="1.778" layer="25"/>
+<attribute name="PACKAGE" value="None" x="81.8" y="21" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="81.8" y="21" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=653295&amp;manufacturer=E-Switch&amp;part_name=TL2285EE&amp;search_term= latching straight dpdt switch" x="81.8" y="21" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/TL2285EE/E-Switch/view-part/?ref=snap" x="81.8" y="21" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="88.99" y="0.72" size="1.778" layer="27" align="top-left"/>
 </element>
 <element name="Q5" library="MMBT2222_" package="SOT23-BEC" override_package3d_urn="urn:adsk.eagle:package:43001449/2" override_package_urn="urn:adsk.eagle:footprint:43001450/1" value="MMBT2222" x="36.7" y="52.2" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="In Stock" x="41.6" y="52.2" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -8593,11 +8567,11 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=snap" x="41.6" y="52.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="38.6075" y="49.020840625" size="0.813865625" layer="28" ratio="10" rot="MR0"/>
 </element>
-<element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="44.5" y="43.5" smashed="yes" rot="MR90">
-<attribute name="NAME" x="46.435" y="42.365" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="70" x="47.1" y="37.8" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="47.1" y="37.8" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="41.895" y="41.965" size="1.27" layer="28" rot="MR90"/>
+<element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="44.8" y="41.7" smashed="yes" rot="MR90">
+<attribute name="NAME" x="46.735" y="40.565" size="1.27" layer="26" rot="MR90"/>
+<attribute name="POPULARITY" value="70" x="47.4" y="36" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="47.4" y="36" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="42.195" y="40.165" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="44.5" y="52.2" smashed="yes" rot="MR270">
 <attribute name="NAME" x="43.165" y="53.435" size="1.27" layer="26" rot="MR270"/>
@@ -8611,63 +8585,63 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="37.8" y="52.3" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="33.405" y="54.235" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="RI2" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE" x="-16.8" y="12.8" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-15.065" y="11.765" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="26" x="-11.8" y="0.7" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="-18.705" y="12.165" size="1.27" layer="28" rot="MR90"/>
+<element name="N_STAT" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE" x="50.4" y="15.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="51.735" y="21.135" size="1.27" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="26" x="62.5" y="10.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="51.035" y="17.605" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="Q6" library="MMBT2222_" package="SOT23-BEC" override_package3d_urn="urn:adsk.eagle:package:43001449/2" override_package_urn="urn:adsk.eagle:footprint:43001450/1" value="MMBT2222" x="28.5" y="21.4" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="In Stock" x="33.4" y="21.4" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="33.4" y="21.4" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="33.4" y="21.4" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="ON Semiconductor" x="33.4" y="21.4" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="MMBT2222" x="33.4" y="21.4" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="29.1291" y="24.1709" size="1.01671875" layer="26" ratio="18" rot="MR0"/>
-<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="33.4" y="21.4" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="33.4" y="21.4" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=snap" x="33.4" y="21.4" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="30.4075" y="18.220840625" size="0.813865625" layer="28" ratio="10" rot="MR0"/>
+<element name="Q6" library="MMBT2222_" package="SOT23-BEC" override_package3d_urn="urn:adsk.eagle:package:43001449/2" override_package_urn="urn:adsk.eagle:footprint:43001450/1" value="MMBT2222" x="25.9" y="16.8" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="In Stock" x="30.8" y="16.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="30.8" y="16.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="30.8" y="16.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="30.8" y="16.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="MMBT2222" x="30.8" y="16.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="26.5291" y="19.5709" size="1.01671875" layer="26" ratio="18" rot="MR0"/>
+<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="30.8" y="16.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="30.8" y="16.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=snap" x="30.8" y="16.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="27.8075" y="13.620840625" size="0.813865625" layer="28" ratio="10" rot="MR0"/>
 </element>
-<element name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="36.2" y="22.8" smashed="yes" rot="MR270">
-<attribute name="NAME" x="34.665" y="24.135" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="70" x="33.7" y="28.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="33.7" y="28.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="38.905" y="24.135" size="1.27" layer="28" rot="MR270"/>
+<element name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="35.4" y="16.6" smashed="yes" rot="MR270">
+<attribute name="NAME" x="33.865" y="17.935" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="70" x="32.9" y="22.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="32.9" y="22.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="38.105" y="17.935" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="43.373" y="22.678" smashed="yes" rot="MR270">
-<attribute name="NAME" x="41.538" y="23.913" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="70" x="40.873" y="22.678" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="40.873" y="22.678" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="46.278" y="23.513" size="1.27" layer="28" rot="MR270"/>
+<element name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="43.373" y="16.878" smashed="yes" rot="MR270">
+<attribute name="NAME" x="41.538" y="18.113" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="70" x="40.873" y="16.878" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="40.873" y="16.878" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="46.278" y="17.713" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R" x="22" y="22.8" smashed="yes" rot="MR90">
-<attribute name="NAME" x="23.635" y="21.465" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="70" x="14.7" y="22.8" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="14.7" y="22.8" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="24.095" y="87.365" size="1.27" layer="28" rot="MR90"/>
+<element name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R" x="17.2" y="16.1" smashed="yes" rot="MR90">
+<attribute name="NAME" x="18.835" y="14.765" size="1.27" layer="26" rot="MR90"/>
+<attribute name="POPULARITY" value="70" x="9.9" y="16.1" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="9.9" y="16.1" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="19.295" y="80.665" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="RI3" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE" x="14.7" y="22.8" smashed="yes" rot="MR0">
-<attribute name="NAME" x="15.335" y="22.165" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="26" x="19.7" y="10.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="12.795" y="22.165" size="1.27" layer="28" rot="MR90"/>
+<element name="P_STAT" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE" x="55" y="15.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="56.735" y="21.035" size="1.27" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="26" x="67.2" y="10.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="55.635" y="17.405" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="Q7" library="MMBT2222_" package="SOT23-BEC" override_package3d_urn="urn:adsk.eagle:package:43001449/2" override_package_urn="urn:adsk.eagle:footprint:43001450/1" value="MMBT2222" x="13.9" y="54" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="In Stock" x="18.8" y="54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="18.8" y="54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="18.8" y="54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="ON Semiconductor" x="18.8" y="54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="MMBT2222" x="18.8" y="54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="14.6291" y="56.5709" size="1.01671875" layer="26" ratio="18" rot="MR0"/>
-<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="18.8" y="54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="18.8" y="54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=snap" x="18.8" y="54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="15.8075" y="50.820840625" size="0.813865625" layer="28" ratio="10" rot="MR0"/>
+<element name="Q7" library="MMBT2222_" package="SOT23-BEC" override_package3d_urn="urn:adsk.eagle:package:43001449/2" override_package_urn="urn:adsk.eagle:footprint:43001450/1" value="MMBT2222" x="13.9" y="53.1" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="In Stock" x="18.8" y="53.1" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=eda" x="18.8" y="53.1" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236) " x="18.8" y="53.1" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="18.8" y="53.1" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="MMBT2222" x="18.8" y="53.1" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="14.6291" y="55.6709" size="1.01671875" layer="26" ratio="18" rot="MR0"/>
+<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="18.8" y="53.1" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="18.8" y="53.1" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MMBT2222/Onsemi/view-part/?ref=snap" x="18.8" y="53.1" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="15.8075" y="49.920840625" size="0.813865625" layer="28" ratio="10" rot="MR0"/>
 </element>
-<element name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="23.2" y="59.6" smashed="yes" rot="MR270">
-<attribute name="NAME" x="21.065" y="61.235" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="70" x="20.7" y="65.3" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="20.7" y="65.3" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="26.105" y="61.335" size="1.27" layer="28" rot="MR270"/>
+<element name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K" x="26.1" y="59.9" smashed="yes" rot="MR90">
+<attribute name="NAME" x="28.235" y="58.265" size="1.27" layer="26" rot="MR90"/>
+<attribute name="POPULARITY" value="70" x="28.6" y="54.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="28.6" y="54.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="23.195" y="58.165" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K" x="22.4" y="53.8" smashed="yes" rot="MR270">
 <attribute name="NAME" x="20.265" y="55.235" size="1.27" layer="26" rot="MR270"/>
@@ -8675,22 +8649,33 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="19.9" y="53.8" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="25.105" y="54.935" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R" x="11.8" y="59.5" smashed="yes" rot="MR90">
-<attribute name="NAME" x="13.435" y="58.165" size="1.27" layer="26" rot="MR90"/>
-<attribute name="POPULARITY" value="70" x="4.5" y="59.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="4.5" y="59.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="9.195" y="57.565" size="1.27" layer="28" rot="MR90"/>
+<element name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R" x="11.4" y="59.3" smashed="yes" rot="MR90">
+<attribute name="NAME" x="13.035" y="57.965" size="1.27" layer="26" rot="MR90"/>
+<attribute name="POPULARITY" value="70" x="4.1" y="59.3" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="4.1" y="59.3" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="8.795" y="57.365" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="RI4" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE" x="-15.8" y="26.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-15.165" y="25.865" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="26" x="-10.8" y="14.3" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="-17.705" y="25.865" size="1.27" layer="28" rot="MR90"/>
+<element name="M_RI" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE" x="40.9" y="15.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.535" y="15.065" size="1.27" layer="26" rot="MR0"/>
+<attribute name="POPULARITY" value="26" x="53.1" y="10.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="41.535" y="17.605" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="PANASONIC_D" package3d_urn="urn:adsk.eagle:package:23424/2" value="100uF" x="95.9" y="53.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="94.9" y="51.65" size="1.016" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="16" x="95.9" y="53.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="95.9" y="53.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="97.875" y="51.65" size="1.016" layer="27" rot="R90"/>
+<element name="C2" library="T495X477K010ATE100" package="CAPMP7343X430N" override_package3d_urn="urn:adsk.eagle:package:43000626/2" override_package_urn="urn:adsk.eagle:footprint:43000628/1" value="470uf" x="57.7" y="55.7" smashed="yes" rot="MR270">
+<attribute name="AVAILABILITY" value="In Stock" x="57.7" y="55.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/T495X477K010ATE100/KEMET/view-part/?ref=eda" x="57.7" y="55.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value=" 470uF Solid MnO2 Tantalum Electrolytic Capacitor, 10 V dc +/-10%, T495 Series | KEMET T495X477K010ATE100 " x="57.7" y="55.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="KEMET" x="57.7" y="55.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MP" value="T495X477K010ATE100" x="57.7" y="55.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="55.3" y="59.02" size="1.27" layer="26" rot="MR270"/>
+<attribute name="PACKAGE" value="SMD-2 Kemet" x="57.7" y="55.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PRICE" value="None" x="57.7" y="55.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=554043&amp;manufacturer=KEMET&amp;part_name=T495X477K010ATE100&amp;search_term= 470uf 10v 100mω ±10% case-e-7343 tantalum capacitors rohs" x="57.7" y="55.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/T495X477K010ATE100/KEMET/view-part/?ref=snap" x="57.7" y="55.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="61.4" y="59.41" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="GSMANTENNA2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01" package3d_urn="urn:adsk.eagle:package:38028/1" value="" x="2.9" y="21" smashed="yes">
+<attribute name="NAME" x="1.63" y="22.397" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="1.63" y="19.476" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
 </element>
 </elements>
 <signals>
@@ -8742,14 +8727,12 @@ design rules under a new name.</description>
 <contactref element="GSM_RST" pad="1_1"/>
 <contactref element="GSM_RST" pad="1_2"/>
 <contactref element="D1" pad="1"/>
-<contactref element="C2" pad="2"/>
 <contactref element="C3" pad="1"/>
 <contactref element="R8" pad="1"/>
 <contactref element="IC1" pad="3"/>
 <contactref element="R10" pad="1"/>
 <contactref element="R11" pad="1"/>
 <contactref element="C6" pad="2"/>
-<contactref element="C5" pad="2"/>
 <contactref element="C7" pad="1"/>
 <contactref element="D5" pad="A"/>
 <contactref element="C12" pad="2"/>
@@ -8836,8 +8819,8 @@ design rules under a new name.</description>
 <contactref element="R32" pad="1"/>
 <contactref element="Q7" pad="E"/>
 <contactref element="R35" pad="1"/>
-<contactref element="C21" pad="-"/>
-<wire x1="4" y1="4" x2="95.9" y2="51" width="0" layer="19" extent="1-1"/>
+<contactref element="C2" pad="2"/>
+<wire x1="24.625" y1="5.16" x2="57.7" y2="52.6" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="+5V" class="1">
 <contactref element="SV2" pad="1"/>
@@ -8847,28 +8830,26 @@ design rules under a new name.</description>
 <contactref element="U3" pad="3"/>
 <contactref element="IC2" pad="4"/>
 <contactref element="CHRG" pad="A"/>
-<contactref element="C2" pad="1"/>
-<contactref element="IC1" pad="2"/>
-<contactref element="C3" pad="2"/>
-<contactref element="R2" pad="2"/>
-<contactref element="C5" pad="1"/>
 <contactref element="S1" pad="2"/>
 <contactref element="S1" pad="5"/>
 <contactref element="U1" pad="3"/>
-<wire x1="94.105" y1="40.67" x2="62.95" y2="12.1" width="0" layer="19" extent="1-16"/>
-<wire x1="89.88" y1="41.65" x2="94.105" y2="40.67" width="0" layer="19" extent="16-16"/>
-<wire x1="84.3" y1="35.04" x2="89.88" y2="41.65" width="0" layer="19" extent="1-16"/>
-<wire x1="79.5" y1="29.6" x2="84.3" y2="35.04" width="0" layer="19" extent="1-16"/>
-<wire x1="79.05" y1="24.7" x2="79.5" y2="29.6" width="0" layer="19" extent="16-16"/>
-<wire x1="78.025" y1="40.1" x2="84.3" y2="35.04" width="0" layer="19" extent="1-16"/>
-<wire x1="71.4912" y1="33.1018" x2="79.5" y2="29.6" width="0" layer="19" extent="16-16"/>
-<wire x1="91.35" y1="28.9" x2="94.105" y2="40.67" width="0" layer="19" extent="16-16"/>
-<wire x1="97.78" y1="18.7" x2="91.35" y2="28.9" width="0" layer="19" extent="16-16"/>
-<wire x1="98.13" y1="29.04" x2="97.78" y2="18.7" width="0" layer="19" extent="1-1"/>
-<wire x1="25.875" y1="5.16" x2="98.13" y2="29.04" width="0" layer="19" extent="1-1"/>
-<wire x1="37" y1="3.7" x2="79.05" y2="24.7" width="0" layer="19" extent="16-16"/>
-<wire x1="37" y1="9.7" x2="37" y2="3.7" width="0" layer="19" extent="1-1"/>
-<wire x1="53.5" y1="60.05" x2="78.025" y2="40.1" width="0" layer="19" extent="1-16"/>
+<contactref element="IC1" pad="2"/>
+<contactref element="C3" pad="2"/>
+<contactref element="R2" pad="2"/>
+<contactref element="C2" pad="1"/>
+<wire x1="98.705" y1="40.37" x2="100.13" y2="37.24" width="0" layer="19" extent="1-16"/>
+<wire x1="91.48" y1="41.45" x2="98.705" y2="40.37" width="0" layer="19" extent="16-16"/>
+<wire x1="100.45" y1="29.2" x2="100.13" y2="37.24" width="0" layer="19" extent="1-16"/>
+<wire x1="97.78" y1="18.7" x2="100.45" y2="29.2" width="0" layer="19" extent="16-16"/>
+<wire x1="80.3" y1="38.725" x2="91.48" y2="41.45" width="0" layer="19" extent="16-16"/>
+<wire x1="79.9" y1="34.44" x2="80.3" y2="38.725" width="0" layer="19" extent="1-16"/>
+<wire x1="71.2912" y1="31.6018" x2="79.9" y2="34.44" width="0" layer="19" extent="1-16"/>
+<wire x1="79.05" y1="24.7" x2="79.9" y2="34.44" width="0" layer="19" extent="1-16"/>
+<wire x1="62.95" y1="12.1" x2="79.05" y2="24.7" width="0" layer="19" extent="1-16"/>
+<wire x1="37" y1="9" x2="62.95" y2="12.1" width="0" layer="19" extent="1-1"/>
+<wire x1="37" y1="3" x2="37" y2="9" width="0" layer="19" extent="1-1"/>
+<wire x1="25.875" y1="5.16" x2="37" y2="3" width="0" layer="19" extent="1-1"/>
+<wire x1="57.7" y1="58.8" x2="37" y2="3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="+3V3" class="1">
 <contactref element="SV1" pad="1"/>
@@ -8880,36 +8861,36 @@ design rules under a new name.</description>
 <contactref element="SV1" pad="10"/>
 <contactref element="U5" pad="19"/>
 <contactref element="C20" pad="2"/>
-<wire x1="91.08" y1="55.54" x2="91.14" y2="60" width="0" layer="19" extent="16-16"/>
-<wire x1="97.78" y1="46.64" x2="91.08" y2="55.54" width="0" layer="19" extent="16-16"/>
-<wire x1="100.255" y1="38.37" x2="97.78" y2="46.64" width="0" layer="19" extent="16-16"/>
-<wire x1="94.105" y1="38.37" x2="100.255" y2="38.37" width="0" layer="19" extent="16-16"/>
-<wire x1="89.62" y1="36.78" x2="94.105" y2="38.37" width="0" layer="19" extent="16-16"/>
-<wire x1="74.92" y1="46.64" x2="89.62" y2="36.78" width="0" layer="19" extent="16-16"/>
-<wire x1="15.93" y1="48.875" x2="74.92" y2="46.64" width="0" layer="19" extent="16-16"/>
-<wire x1="26.1" y1="48.575" x2="15.93" y2="48.875" width="0" layer="19" extent="16-16"/>
+<wire x1="66.76" y1="59.28" x2="91.14" y2="60" width="0" layer="19" extent="16-16"/>
+<wire x1="97.78" y1="46.64" x2="66.76" y2="59.28" width="0" layer="19" extent="16-16"/>
+<wire x1="104.855" y1="38.07" x2="97.78" y2="46.64" width="0" layer="19" extent="16-16"/>
+<wire x1="98.705" y1="38.07" x2="104.855" y2="38.07" width="0" layer="19" extent="16-16"/>
+<wire x1="92.32" y1="33.88" x2="98.705" y2="38.07" width="0" layer="19" extent="16-16"/>
+<wire x1="74.92" y1="46.64" x2="92.32" y2="33.88" width="0" layer="19" extent="16-16"/>
+<wire x1="13.83" y1="45.975" x2="74.92" y2="46.64" width="0" layer="19" extent="16-16"/>
+<wire x1="26.1" y1="48.575" x2="13.83" y2="45.975" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="DHT_OUT">
 <contactref element="J1" pad="2"/>
 <contactref element="R5" pad="2"/>
 <contactref element="SV1" pad="6"/>
-<wire x1="89.38" y1="55.54" x2="88.6" y2="60" width="0" layer="19" extent="16-16"/>
-<wire x1="85.08" y1="46.64" x2="89.38" y2="55.54" width="0" layer="19" extent="16-16"/>
+<wire x1="66.76" y1="57.58" x2="88.6" y2="60" width="0" layer="19" extent="16-16"/>
+<wire x1="85.08" y1="46.64" x2="66.76" y2="57.58" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PMS_LED">
 <contactref element="R4" pad="2"/>
 <contactref element="SV1" pad="12"/>
-<wire x1="68.15" y1="43.21" x2="69.84" y2="46.64" width="0" layer="19" extent="1-1"/>
+<wire x1="71.75" y1="41.41" x2="69.84" y2="46.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R4" pad="1"/>
 <contactref element="PMS" pad="A"/>
-<wire x1="46.55" y1="12.11" x2="66.45" y2="43.21" width="0" layer="19" extent="1-1"/>
+<wire x1="46.55" y1="12.11" x2="70.05" y2="41.41" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="R14" pad="1"/>
 <contactref element="POWER" pad="A"/>
-<wire x1="68.19" y1="12.09" x2="98.13" y2="27.34" width="0" layer="19" extent="1-1"/>
+<wire x1="68.19" y1="12.09" x2="100.13" y2="35.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PMS_RX">
 <contactref element="X1" pad="5"/>
@@ -8931,18 +8912,18 @@ design rules under a new name.</description>
 <contactref element="SV2" pad="3"/>
 <contactref element="ESP_RESET" pad="2_1"/>
 <contactref element="ESP_RESET" pad="2_2"/>
-<wire x1="49" y1="19.75" x2="92.7" y2="18.7" width="0" layer="19" extent="1-1"/>
-<wire x1="49" y1="15.65" x2="49" y2="19.75" width="0" layer="19" extent="1-1"/>
+<wire x1="32.95" y1="15.9" x2="92.7" y2="18.7" width="0" layer="19" extent="1-1"/>
+<wire x1="37.05" y1="15.9" x2="32.95" y2="15.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DHT_LED">
 <contactref element="R16" pad="2"/>
 <contactref element="SV1" pad="11"/>
-<wire x1="71.8887" y1="42.314309375" x2="72.38" y2="46.64" width="0" layer="19" extent="1-1"/>
+<wire x1="81.2887" y1="41.014309375" x2="72.38" y2="46.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="R16" pad="1"/>
 <contactref element="DHT" pad="A"/>
-<wire x1="52.0558" y1="12.04416875" x2="73.5887" y2="42.314309375" width="0" layer="19" extent="1-1"/>
+<wire x1="52.0558" y1="12.04416875" x2="82.9887" y2="41.014309375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VRTC" class="2">
 <contactref element="C4" pad="1"/>
@@ -8956,20 +8937,20 @@ design rules under a new name.</description>
 <contactref element="D1" pad="2"/>
 <contactref element="Q3" pad="C"/>
 <contactref element="U4" pad="21"/>
-<wire x1="32.65" y1="57.95" x2="42.4" y2="60.4" width="0" layer="19" extent="1-16"/>
-<wire x1="47.9" y1="27.7" x2="32.65" y2="57.95" width="0" layer="19" extent="1-1"/>
-<wire x1="41.1" y1="19.65" x2="47.9" y2="27.7" width="0" layer="19" extent="1-1"/>
-<wire x1="41.1" y1="15.55" x2="41.1" y2="19.65" width="0" layer="19" extent="1-1"/>
+<wire x1="34.05" y1="57.35" x2="42.4" y2="60.4" width="0" layer="19" extent="1-16"/>
+<wire x1="59.1" y1="52.8" x2="34.05" y2="57.35" width="0" layer="19" extent="1-1"/>
+<wire x1="32.95" y1="21.9" x2="59.1" y2="52.8" width="0" layer="19" extent="1-1"/>
+<wire x1="37.05" y1="21.9" x2="32.95" y2="21.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NETSTAT" class="2">
 <contactref element="U4" pad="6"/>
 <contactref element="R12" pad="1"/>
-<wire x1="44.5" y1="42.65" x2="41.45" y2="37.6" width="0" layer="19" extent="1-16"/>
+<wire x1="44.8" y1="40.85" x2="42.85" y2="37" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="PWRSTAT">
 <contactref element="U4" pad="61"/>
 <contactref element="R31" pad="1"/>
-<wire x1="36.2" y1="23.65" x2="20.95" y2="29.45" width="0" layer="19" extent="1-16"/>
+<wire x1="35.4" y1="17.45" x2="22.35" y2="28.85" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="1.8V">
 <contactref element="TP1" pad="TP"/>
@@ -8980,33 +8961,35 @@ design rules under a new name.</description>
 <contactref element="C15" pad="1"/>
 <contactref element="J2" pad="C7"/>
 <contactref element="U4" pad="15"/>
-<wire x1="37.1" y1="28.15" x2="41.45" y2="52.4" width="0" layer="19" extent="1-16"/>
-<wire x1="26.6" y1="15.125" x2="37.1" y2="28.15" width="0" layer="19" extent="1-16"/>
-<wire x1="7.15" y1="12.8" x2="26.6" y2="15.125" width="0" layer="19" extent="1-1"/>
-<wire x1="6.325" y1="16.55" x2="7.15" y2="12.8" width="0" layer="19" extent="1-1"/>
+<wire x1="36.8" y1="24.75" x2="42.85" y2="51.8" width="0" layer="19" extent="1-16"/>
+<wire x1="26.6" y1="15.125" x2="36.8" y2="24.75" width="0" layer="19" extent="1-16"/>
+<wire x1="7.35" y1="10.6" x2="26.6" y2="15.125" width="0" layer="19" extent="1-1"/>
+<wire x1="8.125" y1="14.35" x2="7.35" y2="10.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIMCLK" class="2">
 <contactref element="D3" pad="3"/>
 <contactref element="C16" pad="1"/>
 <contactref element="J2" pad="C3"/>
 <contactref element="U4" pad="16"/>
-<wire x1="26.6" y1="16.395" x2="41.45" y2="53.7" width="0" layer="19" extent="1-1"/>
-<wire x1="4.475" y1="16.55" x2="26.6" y2="16.395" width="0" layer="19" extent="1-1"/>
-<wire x1="22.4" y1="36.35" x2="26.6" y2="16.395" width="0" layer="19" extent="1-16"/>
+<wire x1="26.6" y1="16.395" x2="42.85" y2="53.1" width="0" layer="19" extent="1-1"/>
+<wire x1="6.275" y1="14.35" x2="26.6" y2="16.395" width="0" layer="19" extent="1-1"/>
+<wire x1="22.1" y1="32.95" x2="26.6" y2="16.395" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SIMRST">
 <contactref element="D3" pad="5"/>
 <contactref element="C17" pad="1"/>
 <contactref element="J2" pad="C2"/>
 <contactref element="U4" pad="17"/>
-<wire x1="26.6" y1="18.935" x2="41.45" y2="55" width="0" layer="19" extent="1-1"/>
-<wire x1="6.325" y1="17.2" x2="26.6" y2="18.935" width="0" layer="19" extent="1-1"/>
-<wire x1="22.3" y1="29.05" x2="26.6" y2="18.935" width="0" layer="19" extent="1-16"/>
+<wire x1="26.6" y1="18.935" x2="42.85" y2="54.4" width="0" layer="19" extent="1-1"/>
+<wire x1="8.125" y1="15" x2="26.6" y2="18.935" width="0" layer="19" extent="1-1"/>
+<wire x1="22" y1="25.65" x2="26.6" y2="18.935" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GSM_ANT">
 <contactref element="U4" pad="49"/>
 <contactref element="GSM" pad="P"/>
-<wire x1="4.948" y1="31.2" x2="9.95" y2="37.6" width="0" layer="19" extent="1-1"/>
+<contactref element="GSMANTENNA2" pad="1"/>
+<wire x1="4.948" y1="31.2" x2="11.35" y2="37" width="0" layer="19" extent="1-1"/>
+<wire x1="2.9" y1="21" x2="4.948" y2="31.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_LIPO">
 <contactref element="D2" pad="1"/>
@@ -9019,39 +9002,37 @@ design rules under a new name.</description>
 <contactref element="U4" pad="58"/>
 <contactref element="U4" pad="59"/>
 <contactref element="U4" pad="60"/>
-<contactref element="RI1" pad="A"/>
+<contactref element="N_MODE" pad="A"/>
 <contactref element="LIPO_SW" pad="3"/>
 <contactref element="LIPO_SW" pad="4"/>
-<contactref element="RI2" pad="A"/>
-<contactref element="RI3" pad="A"/>
-<contactref element="RI4" pad="A"/>
-<contactref element="C21" pad="+"/>
-<wire x1="95.9" y1="55.8" x2="97.375" y2="62" width="0" layer="19" extent="1-16"/>
-<wire x1="97.1" y1="52.1" x2="95.9" y2="55.8" width="0" layer="19" extent="1-16"/>
-<wire x1="77.4" y1="51.7" x2="95.9" y2="55.8" width="0" layer="19" extent="1-1"/>
-<wire x1="90.3" y1="10" x2="97.1" y2="52.1" width="0" layer="19" extent="16-16"/>
-<wire x1="95.3" y1="4" x2="90.3" y2="10" width="0" layer="19" extent="1-1"/>
-<wire x1="35.8" y1="58.45" x2="77.4" y2="51.7" width="0" layer="19" extent="1-16"/>
-<wire x1="-15.8" y1="25.75" x2="35.8" y2="58.45" width="0" layer="19" extent="16-16"/>
-<wire x1="-15.7" y1="19.95" x2="-15.8" y2="25.75" width="0" layer="19" extent="16-16"/>
-<wire x1="19.65" y1="29.45" x2="-15.7" y2="19.95" width="0" layer="19" extent="1-16"/>
-<wire x1="18.35" y1="29.45" x2="19.65" y2="29.45" width="0" layer="19" extent="1-1"/>
-<wire x1="17.05" y1="29.45" x2="18.35" y2="29.45" width="0" layer="19" extent="1-1"/>
-<wire x1="15.75" y1="29.45" x2="17.05" y2="29.45" width="0" layer="19" extent="1-1"/>
-<wire x1="14.7" y1="22.05" x2="15.75" y2="29.45" width="0" layer="19" extent="1-16"/>
-<wire x1="-16.8" y1="12.05" x2="19.65" y2="29.45" width="0" layer="19" extent="1-16"/>
-<wire x1="31.065" y1="18.2" x2="-16.8" y2="12.05" width="0" layer="19" extent="1-16"/>
-<wire x1="29.4" y1="59.85" x2="-15.8" y2="25.75" width="0" layer="19" extent="16-16"/>
+<contactref element="N_STAT" pad="A"/>
+<contactref element="P_STAT" pad="A"/>
+<contactref element="M_RI" pad="A"/>
+<wire x1="98.7" y1="57.5" x2="93.175" y2="52.3" width="0" layer="19" extent="1-16"/>
+<wire x1="77.3" y1="53.5" x2="98.7" y2="57.5" width="0" layer="19" extent="1-16"/>
+<wire x1="35.8" y1="58.45" x2="77.3" y2="53.5" width="0" layer="19" extent="16-16"/>
+<wire x1="30.7" y1="60.45" x2="35.8" y2="58.45" width="0" layer="19" extent="16-16"/>
+<wire x1="21.05" y1="28.85" x2="30.7" y2="60.45" width="0" layer="19" extent="1-16"/>
+<wire x1="19.75" y1="28.85" x2="21.05" y2="28.85" width="0" layer="19" extent="1-1"/>
+<wire x1="18.45" y1="28.85" x2="19.75" y2="28.85" width="0" layer="19" extent="1-1"/>
+<wire x1="17.15" y1="28.85" x2="18.45" y2="28.85" width="0" layer="19" extent="1-1"/>
+<wire x1="6.165" y1="19.8" x2="17.15" y2="28.85" width="0" layer="19" extent="1-1"/>
+<wire x1="41.65" y1="15.7" x2="21.05" y2="28.85" width="0" layer="19" extent="1-1"/>
+<wire x1="46.35" y1="15.6" x2="41.65" y2="15.7" width="0" layer="19" extent="1-1"/>
+<wire x1="51.15" y1="15.7" x2="46.35" y2="15.6" width="0" layer="19" extent="1-1"/>
+<wire x1="55.75" y1="15.5" x2="51.15" y2="15.7" width="0" layer="19" extent="1-1"/>
+<wire x1="90.3" y1="8.8" x2="55.75" y2="15.5" width="0" layer="19" extent="1-1"/>
+<wire x1="95.3" y1="2.8" x2="90.3" y2="8.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GSM_RST" class="2">
 <contactref element="Q2" pad="C"/>
 <contactref element="U4" pad="20"/>
-<wire x1="33.95" y1="57.95" x2="56.2" y2="37.9" width="0" layer="19" extent="1-1"/>
+<wire x1="35.35" y1="57.35" x2="56.1" y2="41.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GSM_RST_O">
 <contactref element="SV1" pad="5"/>
 <contactref element="R15" pad="1"/>
-<wire x1="56.95" y1="41.4" x2="87.62" y2="46.64" width="0" layer="19" extent="1-1"/>
+<wire x1="59.85" y1="61.7" x2="87.62" y2="46.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO1_VDD">
 <contactref element="U4" pad="34"/>
@@ -9080,26 +9061,26 @@ design rules under a new name.</description>
 <contactref element="J2" pad="C1"/>
 <contactref element="D3" pad="1"/>
 <contactref element="U4" pad="14"/>
-<wire x1="26.6" y1="21.475" x2="41.45" y2="51.1" width="0" layer="19" extent="1-1"/>
-<wire x1="29.4" y1="29.975" x2="26.6" y2="21.475" width="0" layer="19" extent="1-16"/>
-<wire x1="37.1" y1="29.85" x2="29.4" y2="29.975" width="0" layer="19" extent="16-16"/>
-<wire x1="4.475" y1="17.85" x2="26.6" y2="21.475" width="0" layer="19" extent="1-1"/>
+<wire x1="26.6" y1="21.475" x2="42.85" y2="50.5" width="0" layer="19" extent="1-1"/>
+<wire x1="29.1" y1="26.575" x2="26.6" y2="21.475" width="0" layer="19" extent="1-16"/>
+<wire x1="36.8" y1="26.45" x2="29.1" y2="26.575" width="0" layer="19" extent="16-16"/>
+<wire x1="6.275" y1="15.65" x2="26.6" y2="21.475" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USIM_DET">
 <contactref element="J2" pad="SW"/>
 <contactref element="51K" pad="1"/>
 <contactref element="D3" pad="6"/>
 <contactref element="U4" pad="13"/>
-<wire x1="44.1" y1="29.85" x2="41.45" y2="49.8" width="0" layer="19" extent="1-16"/>
-<wire x1="13.7" y1="24.45" x2="44.1" y2="29.85" width="0" layer="19" extent="1-16"/>
-<wire x1="6.325" y1="17.85" x2="13.7" y2="24.45" width="0" layer="19" extent="1-1"/>
+<wire x1="43.8" y1="26.45" x2="42.85" y2="49.2" width="0" layer="19" extent="1-16"/>
+<wire x1="13.7" y1="24.45" x2="43.8" y2="26.45" width="0" layer="19" extent="1-16"/>
+<wire x1="8.125" y1="15.65" x2="13.7" y2="24.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USIM_GND">
 <contactref element="C18" pad="1"/>
 <contactref element="J2" pad="C5"/>
 <contactref element="U4" pad="10"/>
-<wire x1="41.45" y1="45.9" x2="29.4" y2="28.425" width="0" layer="19" extent="1-16"/>
-<wire x1="26.6" y1="20.205" x2="41.45" y2="45.9" width="0" layer="19" extent="1-1"/>
+<wire x1="42.85" y1="45.3" x2="29.1" y2="25.025" width="0" layer="19" extent="1-16"/>
+<wire x1="26.6" y1="20.205" x2="42.85" y2="45.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="U4" pad="2"/>
@@ -9107,61 +9088,61 @@ design rules under a new name.</description>
 <signal name="GNSS_ANT">
 <contactref element="GPS" pad="P"/>
 <contactref element="U4" pad="47"/>
-<wire x1="9.95" y1="43.3" x2="4.648" y2="47.2" width="0" layer="19" extent="1-1"/>
+<wire x1="4.648" y1="47.2" x2="11.35" y2="42.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BT_ANT">
 <contactref element="BT_ANT" pad="1"/>
 <contactref element="U4" pad="35"/>
-<wire x1="14.45" y1="57.95" x2="53.3" y2="46.9" width="0" layer="19" extent="1-1"/>
+<wire x1="15.85" y1="57.35" x2="19.6" y2="61.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MAIN_DTR">
 <contactref element="U4" pad="66"/>
 <contactref element="U5" pad="6"/>
-<wire x1="21.67" y1="46.275" x2="27.45" y2="29.45" width="0" layer="19" extent="1-16"/>
+<wire x1="19.57" y1="43.375" x2="28.85" y2="28.85" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="CHRG" pad="C"/>
 <contactref element="R17" pad="1"/>
-<wire x1="98.55" y1="22.6" x2="61.45" y2="12.1" width="0" layer="19" extent="1-1"/>
+<wire x1="99.9" y1="28.95" x2="61.45" y2="12.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R17" pad="2"/>
 <contactref element="IC2" pad="1"/>
 <contactref element="R19" pad="2"/>
-<wire x1="91.85" y1="22.6" x2="93.25" y2="26.3" width="0" layer="19" extent="16-16"/>
-<wire x1="96.85" y1="22.6" x2="91.85" y2="22.6" width="0" layer="19" extent="1-16"/>
+<wire x1="92.5" y1="25.55" x2="102.35" y2="26.6" width="0" layer="19" extent="16-16"/>
+<wire x1="99.9" y1="27.25" x2="92.5" y2="25.55" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$12">
 <contactref element="FULL" pad="A"/>
 <contactref element="R19" pad="1"/>
-<wire x1="90.15" y1="22.6" x2="57.55" y2="12.1" width="0" layer="19" extent="1-16"/>
+<wire x1="92.5" y1="23.85" x2="57.55" y2="12.1" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$13">
 <contactref element="IC2" pad="5"/>
 <contactref element="R20" pad="1"/>
-<wire x1="86.3" y1="29.15" x2="93.25" y2="28.9" width="0" layer="19" extent="16-16"/>
+<wire x1="85.9" y1="40.85" x2="102.35" y2="29.2" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$35">
 <contactref element="R2" pad="1"/>
 <contactref element="IC1" pad="1"/>
 <contactref element="Q1" pad="C"/>
-<wire x1="77.35" y1="24.7" x2="90.1" y2="31.6" width="0" layer="19" extent="1-16"/>
-<wire x1="71.4912" y1="34.8036" x2="77.35" y2="24.7" width="0" layer="19" extent="16-16"/>
+<wire x1="77.35" y1="24.7" x2="91.4" y2="32.2" width="0" layer="19" extent="1-16"/>
+<wire x1="71.2912" y1="33.3036" x2="77.35" y2="24.7" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$36">
 <contactref element="R3" pad="2"/>
 <contactref element="Q1" pad="B"/>
-<wire x1="91.05" y1="33.8" x2="93.15" y2="37.1" width="0" layer="19" extent="1-1"/>
+<wire x1="92.35" y1="34.4" x2="92.75" y2="40.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="R8" pad="2"/>
 <contactref element="Q1" pad="E"/>
-<wire x1="88.85" y1="28.1" x2="89.15" y2="33.8" width="0" layer="19" extent="1-1"/>
+<wire x1="90.75" y1="26.9" x2="90.45" y2="34.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT_EN">
 <contactref element="R3" pad="1"/>
 <contactref element="SV2" pad="7"/>
-<wire x1="82.54" y1="18.7" x2="91.45" y2="37.1" width="0" layer="19" extent="1-1"/>
+<wire x1="82.54" y1="18.7" x2="91.05" y2="40.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CP">
 <contactref element="IC1" pad="4"/>
@@ -9172,29 +9153,29 @@ design rules under a new name.</description>
 <contactref element="D5" pad="C"/>
 <contactref element="LIPO_SW" pad="2"/>
 <contactref element="LIPO_SW" pad="5"/>
-<wire x1="86.8" y1="50.625" x2="90.3" y2="50.5" width="0" layer="19" extent="16-16"/>
-<wire x1="73.15" y1="40.1" x2="86.8" y2="50.625" width="0" layer="19" extent="16-16"/>
-<wire x1="71.4912" y1="29.6982" x2="73.15" y2="40.1" width="0" layer="19" extent="16-16"/>
-<wire x1="62.25" y1="39.7" x2="73.15" y2="40.1" width="0" layer="19" extent="16-16"/>
-<wire x1="66.8" y1="60.15" x2="86.8" y2="50.625" width="0" layer="19" extent="1-16"/>
-<wire x1="92.8" y1="10" x2="71.4912" y2="29.6982" width="0" layer="19" extent="16-16"/>
-<wire x1="92.8" y1="4" x2="92.8" y2="10" width="0" layer="19" extent="1-1"/>
+<wire x1="63.2" y1="57.125" x2="87" y2="52.3" width="0" layer="19" extent="16-16"/>
+<wire x1="73.5" y1="39.05" x2="63.2" y2="57.125" width="0" layer="19" extent="16-16"/>
+<wire x1="71.2912" y1="28.1982" x2="73.5" y2="39.05" width="0" layer="19" extent="16-16"/>
+<wire x1="58.35" y1="40" x2="73.5" y2="39.05" width="0" layer="19" extent="16-16"/>
+<wire x1="71.4" y1="59.75" x2="63.2" y2="57.125" width="0" layer="19" extent="1-16"/>
+<wire x1="92.8" y1="8.8" x2="71.2912" y2="28.1982" width="0" layer="19" extent="16-16"/>
+<wire x1="92.8" y1="2.8" x2="92.8" y2="8.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="R10" pad="2"/>
 <contactref element="R9" pad="1"/>
 <contactref element="IC1" pad="5"/>
-<wire x1="60.55" y1="39.7" x2="66.95" y2="40" width="0" layer="19" extent="16-16"/>
-<wire x1="71.4912" y1="27.9964" x2="66.95" y2="40" width="0" layer="19" extent="16-16"/>
+<wire x1="56.65" y1="40" x2="65.45" y2="40.3" width="0" layer="19" extent="16-16"/>
+<wire x1="71.2912" y1="26.4964" x2="65.45" y2="40.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="BP">
 <contactref element="CN1" pad="1"/>
 <contactref element="IC2" pad="3"/>
 <contactref element="LIPO_SW" pad="1"/>
 <contactref element="LIPO_SW" pad="6"/>
-<wire x1="91.35" y1="26.3" x2="65.9" y2="7.2" width="0" layer="19" extent="1-16"/>
-<wire x1="95.3" y1="10" x2="91.35" y2="26.3" width="0" layer="19" extent="16-16"/>
-<wire x1="90.3" y1="4" x2="95.3" y2="10" width="0" layer="19" extent="1-1"/>
+<wire x1="100.45" y1="26.6" x2="65.9" y2="7.2" width="0" layer="19" extent="1-16"/>
+<wire x1="95.3" y1="8.8" x2="100.45" y2="26.6" width="0" layer="19" extent="16-16"/>
+<wire x1="90.3" y1="2.8" x2="95.3" y2="8.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="J2" pad="C6"/>
@@ -9205,29 +9186,29 @@ design rules under a new name.</description>
 <contactref element="U5" pad="2"/>
 <contactref element="C19" pad="2"/>
 <contactref element="R27" pad="1"/>
-<wire x1="21.67" y1="48.875" x2="41.45" y2="38.9" width="0" layer="19" extent="1-16"/>
-<wire x1="44.1" y1="28.15" x2="21.67" y2="48.875" width="0" layer="19" extent="16-16"/>
-<wire x1="33.475" y1="24.7" x2="21.67" y2="48.875" width="0" layer="19" extent="1-16"/>
-<wire x1="37.95" y1="24.6" x2="33.475" y2="24.7" width="0" layer="19" extent="1-1"/>
+<wire x1="19.57" y1="45.975" x2="42.85" y2="38.3" width="0" layer="19" extent="1-16"/>
+<wire x1="43.8" y1="24.75" x2="19.57" y2="45.975" width="0" layer="19" extent="16-16"/>
+<wire x1="54.975" y1="27.3" x2="19.57" y2="45.975" width="0" layer="19" extent="1-16"/>
+<wire x1="56.05" y1="46.8" x2="54.975" y2="27.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R18" pad="2"/>
 <contactref element="Q2" pad="B"/>
 <contactref element="R15" pad="2"/>
-<wire x1="55.25" y1="35.7" x2="55.25" y2="41.4" width="0" layer="19" extent="1-1"/>
-<wire x1="55.45" y1="32.9" x2="55.25" y2="35.7" width="0" layer="19" extent="1-1"/>
+<wire x1="55.15" y1="38.9" x2="58.15" y2="61.7" width="0" layer="19" extent="1-1"/>
+<wire x1="58.35" y1="56.8" x2="55.15" y2="38.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R22" pad="2"/>
 <contactref element="Q3" pad="B"/>
 <contactref element="R21" pad="2"/>
-<wire x1="46.95" y1="25.5" x2="53.35" y2="26.6" width="0" layer="19" extent="1-1"/>
-<wire x1="53.85" y1="22.2" x2="46.95" y2="25.5" width="0" layer="19" extent="1-1"/>
+<wire x1="58.15" y1="50.6" x2="56.05" y2="32.3" width="0" layer="19" extent="1-1"/>
+<wire x1="58.05" y1="27.2" x2="58.15" y2="50.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWRKEY_0">
 <contactref element="R21" pad="1"/>
 <contactref element="SV1" pad="15"/>
-<wire x1="55.55" y1="22.2" x2="62.22" y2="46.64" width="0" layer="19" extent="1-1"/>
+<wire x1="59.75" y1="27.2" x2="62.22" y2="46.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="SV2" pad="8"/>
@@ -9245,35 +9226,35 @@ design rules under a new name.</description>
 <contactref element="MICRO_USB" pad="1"/>
 <contactref element="S1" pad="3"/>
 <contactref element="S1" pad="4"/>
-<wire x1="39.5" y1="3.7" x2="51.75" y2="4.29" width="0" layer="19" extent="1-1"/>
-<wire x1="34.5" y1="9.7" x2="39.5" y2="3.7" width="0" layer="19" extent="1-1"/>
+<wire x1="39.5" y1="3" x2="51.75" y2="4.29" width="0" layer="19" extent="1-1"/>
+<wire x1="34.5" y1="9" x2="39.5" y2="3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="J3" pad="1"/>
 <contactref element="U1" pad="1"/>
-<wire x1="84.3" y1="29.96" x2="79.9" y2="13.8" width="0" layer="19" extent="1-1"/>
+<wire x1="79.9" y1="29.36" x2="79.9" y2="13.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NET_MODE">
 <contactref element="U4" pad="5"/>
 <contactref element="R23" pad="1"/>
-<wire x1="44.7" y1="37.55" x2="41.45" y2="36.3" width="0" layer="19" extent="1-16"/>
+<wire x1="44.4" y1="34.15" x2="42.85" y2="35.7" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$26">
 <contactref element="R23" pad="2"/>
 <contactref element="Q4" pad="B"/>
 <contactref element="R24" pad="2"/>
-<wire x1="30.95" y1="43.4" x2="37.5" y2="37.55" width="0" layer="19" extent="16-16"/>
-<wire x1="44.7" y1="35.85" x2="30.95" y2="43.4" width="0" layer="19" extent="16-16"/>
+<wire x1="31.05" y1="40.6" x2="37.2" y2="34.15" width="0" layer="19" extent="16-16"/>
+<wire x1="44.4" y1="32.45" x2="31.05" y2="40.6" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$29">
 <contactref element="Q4" pad="C"/>
 <contactref element="R25" pad="1"/>
-<wire x1="29.6" y1="37.85" x2="30" y2="45.6" width="0" layer="19" extent="16-16"/>
+<wire x1="29.3" y1="34.45" x2="30.1" y2="42.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$30">
 <contactref element="R25" pad="2"/>
-<contactref element="RI1" pad="C"/>
-<wire x1="-15.7" y1="18.45" x2="29.6" y2="36.15" width="0" layer="19" extent="16-16"/>
+<contactref element="N_MODE" pad="C"/>
+<wire x1="44.85" y1="15.6" x2="29.3" y2="32.75" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="MCU_RI">
 <contactref element="U5" pad="20"/>
@@ -9290,73 +9271,73 @@ design rules under a new name.</description>
 <signal name="MCU_DTR">
 <contactref element="U5" pad="15"/>
 <contactref element="SV2" pad="12"/>
-<wire x1="15.93" y1="46.275" x2="69.84" y2="18.7" width="0" layer="19" extent="16-16"/>
+<wire x1="13.83" y1="43.375" x2="69.84" y2="18.7" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="MCU_RXD">
 <contactref element="U5" pad="14"/>
 <contactref element="SV1" pad="8"/>
-<wire x1="15.93" y1="45.625" x2="80" y2="46.64" width="0" layer="19" extent="16-16"/>
+<wire x1="13.83" y1="42.725" x2="80" y2="46.64" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$31">
 <contactref element="U5" pad="10"/>
 <contactref element="R26" pad="1"/>
 <contactref element="R27" pad="2"/>
-<wire x1="39.65" y1="24.6" x2="21.67" y2="43.675" width="0" layer="19" extent="1-16"/>
-<wire x1="38.1" y1="44.35" x2="21.67" y2="43.675" width="0" layer="19" extent="16-16"/>
+<wire x1="57.75" y1="46.8" x2="19.57" y2="40.775" width="0" layer="19" extent="1-16"/>
+<wire x1="37.7" y1="42.85" x2="19.57" y2="40.775" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="MAIN_RTS">
 <contactref element="U4" pad="65"/>
 <contactref element="U5" pad="5"/>
-<wire x1="21.67" y1="46.925" x2="26.15" y2="29.45" width="0" layer="19" extent="1-16"/>
+<wire x1="19.57" y1="44.025" x2="27.55" y2="28.85" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="MAIN_DCD">
 <contactref element="U4" pad="63"/>
 <contactref element="U5" pad="3"/>
-<wire x1="21.67" y1="48.225" x2="23.55" y2="29.45" width="0" layer="19" extent="1-16"/>
+<wire x1="19.57" y1="45.325" x2="24.95" y2="28.85" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="MAIN_CTS">
 <contactref element="U4" pad="64"/>
 <contactref element="U5" pad="4"/>
-<wire x1="21.67" y1="47.575" x2="24.85" y2="29.45" width="0" layer="19" extent="1-16"/>
+<wire x1="19.57" y1="44.675" x2="26.25" y2="28.85" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="MAIN_RXD">
 <contactref element="U4" pad="68"/>
 <contactref element="U5" pad="8"/>
-<wire x1="21.67" y1="44.975" x2="30.05" y2="29.45" width="0" layer="19" extent="1-16"/>
+<wire x1="19.57" y1="42.075" x2="31.45" y2="28.85" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="MAIN_TXD">
 <contactref element="U4" pad="67"/>
 <contactref element="U5" pad="7"/>
-<wire x1="21.67" y1="45.625" x2="28.75" y2="29.45" width="0" layer="19" extent="1-16"/>
+<wire x1="19.57" y1="42.725" x2="30.15" y2="28.85" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="MAIN_RI" class="2">
 <contactref element="U4" pad="62"/>
 <contactref element="U5" pad="1"/>
 <contactref element="R34" pad="1"/>
-<wire x1="21.67" y1="49.525" x2="22.25" y2="29.45" width="0" layer="19" extent="1-16"/>
-<wire x1="23.2" y1="60.45" x2="21.67" y2="49.525" width="0" layer="19" extent="16-16"/>
+<wire x1="19.57" y1="46.625" x2="23.65" y2="28.85" width="0" layer="19" extent="1-16"/>
+<wire x1="26.1" y1="59.05" x2="19.57" y2="46.625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$40">
 <contactref element="U5" pad="9"/>
 <contactref element="R30" pad="1"/>
-<wire x1="15.9" y1="30.55" x2="21.67" y2="44.325" width="0" layer="19" extent="16-16"/>
+<wire x1="15.6" y1="27.15" x2="19.57" y2="41.425" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$41">
 <contactref element="R29" pad="1"/>
 <contactref element="U5" pad="12"/>
-<wire x1="15.8" y1="36.05" x2="15.93" y2="44.325" width="0" layer="19" extent="16-16"/>
+<wire x1="15.5" y1="32.65" x2="13.83" y2="41.425" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="MCU_TXD">
 <contactref element="U5" pad="13"/>
 <contactref element="SV1" pad="7"/>
-<wire x1="15.93" y1="44.975" x2="82.54" y2="46.64" width="0" layer="19" extent="16-16"/>
+<wire x1="13.83" y1="42.075" x2="82.54" y2="46.64" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$22">
 <contactref element="R12" pad="2"/>
 <contactref element="Q5" pad="B"/>
 <contactref element="R13" pad="2"/>
 <wire x1="37.65" y1="51.1" x2="44.5" y2="51.35" width="0" layer="19" extent="16-16"/>
-<wire x1="44.5" y1="44.35" x2="37.65" y2="51.1" width="0" layer="19" extent="16-16"/>
+<wire x1="44.8" y1="42.55" x2="37.65" y2="51.1" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$33">
 <contactref element="Q5" pad="C"/>
@@ -9365,42 +9346,42 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$34">
 <contactref element="R28" pad="2"/>
-<contactref element="RI2" pad="C"/>
-<wire x1="-16.8" y1="13.55" x2="30.6" y2="51.45" width="0" layer="19" extent="16-16"/>
+<contactref element="N_STAT" pad="C"/>
+<wire x1="49.65" y1="15.7" x2="30.6" y2="51.45" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$28">
 <contactref element="R31" pad="2"/>
 <contactref element="Q6" pad="B"/>
 <contactref element="R32" pad="2"/>
-<wire x1="36.2" y1="21.95" x2="43.373" y2="21.828" width="0" layer="19" extent="16-16"/>
-<wire x1="29.45" y1="20.3" x2="36.2" y2="21.95" width="0" layer="19" extent="16-16"/>
+<wire x1="35.4" y1="15.75" x2="43.373" y2="16.028" width="0" layer="19" extent="16-16"/>
+<wire x1="26.85" y1="15.7" x2="35.4" y2="15.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$32">
 <contactref element="Q6" pad="C"/>
 <contactref element="R33" pad="1"/>
-<wire x1="22" y1="21.95" x2="28.5" y2="22.5" width="0" layer="19" extent="16-16"/>
+<wire x1="17.2" y1="15.25" x2="25.9" y2="17.9" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$39">
 <contactref element="R33" pad="2"/>
-<contactref element="RI3" pad="C"/>
-<wire x1="14.7" y1="23.55" x2="22" y2="23.65" width="0" layer="19" extent="16-16"/>
+<contactref element="P_STAT" pad="C"/>
+<wire x1="54.25" y1="15.5" x2="17.2" y2="16.95" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$42">
 <contactref element="R34" pad="2"/>
 <contactref element="Q7" pad="B"/>
 <contactref element="R35" pad="2"/>
-<wire x1="14.85" y1="52.9" x2="22.4" y2="52.95" width="0" layer="19" extent="16-16"/>
-<wire x1="23.2" y1="58.75" x2="14.85" y2="52.9" width="0" layer="19" extent="16-16"/>
+<wire x1="14.85" y1="52" x2="22.4" y2="52.95" width="0" layer="19" extent="16-16"/>
+<wire x1="26.1" y1="60.75" x2="14.85" y2="52" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$43">
 <contactref element="Q7" pad="C"/>
 <contactref element="R36" pad="1"/>
-<wire x1="13.9" y1="55.1" x2="11.8" y2="58.65" width="0" layer="19" extent="16-16"/>
+<wire x1="13.9" y1="54.2" x2="11.4" y2="58.45" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$44">
 <contactref element="R36" pad="2"/>
-<contactref element="RI4" pad="C"/>
-<wire x1="-15.8" y1="27.25" x2="11.8" y2="60.35" width="0" layer="19" extent="16-16"/>
+<contactref element="M_RI" pad="C"/>
+<wire x1="40.15" y1="15.7" x2="11.4" y2="60.15" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
