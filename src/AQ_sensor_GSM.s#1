@@ -64,6 +64,7 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
@@ -95,7 +96,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="PF_Ref" color="7" fill="1" visible="no" active="no"/>
+<layer number="120" name="WFL_Ref" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -105,15 +109,46 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="no"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="no"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="no" active="no"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="no" active="no"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="no"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="no"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="no" active="no"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="no"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="156" name="gesam-Maß" color="1" fill="7" visible="no" active="no"/>
+<layer number="157" name="FaceMchng" color="3" fill="1" visible="no" active="no"/>
+<layer number="158" name="FaceMMeas" color="3" fill="1" visible="no" active="no"/>
+<layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
+<layer number="160" name="Topologie" color="9" fill="1" visible="no" active="no"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="no"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="no"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="no"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -153,6 +188,8 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
+<layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
@@ -23184,14 +23221,14 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <class number="0" name="default" width="0.3" drill="0.3">
 <clearance class="0" value="0.2"/>
 </class>
-<class number="1" name="POWER" width="0.3" drill="0.3">
+<class number="1" name="POWER" width="1" drill="0.3">
 <clearance class="0" value="0.2"/>
 <clearance class="1" value="0.2"/>
 </class>
 <class number="2" name="BGA" width="0" drill="0">
 </class>
-<class number="3" name="High Current" width="0.0127" drill="0.00761875">
-<clearance class="0" value="0.00508125"/>
+<class number="3" name="High Current" width="0.3" drill="0.3">
+<clearance class="0" value="0.2"/>
 </class>
 </classes>
 <parts>
@@ -23884,7 +23921,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <segment>
 <pinref part="SV1" gate="G$1" pin="5"/>
 <wire x1="72.39" y1="156.21" x2="80.772" y2="156.21" width="0.1524" layer="91"/>
-<label x="72.39" y="156.464" size="1.778" layer="95"/>
+<label x="74.93" y="156.464" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWRKEY_0" class="0">
@@ -24489,36 +24526,6 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <busses>
 </busses>
 <nets>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="USIM2_VDD"/>
-<wire x1="60.96" y1="236.22" x2="96.52" y2="236.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="BT_EN"/>
-<wire x1="60.96" y1="220.98" x2="81.28" y2="220.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="WLAN_EN"/>
-<wire x1="60.96" y1="175.26" x2="78.74" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="WLAN_PWR_EN"/>
-<wire x1="60.96" y1="172.72" x2="86.36" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="WLAN_WAKE"/>
-<wire x1="60.96" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="USIM_VDD" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="USIM_VDD"/>
@@ -24610,12 +24617,6 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <pinref part="J2" gate="G$1" pin="GROUND"/>
 <wire x1="-98.298" y1="152.4" x2="-109.22" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="-109.22" y1="152.4" x2="-109.22" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="AP_READY"/>
-<wire x1="-10.16" y1="231.14" x2="-25.4" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWRKEY" class="2">
@@ -25782,6 +25783,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <approved hash="101,1,351.028,234.188,X1-2,S,,,,"/>
 <approved hash="101,1,351.028,231.648,X1-3,S,,,,"/>
 <approved hash="101,1,351.028,224.028,X1-6,S,,,,"/>
+<approved hash="202,3,-10.16,165.1,U4,MIC_P,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
 <approved hash="113,2,193.571,130.071,FRAME2,,,,,"/>
 </errors>

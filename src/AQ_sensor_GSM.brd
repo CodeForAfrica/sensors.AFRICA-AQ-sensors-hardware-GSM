@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -12509,8 +12509,8 @@ CONN_01
 </class>
 <class number="2" name="BGA" width="0" drill="0">
 </class>
-<class number="3" name="High Current" width="0.0127" drill="0.00761875">
-<clearance class="0" value="0.00508125"/>
+<class number="3" name="High Current" width="0.3" drill="0.3">
+<clearance class="0" value="0.2"/>
 </class>
 </classes>
 <designrules name="default *">

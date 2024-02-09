@@ -23190,7 +23190,8 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 </class>
 <class number="2" name="BGA" width="0" drill="0">
 </class>
-<class number="3" name="High Current" width="0" drill="0">
+<class number="3" name="High Current" width="0.00761875" drill="0.3">
+<clearance class="0" value="0.2"/>
 </class>
 </classes>
 <parts>
@@ -23938,7 +23939,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <label x="10.16" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VUSB" class="0">
+<net name="VUSB" class="3">
 <segment>
 <pinref part="MICRO_USB" gate="G$1" pin="VUSB"/>
 <pinref part="PSW" gate="G$1" pin="COM1"/>
@@ -23964,7 +23965,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <label x="72.898" y="161.544" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="V5V" class="1">
+<net name="V5V" class="3">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="27.94" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
@@ -25334,7 +25335,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <wire x1="-68.58" y1="147.32" x2="-68.58" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="V5V" class="1">
+<net name="V5V" class="3">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VIN"/>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -25362,7 +25363,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <label x="-73.66" y="261.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VCP" class="0">
+<net name="VCP" class="3">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="86.36" y1="205.74" x2="114.3" y2="205.74" width="0.1524" layer="91"/>
@@ -25398,7 +25399,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <label x="152.4" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VBATT-PW" class="1">
+<net name="VBATT-PW" class="3">
 <segment>
 <pinref part="LIPO_SW" gate="G$1" pin="NC1"/>
 <wire x1="137.16" y1="259.08" x2="149.86" y2="259.08" width="0.1524" layer="91"/>

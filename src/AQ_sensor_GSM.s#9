@@ -23184,7 +23184,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <class number="0" name="default" width="0.3" drill="0.3">
 <clearance class="0" value="0.2"/>
 </class>
-<class number="1" name="POWER" width="0.3" drill="0.3">
+<class number="1" name="POWER" width="0.5" drill="0.3">
 <clearance class="0" value="0.2"/>
 <clearance class="1" value="0.2"/>
 </class>
@@ -23598,7 +23598,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="MICRO_USB" gate="G$1" pin="SHIELD"/>
@@ -23741,7 +23741,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <junction x="68.58" y="22.86"/>
 </segment>
 </net>
-<net name="+3V3" class="1">
+<net name="+3V3" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <wire x1="72.39" y1="146.05" x2="74.93" y2="146.05" width="0.1524" layer="91"/>
@@ -24080,7 +24080,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="GND39" gate="1" pin="GND"/>
 <pinref part="D3" gate="G$0" pin="ANODE"/>
@@ -24251,7 +24251,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <label x="281.94" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3V3" class="1">
+<net name="+3V3" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="VCCB"/>
 <wire x1="330.2" y1="124.46" x2="350.52" y2="124.46" width="0.1524" layer="91"/>
@@ -24567,7 +24567,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <label x="-86.36" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="68.58" y1="81.28" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
@@ -25045,7 +25045,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="GND45" gate="1" pin="GND"/>
 <pinref part="FULL" gate="G$1" pin="C"/>
@@ -25533,7 +25533,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
 <pinref part="GSM_RST" gate="G$1" pin="1"/>
