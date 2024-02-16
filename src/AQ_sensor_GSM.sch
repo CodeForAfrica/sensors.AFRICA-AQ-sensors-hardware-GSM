@@ -24536,16 +24536,17 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.3" drill="0.3">
+<class number="0" name="default" width="0.3" drill="0.2">
 <clearance class="0" value="0.2"/>
 </class>
-<class number="1" name="POWER" width="0.4" drill="0.3">
+<class number="1" name="POWER" width="0.4" drill="0.2">
 <clearance class="0" value="0.2"/>
 <clearance class="1" value="0.2"/>
 </class>
-<class number="2" name="BGA" width="0" drill="0">
+<class number="2" name="BGA" width="0.3" drill="0.2">
 </class>
-<class number="3" name="HCurrent" width="0" drill="0">
+<class number="3" name="HCurrent" width="0.8" drill="0.3">
+<clearance class="0" value="0.2"/>
 </class>
 </classes>
 <parts>
@@ -24961,7 +24962,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <busses>
 </busses>
 <nets>
-<net name="GND" class="2">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="MICRO_USB" gate="G$1" pin="SHIELD"/>
@@ -25065,7 +25066,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <wire x1="145.542" y1="234.95" x2="150.368" y2="234.95" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+5V" class="1">
+<net name="+5V" class="3">
 <segment>
 <pinref part="SV2" gate="G$1" pin="1"/>
 <wire x1="49.53" y1="146.05" x2="52.07" y2="146.05" width="0.1524" layer="91"/>
@@ -25085,23 +25086,25 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <wire x1="348.488" y1="218.948" x2="351.028" y2="218.948" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="27.94" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="27.94" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$0" pin="IN"/>
-<wire x1="88.9" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="30.48" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="30.48" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="88.9" y1="34.29" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
 <junction x="88.9" y="30.48"/>
 <pinref part="S1" gate="G$1" pin="NO1"/>
-<wire x1="60.96" y1="22.86" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="22.86" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="27.94" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
-<junction x="83.82" y="27.94"/>
+<wire x1="60.96" y1="22.86" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="20.32" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="NO2"/>
-<wire x1="60.96" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="12.7" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
-<junction x="68.58" y="22.86"/>
+<wire x1="68.58" y1="20.32" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="27.94" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
+<junction x="83.82" y="27.94"/>
+<junction x="60.96" y="22.86"/>
+<label x="71.12" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
@@ -25306,17 +25309,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <label x="10.16" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="MICRO_USB" gate="G$1" pin="VUSB"/>
-<pinref part="S1" gate="G$1" pin="COM1"/>
-<wire x1="25.4" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="27.94" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="COM2"/>
-<wire x1="45.72" y1="25.4" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
-<junction x="45.72" y="25.4"/>
-</segment>
-</net>
 <net name="MCU_RXD" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="8"/>
@@ -25345,6 +25337,18 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <wire x1="49.53" y1="161.29" x2="25.4" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="161.29" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
 <label x="10.16" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USBP" class="1">
+<segment>
+<pinref part="MICRO_USB" gate="G$1" pin="VUSB"/>
+<pinref part="S1" gate="G$1" pin="COM1"/>
+<wire x1="25.4" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="27.94" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="COM2"/>
+<wire x1="45.72" y1="25.4" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
+<junction x="45.72" y="25.4"/>
+<label x="35.56" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -25446,7 +25450,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <busses>
 </busses>
 <nets>
-<net name="GND" class="2">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND39" gate="1" pin="GND"/>
 <pinref part="D3" gate="G$0" pin="ANODE"/>
@@ -25944,7 +25948,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <label x="-99.06" y="86.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="GND" class="2">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="68.58" y1="81.28" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
@@ -26038,7 +26042,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <label x="-33.02" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GNSS_ANT" class="0">
+<net name="GNSS_ANT" class="3">
 <segment>
 <pinref part="U4" gate="G$1" pin="ANT_GNSS"/>
 <wire x1="-10.16" y1="210.82" x2="-27.94" y2="210.82" width="0.1524" layer="91"/>
@@ -26051,7 +26055,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <label x="-171.196" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BT_ANT" class="0">
+<net name="BT_ANT" class="3">
 <segment>
 <pinref part="U4" gate="G$1" pin="ANT_BT/WIFI_SCAN"/>
 <wire x1="-10.16" y1="208.28" x2="-27.94" y2="208.28" width="0.1524" layer="91"/>
@@ -26136,7 +26140,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <label x="-198.12" y="241.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GSM_ANT" class="0">
+<net name="GSM_ANT" class="3">
 <segment>
 <pinref part="GSM" gate="G$1" pin="ANT"/>
 <wire x1="-100.584" y1="164.846" x2="-100.584" y2="166.878" width="0.1524" layer="91"/>
@@ -26461,7 +26465,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <busses>
 </busses>
 <nets>
-<net name="GND" class="2">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND45" gate="1" pin="GND"/>
 <pinref part="FULL" gate="G$1" pin="C"/>
@@ -26636,7 +26640,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <label x="114.3" y="271.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+5V" class="1">
+<net name="+5V" class="3">
 <segment>
 <pinref part="P+6" gate="1" pin="+5V"/>
 <pinref part="IC2" gate="G$1" pin="VDD"/>
@@ -26750,7 +26754,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <label x="-7.62" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CP" class="0">
+<net name="CP" class="3">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="86.36" y1="205.74" x2="114.3" y2="205.74" width="0.1524" layer="91"/>
@@ -26797,7 +26801,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <junction x="96.52" y="187.706"/>
 </segment>
 </net>
-<net name="BP" class="0">
+<net name="BP" class="3">
 <segment>
 <pinref part="CN1" gate="G$1" pin="2"/>
 <wire x1="-16.764" y1="266.192" x2="-27.94" y2="266.192" width="0.1524" layer="91"/>
@@ -26821,12 +26825,13 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <label x="137.16" y="269.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="JACKP" class="3">
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="IN"/>
 <wire x1="-83.82" y1="147.32" x2="-68.58" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="147.32" x2="-68.58" y2="144.78" width="0.1524" layer="91"/>
+<label x="-78.74" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -26950,7 +26955,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <busses>
 </busses>
 <nets>
-<net name="GND" class="2">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
 <pinref part="GSM_RST" gate="G$1" pin="1"/>
@@ -27210,7 +27215,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts
 <wire x1="87.63" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="2">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="MICRO_SD1" gate="G$1" pin="VSS"/>
