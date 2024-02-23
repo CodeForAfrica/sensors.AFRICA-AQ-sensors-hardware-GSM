@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /Users/augustinemwendwa/Library/Mobile Documents/com~apple~CloudDocs/Documents/Github/sensors.Africa_github/PCB/AQ PCB Buckup/sensors.AFRICA-AQ-sensors-hardware-GSM/src/AQ_sensor_GSM.brd
 
-Start at      : 16:50:07 (16/02/2024)
-End at        : 16:52:04 (16/02/2024)
-Elapsed time  : 00:01:14
+Start at      : 15:12:12 (21/02/2024)
+End at        : 15:12:27 (21/02/2024)
+Elapsed time  : 00:00:06
 
-Signals       :    92   RoutingGrid: 4.92126 mil  Layers: 2
-Connections   :   283   predefined:  4 ( 0 Vias )
+Signals       :    90   RoutingGrid: 6.25 mil  Layers: 2
+Connections   :   279   predefined:  276 ( 157 Vias )
 
-Router memory :   6729444
+Router memory :   2561940
 
-Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:01  00:00:27  00:00:12  00:00:13  00:00:11  00:00:10
-Number of Ripups  :         0         5         0         0         0         0
-max. Level        :         0         1         0         0         0         0
-max. Total        :         0       136         0         0         0         0
+Time per pass     :  00:00:00  00:00:01  00:00:01  00:00:00  00:00:01  00:00:00  00:00:01  00:00:00  00:00:00  00:00:01  00:00:00  00:00:01  00:00:00
+Number of Ripups  :         0         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         1         0         0         0         0         0         0         0         0         0         0         0         0
+max. Total        :         0         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :         3       279       279       279       279       279
-Vias              :         0       292       189       176       161       153
-Resolution        :     2.5 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         2         2         2         2         2         2         2         2         2         2         2         2         2
+Vias              :         0         0         0         0         0         0         0         0         0         0         0         0         0
+Resolution        :    99.6 %    99.6 %    99.6 %    99.6 %    99.6 %    99.6 %    99.6 %    99.6 %    99.6 %    99.6 %    99.6 %    99.6 %    99.6 %
 
-Final             : 100.0% finished
+Final             : 99.6% finished
