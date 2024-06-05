@@ -23491,7 +23491,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 </class>
 <class number="2" name="BGA" width="0.2" drill="0.2">
 </class>
-<class number="3" name="HCurrent" width="0.6" drill="0.2">
+<class number="3" name="HCurrent" width="0.8" drill="0.2">
 <clearance class="0" value="0.2"/>
 </class>
 </classes>
@@ -23612,6 +23612,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1.20KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
+<part name="C23" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" deviceset="TAJB106K016RNJ" device="" package3d_urn="urn:adsk.eagle:package:10872905/4"/>
+<part name="R17" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1.20KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="2R"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="25%" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE"/>
 <part name="50%" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE"/>
@@ -23664,8 +23666,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <part name="BATT" library="TL2285EE" deviceset="TL2285EE" device="" override_package3d_urn="urn:adsk.eagle:package:43003845/2" override_package_urn="urn:adsk.eagle:footprint:43003846/1"/>
 <part name="J2" library="53261-0871" deviceset="53261-0871" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" deviceset="TAJB106K016RNJ" device="" package3d_urn="urn:adsk.eagle:package:10872905/4"/>
-<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1.20KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="2R"/>
 </parts>
 <sheets>
 <sheet>
@@ -25171,6 +25171,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <attribute name="NAME" x="-72.644" y="205.74" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="-69.596" y="205.74" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
+<instance part="C23" gate="G$1" x="-180.34" y="332.74" smashed="yes">
+<attribute name="NAME" x="-188.214" y="329.057" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-192.405" y="324.358" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R17" gate="G$1" x="-180.34" y="347.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="-181.864" y="347.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-178.816" y="347.98" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
 <instance part="GND25" gate="1" x="-180.34" y="321.818" smashed="yes">
 <attribute name="VALUE" x="-182.88" y="319.278" size="1.778" layer="96"/>
 </instance>
@@ -25338,14 +25346,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <attribute name="NAME" x="-203.2" y="279.4" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-203.2" y="299.72" size="1.27" layer="96" rot="R180" align="top-left"/>
 </instance>
-<instance part="C4" gate="G$1" x="-187.96" y="332.74" smashed="yes">
-<attribute name="NAME" x="-190.754" y="336.677" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-191.262" y="324.485" size="1.778" layer="96"/>
-</instance>
-<instance part="R9" gate="G$1" x="-187.96" y="345.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="-189.484" y="345.44" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-186.436" y="345.44" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -25368,15 +25368,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <wire x1="48.26" y1="187.198" x2="17.78" y2="187.198" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="C23" gate="G$1" pin="2"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 <wire x1="-180.34" y1="327.66" x2="-180.34" y2="324.358" width="0.1524" layer="91"/>
 <pinref part="C30" gate="G$1" pin="2"/>
 <wire x1="-170.18" y1="342.9" x2="-170.18" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="327.66" x2="-180.34" y2="327.66" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="-180.34" y1="324.358" x2="-187.96" y2="324.358" width="0.1524" layer="91"/>
-<wire x1="-187.96" y1="324.358" x2="-187.96" y2="327.66" width="0.1524" layer="91"/>
-<junction x="-180.34" y="324.358"/>
+<junction x="-180.34" y="327.66"/>
 </segment>
 <segment>
 <pinref part="GND35" gate="1" pin="GND"/>
@@ -25587,6 +25585,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <wire x1="-35.56" y1="200.66" x2="-7.62" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="C23" gate="G$1" pin="1"/>
+<wire x1="-180.34" y1="342.9" x2="-180.34" y2="335.28" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="25%" gate="G$1" pin="C"/>
@@ -25718,15 +25723,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <wire x1="-111.76" y1="342.9" x2="-114.3" y2="342.9" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="342.9" x2="-114.3" y2="355.6" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="355.6" x2="-170.18" y2="355.6" width="0.1524" layer="91"/>
-<label x="-198.12" y="358.14" size="1.778" layer="95"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="-170.18" y1="355.6" x2="-180.34" y2="355.6" width="0.1524" layer="91"/>
+<wire x1="-180.34" y1="355.6" x2="-198.12" y2="355.6" width="0.1524" layer="91"/>
+<wire x1="-180.34" y1="353.06" x2="-180.34" y2="355.6" width="0.1524" layer="91"/>
+<junction x="-180.34" y="355.6"/>
 <pinref part="C30" gate="G$1" pin="1"/>
-<wire x1="-170.18" y1="355.6" x2="-187.96" y2="355.6" width="0.1524" layer="91"/>
-<wire x1="-187.96" y1="355.6" x2="-198.12" y2="355.6" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="350.52" x2="-170.18" y2="355.6" width="0.1524" layer="91"/>
 <junction x="-170.18" y="355.6"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="-187.96" y1="350.52" x2="-187.96" y2="355.6" width="0.1524" layer="91"/>
-<junction x="-187.96" y="355.6"/>
+<label x="-198.12" y="358.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="G_USB_D+" class="0">
@@ -25894,13 +25899,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <wire x1="-241.3" y1="299.72" x2="-241.3" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="-241.3" y1="307.34" x2="-251.46" y2="307.34" width="0.1524" layer="91"/>
 <label x="-251.46" y="307.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-187.96" y1="340.36" x2="-187.96" y2="335.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -26265,6 +26263,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 </sheet>
 </sheets>
 <errors>
+<approved hash="101,1,351.028,236.728,X1-1,S,,,,"/>
+<approved hash="101,1,351.028,234.188,X1-2,S,,,,"/>
+<approved hash="101,1,351.028,231.648,X1-3,S,,,,"/>
+<approved hash="101,1,351.028,224.028,X1-6,S,,,,"/>
 <approved hash="106,2,294.64,96.52,MCU_CTS,,,,,"/>
 <approved hash="106,2,294.64,99.06,MCU_DCD,,,,,"/>
 <approved hash="106,2,294.64,101.6,MCU_RI,,,,,"/>
