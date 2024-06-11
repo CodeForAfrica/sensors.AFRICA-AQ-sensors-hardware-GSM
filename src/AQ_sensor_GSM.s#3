@@ -23889,7 +23889,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <wire x1="306.832" y1="220.98" x2="306.832" y2="218.948" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="3">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <wire x1="72.39" y1="146.05" x2="74.93" y2="146.05" width="0.1524" layer="91"/>
@@ -24356,7 +24356,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <label x="281.94" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3V3" class="3">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="U5" gate="G$1" pin="VCCB"/>
 <wire x1="330.2" y1="124.46" x2="350.52" y2="124.46" width="0.1524" layer="91"/>
@@ -25748,7 +25748,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <label x="-180.34" y="236.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3V3" class="3">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="U3" gate="G$0" pin="OUT"/>
 <wire x1="91.44" y1="269.24" x2="93.98" y2="269.24" width="0.1524" layer="91"/>
