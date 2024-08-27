@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /Users/augustinemwendwa/Library/Mobile Documents/com~apple~CloudDocs/Documents/Github/sensors.Africa_github/PCB/AQ PCB Buckup/sensors.AFRICA-AQ-sensors-hardware-GSM/src/AQ_sensor_GSM.brd
 
-Start at      : 12:45:52 (13/06/2024)
-End at        : 12:49:13 (13/06/2024)
-Elapsed time  : 00:01:23
+Start at      : 15:44:19 (26/08/2024)
+End at        : 15:45:08 (26/08/2024)
+Elapsed time  : 00:00:48
 
-Signals       :   113   RoutingGrid: 4.92126 mil  Layers: 2
-Connections   :   308   predefined:  60 ( 24 Vias )
+Signals       :   109   RoutingGrid: 4.92126 mil  Layers: 2
+Connections   :   306   predefined:  7 ( 0 Vias )
 
-Router memory :   4314300
+Router memory :   2938780
 
-Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:54  00:00:07  00:00:07  00:00:07  00:00:08
-Number of Ripups  :         0        52         0         0         0         0
-max. Level        :         0         3         0         0         0         0
-max. Total        :         0       121         0         0         0         0
+Time per pass     :  00:00:20  00:00:07  00:00:07  00:00:06  00:00:08
+Number of Ripups  :         7         0         0         0         0
+max. Level        :         1         0         0         0         0
+max. Total        :       132         0         0         0         0
 
-Routed            :        11       247       247       247       247       247
-Vias              :         0       405       257       210       182       171
-Resolution        :    23.1 %    99.7 %    99.7 %    99.7 %    99.7 %    99.7 %
+Routed            :       299       299       299       299       299
+Vias              :       267       208       197       180       178
+Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 99.7% finished
+Final             : 100.0% finished
