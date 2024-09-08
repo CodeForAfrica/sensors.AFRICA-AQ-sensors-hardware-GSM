@@ -23909,7 +23909,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="100PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:41385090/1" value="100pF"/>
 <part name="L1" library="LQW15AN47NG00D 47uh" deviceset="LQW15AN47NG00D" device=""/>
-<part name="51K1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10R"/>
+<part name="10R" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10R"/>
 </parts>
 <sheets>
 <sheet>
@@ -24850,7 +24850,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <attribute name="NAME" x="-165.1" y="124.46" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-162.56" y="124.46" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="51K1" gate="G$1" x="-159.766" y="149.86" smashed="yes" rot="R90">
+<instance part="10R" gate="G$1" x="-159.766" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="-161.2646" y="146.05" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-156.464" y="146.05" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -25127,7 +25127,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <label x="83.82" y="246.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="51K1" gate="G$1" pin="2"/>
+<pinref part="10R" gate="G$1" pin="2"/>
 <wire x1="-159.766" y1="154.94" x2="-159.766" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="-159.766" y1="160.02" x2="-167.64" y2="160.02" width="0.1524" layer="91"/>
 <label x="-167.64" y="162.56" size="1.778" layer="95"/>
@@ -25351,7 +25351,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="51K1" gate="G$1" pin="1"/>
+<pinref part="10R" gate="G$1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="-159.766" y1="144.78" x2="-159.766" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="-159.766" y1="139.7" x2="-160.02" y2="139.7" width="0.1524" layer="91"/>

@@ -8821,6 +8821,18 @@ design rules under a new name.</description>
 <via x="77.875" y="17.625" extent="1-16" drill="0.2"/>
 <via x="66.75" y="36" extent="1-16" drill="0.2"/>
 <via x="51.5" y="32.125" extent="1-16" drill="0.2"/>
+<polygon width="0.5" layer="1">
+<vertex x="0.5" y="-0.5"/>
+<vertex x="0.5" y="65.1"/>
+<vertex x="109.8" y="65.1"/>
+<vertex x="109.8" y="-0.5"/>
+</polygon>
+<polygon width="0.5" layer="16">
+<vertex x="0.5" y="-0.1"/>
+<vertex x="0.5" y="65.2"/>
+<vertex x="109.7" y="65.2"/>
+<vertex x="109.7" y="-0.5"/>
+</polygon>
 </signal>
 <signal name="+3V3" class="1">
 <contactref element="SV1" pad="1"/>

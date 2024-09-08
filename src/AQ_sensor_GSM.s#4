@@ -23769,7 +23769,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K"/>
 <part name="GND60" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R"/>
-<part name="PST" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE"/>
+<part name="PWR_PST" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE"/>
 <part name="Q7" library="MMBT2222_" deviceset="MMBT2222*" device="" override_package3d_urn="urn:adsk.eagle:package:43001449/2" override_package_urn="urn:adsk.eagle:footprint:43001450/1"/>
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
 <part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K"/>
@@ -26235,7 +26235,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <attribute name="NAME" x="-47.2186" y="194.056" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-42.418" y="194.056" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PST" gate="G$1" x="-46.99" y="212.344" smashed="yes">
+<instance part="PWR_PST" gate="G$1" x="-46.99" y="212.344" smashed="yes">
 <attribute name="NAME" x="-43.434" y="207.772" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-41.275" y="207.772" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -26359,7 +26359,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <label x="93.98" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PST" gate="G$1" pin="A"/>
+<pinref part="PWR_PST" gate="G$1" pin="A"/>
 <wire x1="-46.99" y1="214.884" x2="-46.99" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="-46.99" y1="223.52" x2="-45.72" y2="223.52" width="0.1524" layer="91"/>
 <label x="-45.72" y="223.52" size="1.778" layer="95"/>
@@ -26436,7 +26436,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <net name="N$39" class="0">
 <segment>
 <pinref part="R33" gate="G$1" pin="2"/>
-<pinref part="PST" gate="G$1" pin="C"/>
+<pinref part="PWR_PST" gate="G$1" pin="C"/>
 <wire x1="-45.72" y1="202.946" x2="-46.99" y2="202.946" width="0.1524" layer="91"/>
 <wire x1="-46.99" y1="202.946" x2="-46.99" y2="207.264" width="0.1524" layer="91"/>
 </segment>

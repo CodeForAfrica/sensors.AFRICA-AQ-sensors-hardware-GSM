@@ -23675,7 +23675,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 </class>
 <class number="2" name="BGA" width="0.2" drill="0.2">
 </class>
-<class number="3" name="HCurrent" width="0.3" drill="0.2">
+<class number="3" name="HCurrent" width="0.4" drill="0.2">
 <clearance class="0" value="0.2"/>
 </class>
 </classes>

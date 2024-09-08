@@ -23813,7 +23813,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
-<part name="PO" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="RED"/>
+<part name="5V_PWR" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="RED"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LIPO" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="2828XX-2" device="282834-2" package3d_urn="urn:adsk.eagle:package:24957623/2"/>
@@ -25473,7 +25473,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <attribute name="NAME" x="98.044" y="264.541" size="1.778" layer="95"/>
 <attribute name="VALUE" x="100.584" y="262.001" size="1.778" layer="96"/>
 </instance>
-<instance part="PO" gate="G$1" x="-158.75" y="370.84" smashed="yes" rot="R90">
+<instance part="5V_PWR" gate="G$1" x="-158.75" y="370.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="-154.178" y="374.396" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-154.178" y="376.555" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -25637,7 +25637,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <junction x="-172.72" y="203.2"/>
 </segment>
 <segment>
-<pinref part="PO" gate="G$1" pin="C"/>
+<pinref part="5V_PWR" gate="G$1" pin="C"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="-153.67" y1="370.84" x2="-139.7" y2="370.84" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="370.84" x2="-139.7" y2="369.57" width="0.1524" layer="91"/>
@@ -25967,7 +25967,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <net name="N$25" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="PO" gate="G$1" pin="A"/>
+<pinref part="5V_PWR" gate="G$1" pin="A"/>
 <wire x1="-171.45" y1="370.84" x2="-161.29" y2="370.84" width="0.1524" layer="91"/>
 </segment>
 </net>

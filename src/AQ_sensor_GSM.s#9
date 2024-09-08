@@ -23909,7 +23909,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="100PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:41385090/1" value="100pF"/>
 <part name="L1" library="LQW15AN47NG00D 47uh" deviceset="LQW15AN47NG00D" device=""/>
-<part name="51K1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
+<part name="51K1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10R"/>
 </parts>
 <sheets>
 <sheet>
