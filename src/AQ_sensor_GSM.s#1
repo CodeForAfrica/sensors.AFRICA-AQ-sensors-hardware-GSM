@@ -18038,16 +18038,16 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.2" drill="0.2">
-<clearance class="0" value="0.2"/>
+<class number="0" name="default" width="0.1" drill="0.2">
+<clearance class="0" value="0.1"/>
 </class>
-<class number="1" name="POWER" width="0.3" drill="0.2">
+<class number="1" name="POWER" width="0.2" drill="0.2">
 <clearance class="0" value="0.2"/>
 <clearance class="1" value="0.2"/>
 </class>
 <class number="2" name="BGA" width="0.1" drill="0.2">
 </class>
-<class number="3" name="HCurrent" width="0.8" drill="0.4">
+<class number="3" name="HCurrent" width="0.6" drill="0.4">
 <clearance class="0" value="0.2"/>
 </class>
 <class number="4" name="Antenna" width="0.3" drill="0.2">
@@ -18453,7 +18453,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <busses>
 </busses>
 <nets>
-<net name="GND" class="3">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="351.536" y1="163.83" x2="356.616" y2="163.83" width="0.1524" layer="91"/>
@@ -18555,7 +18555,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="95.25" y1="58.42" x2="95.25" y2="54.61" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="3">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="361.696" y1="166.37" x2="364.236" y2="166.37" width="0.1524" layer="91"/>
@@ -19066,7 +19066,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <busses>
 </busses>
 <nets>
-<net name="GND" class="3">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND39" gate="1" pin="GND"/>
 <pinref part="D3" gate="G$0" pin="ANODE"/>
@@ -19243,7 +19243,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="281.94" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3V3" class="3">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="U5" gate="G$1" pin="VCCB"/>
 <wire x1="330.2" y1="124.46" x2="350.52" y2="124.46" width="0.1524" layer="91"/>
@@ -19583,7 +19583,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-99.06" y="86.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="GND" class="3">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="68.58" y1="81.28" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
@@ -20272,7 +20272,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <busses>
 </busses>
 <nets>
-<net name="GND" class="3">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="5V" gate="G$1" pin="2"/>
@@ -20651,7 +20651,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-180.34" y="195.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3V3" class="3">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="3.3V_REG" gate="G$0" pin="OUT"/>
 <wire x1="91.44" y1="269.24" x2="93.98" y2="269.24" width="0.1524" layer="91"/>
@@ -20974,7 +20974,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <busses>
 </busses>
 <nets>
-<net name="GND" class="3">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
 <pinref part="GSM_RST" gate="G$1" pin="1"/>
@@ -21439,7 +21439,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <busses>
 </busses>
 <nets>
-<net name="GND" class="3">
+<net name="GND" class="0">
 <segment>
 <pinref part="USB" gate="G$1" pin="C"/>
 <pinref part="GND31" gate="1" pin="GND"/>
@@ -21539,7 +21539,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="159.512" y1="-12.7" x2="160.528" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="3">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 <wire x1="119.38" y1="124.46" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
@@ -21909,7 +21909,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="20.32" y1="20.32" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="3">
+<net name="GND" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="35.56" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
@@ -21933,7 +21933,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="66.04" y1="20.574" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="3">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <pinref part="U$1" gate="G$1" pin="VDD3_3"/>
