@@ -18047,7 +18047,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </class>
 <class number="2" name="BGA" width="0.1" drill="0.2">
 </class>
-<class number="3" name="HCurrent" width="0.6" drill="0.4">
+<class number="3" name="HCurrent" width="0.4" drill="0.2">
 <clearance class="0" value="0.2"/>
 </class>
 <class number="4" name="Antenna" width="0.3" drill="0.2">
@@ -20563,7 +20563,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-195.58" y="370.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="N$21" class="3">
 <segment>
 <pinref part="L2" gate="G$1" pin="1"/>
 <pinref part="IP5306" gate="G$1" pin="SW"/>
@@ -20787,7 +20787,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="-297.18" y1="228.6" x2="-289.56" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="N$19" class="3">
 <segment>
 <pinref part="DW01" gate="G$1" pin="OC"/>
 <wire x1="-289.56" y1="223.52" x2="-292.1" y2="223.52" width="0.1524" layer="91"/>

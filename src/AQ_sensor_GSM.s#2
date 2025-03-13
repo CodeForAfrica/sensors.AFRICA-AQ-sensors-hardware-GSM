@@ -18047,7 +18047,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </class>
 <class number="2" name="BGA" width="0.1" drill="0.2">
 </class>
-<class number="3" name="HCurrent" width="0.6" drill="0.4">
+<class number="3" name="HCurrent" width="0.2" drill="0.2">
 <clearance class="0" value="0.2"/>
 </class>
 <class number="4" name="Antenna" width="0.3" drill="0.2">
