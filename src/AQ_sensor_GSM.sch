@@ -18032,6 +18032,160 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </deviceset>
 </devicesets>
 </library>
+<library name="B2B-XH-A">
+<packages>
+<package name="JST_B2B-XH-A">
+<wire x1="3.7" y1="2.875" x2="3.7" y2="-2.875" width="0.127" layer="51"/>
+<wire x1="3.7" y1="-2.875" x2="-3.7" y2="-2.875" width="0.127" layer="51"/>
+<wire x1="-3.7" y1="-2.875" x2="-3.7" y2="2.875" width="0.127" layer="51"/>
+<wire x1="-3.7" y1="2.875" x2="3.7" y2="2.875" width="0.127" layer="51"/>
+<circle x="4.44" y="-0.525" radius="0.1" width="0.2" layer="51"/>
+<wire x1="3.7" y1="2.875" x2="3.7" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="3.7" y1="-2.875" x2="-3.7" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="-2.875" x2="-3.7" y2="2.875" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="2.875" x2="3.7" y2="2.875" width="0.127" layer="21"/>
+<wire x1="-3.95" y1="3.125" x2="-3.95" y2="-3.125" width="0.05" layer="39"/>
+<wire x1="-3.95" y1="-3.125" x2="3.95" y2="-3.125" width="0.05" layer="39"/>
+<wire x1="3.95" y1="-3.125" x2="3.95" y2="3.125" width="0.05" layer="39"/>
+<wire x1="3.95" y1="3.125" x2="-3.95" y2="3.125" width="0.05" layer="39"/>
+<circle x="4.44" y="-0.525" radius="0.1" width="0.2" layer="21"/>
+<text x="-3.95" y="4.125" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.95" y="-4.125" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<pad name="2" x="-1.25" y="-0.525" drill="1.05"/>
+<pad name="1" x="1.25" y="-0.525" drill="1.05" shape="square"/>
+</package>
+</packages>
+<symbols>
+<symbol name="B2B-XH-A">
+<wire x1="-3.81" y1="3.81" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="-2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-3.175" y1="2.2225" x2="-1.5875" y2="2.8575" layer="94"/>
+<rectangle x1="-3.175" y1="-0.3175" x2="-1.5875" y2="0.3175" layer="94"/>
+<pin name="1" x="-7.62" y="2.54" length="middle" direction="pas"/>
+<pin name="2" x="-7.62" y="0" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B2B-XH-A" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/B2B-XH-A/JST%20Sales/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B2B-XH-A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_B2B-XH-A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value="                                                      Connector Header Through Hole 2 position 0.098 (2.50mm)                                              "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="B2B-XH-A"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SKRTLAE010">
+<packages>
+<package name="SW_SKRTLAE010">
+<wire x1="-2.25" y1="-2.05" x2="-2.25" y2="-1.21" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="-1.21" x2="-2.25" y2="1.35" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="1.35" x2="2.25" y2="1.35" width="0.127" layer="51"/>
+<wire x1="2.25" y1="1.35" x2="2.25" y2="-1.21" width="0.127" layer="51"/>
+<wire x1="2.25" y1="-1.21" x2="2.25" y2="-2.05" width="0.127" layer="51"/>
+<wire x1="2.25" y1="-2.05" x2="-2.25" y2="-2.05" width="0.127" layer="51"/>
+<rectangle x1="-1" y1="-1.5" x2="1" y2="-0.3" layer="43"/>
+<rectangle x1="-1" y1="-1.5" x2="1" y2="-0.3" layer="41"/>
+<wire x1="-2.25" y1="-1.21" x2="2.25" y2="-1.21" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="0.77" x2="-2.25" y2="1.35" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="1.35" x2="-1.924309375" y2="1.35" width="0.127" layer="21"/>
+<wire x1="1.924" y1="1.35" x2="2.25" y2="1.35" width="0.127" layer="21"/>
+<wire x1="2.25" y1="1.35" x2="2.25" y2="0.77" width="0.127" layer="21"/>
+<wire x1="-0.88" y1="-1.21" x2="0.88" y2="-1.21" width="0.127" layer="21"/>
+<wire x1="-2.825" y1="2.05" x2="-2.825" y2="-2.3" width="0.05" layer="39"/>
+<wire x1="-2.825" y1="-2.3" x2="2.85" y2="-2.3" width="0.05" layer="39"/>
+<wire x1="2.85" y1="-2.3" x2="2.85" y2="2.05" width="0.05" layer="39"/>
+<wire x1="2.85" y1="2.05" x2="-2.825" y2="2.05" width="0.05" layer="39"/>
+<circle x="-1.2676" y="2.3732" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.2676" y="2.3732" radius="0.1" width="0.2" layer="51"/>
+<text x="-2.8758" y="3.1882" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.825" y="-2.83" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="2" x="0" y="0.9" dx="0.6" dy="1.8" layer="1"/>
+<smd name="1" x="-1.225" y="0.9" dx="0.75" dy="1.8" layer="1"/>
+<smd name="3" x="1.225" y="0.9" dx="0.75" dy="1.8" layer="1"/>
+<smd name="S1" x="-1.85" y="-1.05" dx="1.3" dy="0.9" layer="1"/>
+<smd name="S2" x="1.85" y="-1.05" dx="1.3" dy="0.9" layer="1"/>
+<hole x="-2.125" y="0" drill="0.9"/>
+<hole x="2.125" y="0" drill="0.9"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SKRTLAE010">
+<circle x="-2.54" y="0" radius="0.254" width="0.508" layer="94"/>
+<circle x="2.54" y="0" radius="0.254" width="0.508" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
+<pin name="1" x="-12.7" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="SHIELD" x="12.7" y="-5.08" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SKRTLAE010" prefix="S">
+<description> &lt;a href="https://pricing.snapeda.com/parts/SKRTLAE010/ALPS/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SKRTLAE010" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SW_SKRTLAE010">
+<connects>
+<connect gate="G$1" pin="1" pad="1 3"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SKRTLAE010/ALPS/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value="                                                      Switch Tactile N.O. SPST Round Button J-Bend 0.05A 12VDC 1.6N SMD Embossed Tape                                              "/>
+<attribute name="MF" value="ALPS"/>
+<attribute name="MP" value="SKRTLAE010"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SKRTLAE010/ALPS/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18141,7 +18295,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="GND62" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R"/>
 <part name="MRI" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE"/>
-<part name="GSM_ANT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/2"/>
+<part name="GSM_ANT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/2" value="1.9Ghz - 2.4Ghz"/>
 <part name="SIMCARD" library="78646-3001" deviceset="78646-3001" device="" override_package3d_urn="urn:adsk.eagle:package:43408667/2" override_package_urn="urn:adsk.eagle:footprint:43408668/1"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GSM" library="1909763-1" deviceset="1909763-1" device="" override_package3d_urn="urn:adsk.eagle:package:43408649/2" override_package_urn="urn:adsk.eagle:footprint:43408650/1"/>
@@ -18181,7 +18335,6 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="5V_OUT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="RED"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="BATT" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="2828XX-2" device="282834-2" package3d_urn="urn:adsk.eagle:package:24957623/2"/>
 <part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10NF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:41385090/1" value="10nF"/>
 <part name="5V" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="2828XX-2" device="282834-2" package3d_urn="urn:adsk.eagle:package:24957623/2"/>
 <part name="CHRG_KEY" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="KMR621NGLFS" device="" package3d_urn="urn:adsk.eagle:package:30300293/2"/>
@@ -18302,6 +18455,9 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K"/>
 <part name="U2" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" deviceset="DS1307" device="Z" package3d_urn="urn:adsk.eagle:package:37522/2"/>
 <part name="Y1" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" deviceset="CRYSTAL-32.768KHZ" device="SMD-3.2X1.5" package3d_urn="urn:adsk.eagle:package:37548/2" value="32.768kHz"/>
+<part name="J5" library="B2B-XH-A" deviceset="B2B-XH-A" device="" override_package3d_urn="urn:adsk.eagle:package:50013440/2" override_package_urn="urn:adsk.eagle:footprint:50013441/1"/>
+<part name="RST2" library="SKRTLAE010" deviceset="SKRTLAE010" device="" override_package3d_urn="urn:adsk.eagle:package:50013607/3" override_package_urn="urn:adsk.eagle:footprint:50013611/1"/>
+<part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19504,36 +19660,6 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <busses>
 </busses>
 <nets>
-<net name="N$5" class="0">
-<segment>
-<pinref part="EC200_GSM" gate="G$1" pin="USIM2_VDD"/>
-<wire x1="60.96" y1="236.22" x2="96.52" y2="236.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="EC200_GSM" gate="G$1" pin="BT_EN"/>
-<wire x1="60.96" y1="220.98" x2="81.28" y2="220.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="EC200_GSM" gate="G$1" pin="WLAN_EN"/>
-<wire x1="60.96" y1="175.26" x2="78.74" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="EC200_GSM" gate="G$1" pin="WLAN_PWR_EN"/>
-<wire x1="60.96" y1="172.72" x2="86.36" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="EC200_GSM" gate="G$1" pin="WLAN_WAKE"/>
-<wire x1="60.96" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="USIM_VDD" class="0">
 <segment>
 <pinref part="EC200_GSM" gate="G$1" pin="USIM_VDD"/>
@@ -19638,12 +19764,6 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="-99.06" y1="267.208" x2="-99.06" y2="269.24" width="0.1524" layer="91"/>
 <pinref part="GSM_EXP" gate="G$1" pin="7"/>
 <wire x1="-99.06" y1="269.24" x2="-76.2" y2="269.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="EC200_GSM" gate="G$1" pin="AP_READY"/>
-<wire x1="-10.16" y1="231.14" x2="-25.4" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWRKEY" class="2">
@@ -20178,10 +20298,6 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="GND32" gate="1" x="-137.16" y="369.57" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-134.62" y="367.03" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="BATT" gate="G$1" x="-215.9" y="284.48" smashed="yes">
-<attribute name="VALUE" x="-215.9" y="281.686" size="1.778" layer="96" align="top-center"/>
-<attribute name="NAME" x="-215.9" y="289.814" size="1.778" layer="95" align="bottom-center"/>
-</instance>
 <instance part="5V" gate="G$1" x="-25.4" y="203.2" smashed="yes">
 <attribute name="VALUE" x="-25.4" y="200.406" size="1.778" layer="96" align="top-center"/>
 <attribute name="NAME" x="-25.4" y="208.534" size="1.778" layer="95" align="bottom-center"/>
@@ -20267,6 +20383,10 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="C6" gate="G$1" x="76.2" y="345.44" smashed="yes" rot="R270">
 <attribute name="NAME" x="80.01" y="347.98" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="71.112" y="358.14" size="1.778" layer="96" rot="R270" align="top-left"/>
+</instance>
+<instance part="J5" gate="G$1" x="-208.28" y="284.48" smashed="yes">
+<attribute name="NAME" x="-210.82" y="290.83" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-210.82" y="279.4" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -20703,7 +20823,6 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </net>
 <net name="LBV" class="3">
 <segment>
-<pinref part="BATT" gate="G$1" pin="1"/>
 <pinref part="BATT_P" gate="G$1" pin="COM2"/>
 <wire x1="-220.98" y1="287.02" x2="-220.98" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="-220.98" y1="292.1" x2="-243.84" y2="292.1" width="0.1524" layer="91"/>
@@ -20711,6 +20830,10 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="-243.84" y1="292.1" x2="-243.84" y2="281.94" width="0.1524" layer="91"/>
 <junction x="-243.84" y="292.1"/>
 <label x="-236.22" y="292.1" size="1.778" layer="95"/>
+<wire x1="-220.98" y1="287.02" x2="-218.44" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="-218.44" y1="287.02" x2="-218.44" y2="284.48" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="-218.44" y1="284.48" x2="-215.9" y2="284.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -20751,11 +20874,16 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </net>
 <net name="BATT-" class="3">
 <segment>
-<pinref part="BATT" gate="G$1" pin="2"/>
 <wire x1="-220.98" y1="284.48" x2="-233.68" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="-233.68" y1="284.48" x2="-233.68" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="-233.68" y1="266.7" x2="-251.46" y2="266.7" width="0.1524" layer="91"/>
 <label x="-246.38" y="269.24" size="1.778" layer="95"/>
+<wire x1="-220.98" y1="284.48" x2="-220.98" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="-220.98" y1="279.4" x2="-203.2" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="-203.2" y1="279.4" x2="-203.2" y2="292.1" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="-203.2" y1="292.1" x2="-215.9" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="-215.9" y1="292.1" x2="-215.9" y2="287.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DW01" gate="G$1" pin="GND"/>
@@ -21435,6 +21563,13 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <attribute name="NAME" x="388.6106" y="137.414" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="383.81" y="134.914" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="RST2" gate="G$1" x="86.36" y="86.36" smashed="yes">
+<attribute name="NAME" x="78.74" y="95.25" size="1.778" layer="95"/>
+<attribute name="VALUE" x="78.74" y="76.2" size="1.778" layer="96"/>
+</instance>
+<instance part="GND48" gate="1" x="104.14" y="74.93" smashed="yes">
+<attribute name="VALUE" x="101.6" y="72.39" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21537,6 +21672,16 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <pinref part="GND47" gate="1" pin="GND"/>
 <pinref part="D12" gate="G$0" pin="ANODE"/>
 <wire x1="159.512" y1="-12.7" x2="160.528" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RST2" gate="G$1" pin="SHIELD"/>
+<pinref part="GND48" gate="1" pin="GND"/>
+<wire x1="99.06" y1="81.28" x2="104.14" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="81.28" x2="104.14" y2="77.47" width="0.1524" layer="91"/>
+<pinref part="RST2" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="86.36" x2="104.14" y2="81.28" width="0.1524" layer="91"/>
+<junction x="104.14" y="81.28"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
@@ -21653,6 +21798,11 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="67.31" y1="147.32" x2="67.31" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="67.31" y1="148.59" x2="72.39" y2="148.59" width="0.1524" layer="91"/>
 <label x="67.31" y="148.59" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RST2" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="86.36" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
+<label x="58.42" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO15" class="0">
@@ -22112,12 +22262,6 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <approved hash="106,2,294.64,99.06,MCU_DCD,,,,,"/>
 <approved hash="106,2,294.64,101.6,MCU_RI,,,,,"/>
 <approved hash="106,2,294.64,93.98,MCU_RTS,,,,,"/>
-<approved hash="106,3,60.96,236.22,N$5,,,,,"/>
-<approved hash="106,3,60.96,220.98,N$7,,,,,"/>
-<approved hash="106,3,60.96,175.26,N$8,,,,,"/>
-<approved hash="106,3,60.96,172.72,N$15,,,,,"/>
-<approved hash="106,3,60.96,167.64,N$16,,,,,"/>
-<approved hash="106,3,-10.16,231.14,N$23,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
 <approved hash="113,2,193.571,130.071,FRAME2,,,,,"/>
 </errors>
