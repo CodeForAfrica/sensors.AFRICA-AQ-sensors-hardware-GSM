@@ -18186,6 +18186,33 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </deviceset>
 </devicesets>
 </library>
+<library name="NC_MARKER">
+<packages>
+</packages>
+<symbols>
+<symbol name="NO_CONNECT_MARKER">
+<pin name="P$1" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<wire x1="-0.571778125" y1="0.54036875" x2="0.6361" y2="-0.617775" width="0.254" layer="94"/>
+<wire x1="0.571778125" y1="0.579075" x2="-0.68755625" y2="-0.70808125" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NC_MARKER">
+<gates>
+<gate name="G$1" symbol="NO_CONNECT_MARKER" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18458,6 +18485,89 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="J5" library="B2B-XH-A" deviceset="B2B-XH-A" device="" override_package3d_urn="urn:adsk.eagle:package:50013440/2" override_package_urn="urn:adsk.eagle:footprint:50013441/1"/>
 <part name="RST2" library="SKRTLAE010" deviceset="SKRTLAE010" device="" override_package3d_urn="urn:adsk.eagle:package:50013607/3" override_package_urn="urn:adsk.eagle:footprint:50013611/1"/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$2" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$3" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$4" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$6" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$7" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$8" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$9" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$10" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$11" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$12" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$13" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$14" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$15" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$16" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$17" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$18" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$19" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$20" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$21" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$22" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$23" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$24" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$25" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$26" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$28" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$29" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$30" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$31" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$32" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$33" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$34" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$35" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$36" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$37" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$38" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$39" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$40" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$41" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$42" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$43" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$44" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$45" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$46" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$47" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$48" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$49" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$50" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$51" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$52" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$53" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$54" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$55" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$56" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$57" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$58" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$59" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$60" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$61" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$62" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$63" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$64" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$65" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$66" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$67" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$68" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$69" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$70" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$71" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$72" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$73" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$74" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$75" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$76" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$77" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$78" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$79" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$80" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$5" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$27" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$81" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$82" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$83" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$84" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18709,6 +18819,9 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="93.98" y1="58.42" x2="95.25" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="95.25" y1="58.42" x2="95.25" y2="54.61" width="0.1524" layer="91"/>
+<pinref part="MICRO_SD1" gate="G$1" pin="SHIELD"/>
+<wire x1="93.98" y1="60.96" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
+<junction x="93.98" y="58.42"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
@@ -19656,6 +19769,67 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="GND50" gate="1" x="-99.568" y="264.668" smashed="yes">
 <attribute name="VALUE" x="-102.108" y="262.128" size="1.778" layer="96"/>
 </instance>
+<instance part="U$2" gate="G$1" x="73.66" y="215.9" smashed="yes" rot="R180"/>
+<instance part="U$3" gate="G$1" x="73.66" y="213.36" smashed="yes" rot="R180"/>
+<instance part="U$4" gate="G$1" x="73.66" y="210.82" smashed="yes" rot="R180"/>
+<instance part="U$6" gate="G$1" x="73.66" y="203.2" smashed="yes" rot="R180"/>
+<instance part="U$7" gate="G$1" x="73.66" y="200.66" smashed="yes" rot="R180"/>
+<instance part="U$8" gate="G$1" x="73.66" y="195.58" smashed="yes" rot="R180"/>
+<instance part="U$9" gate="G$1" x="73.66" y="193.04" smashed="yes" rot="R180"/>
+<instance part="U$10" gate="G$1" x="73.66" y="190.5" smashed="yes" rot="R180"/>
+<instance part="U$11" gate="G$1" x="73.66" y="187.96" smashed="yes" rot="R180"/>
+<instance part="U$12" gate="G$1" x="73.66" y="185.42" smashed="yes" rot="R180"/>
+<instance part="U$13" gate="G$1" x="73.66" y="182.88" smashed="yes" rot="R180"/>
+<instance part="U$14" gate="G$1" x="73.66" y="180.34" smashed="yes" rot="R180"/>
+<instance part="U$15" gate="G$1" x="73.66" y="175.26" smashed="yes" rot="R180"/>
+<instance part="U$16" gate="G$1" x="73.66" y="172.72" smashed="yes" rot="R180"/>
+<instance part="U$17" gate="G$1" x="73.66" y="170.18" smashed="yes" rot="R180"/>
+<instance part="U$18" gate="G$1" x="73.66" y="167.64" smashed="yes" rot="R180"/>
+<instance part="U$19" gate="G$1" x="73.66" y="119.38" smashed="yes" rot="R180"/>
+<instance part="U$20" gate="G$1" x="73.66" y="116.84" smashed="yes" rot="R180"/>
+<instance part="U$21" gate="G$1" x="73.66" y="106.68" smashed="yes" rot="R180"/>
+<instance part="U$22" gate="G$1" x="73.66" y="101.6" smashed="yes" rot="R180"/>
+<instance part="U$23" gate="G$1" x="73.66" y="104.14" smashed="yes" rot="R180"/>
+<instance part="U$24" gate="G$1" x="73.66" y="99.06" smashed="yes" rot="R180"/>
+<instance part="U$25" gate="G$1" x="73.66" y="96.52" smashed="yes" rot="R180"/>
+<instance part="U$26" gate="G$1" x="73.66" y="93.98" smashed="yes" rot="R180"/>
+<instance part="U$28" gate="G$1" x="-20.32" y="93.98" smashed="yes"/>
+<instance part="U$29" gate="G$1" x="-20.32" y="96.52" smashed="yes"/>
+<instance part="U$30" gate="G$1" x="-20.32" y="99.06" smashed="yes"/>
+<instance part="U$31" gate="G$1" x="-20.32" y="101.6" smashed="yes"/>
+<instance part="U$32" gate="G$1" x="-20.32" y="104.14" smashed="yes"/>
+<instance part="U$33" gate="G$1" x="-20.32" y="106.68" smashed="yes"/>
+<instance part="U$34" gate="G$1" x="-20.32" y="109.22" smashed="yes"/>
+<instance part="U$35" gate="G$1" x="-20.32" y="114.3" smashed="yes"/>
+<instance part="U$36" gate="G$1" x="-20.32" y="116.84" smashed="yes"/>
+<instance part="U$37" gate="G$1" x="-20.32" y="119.38" smashed="yes"/>
+<instance part="U$38" gate="G$1" x="-20.32" y="121.92" smashed="yes"/>
+<instance part="U$39" gate="G$1" x="-17.78" y="147.32" smashed="yes"/>
+<instance part="U$40" gate="G$1" x="-17.78" y="149.86" smashed="yes"/>
+<instance part="U$41" gate="G$1" x="-17.78" y="162.56" smashed="yes"/>
+<instance part="U$42" gate="G$1" x="-17.78" y="165.1" smashed="yes"/>
+<instance part="U$43" gate="G$1" x="-17.78" y="170.18" smashed="yes"/>
+<instance part="U$44" gate="G$1" x="-17.78" y="172.72" smashed="yes"/>
+<instance part="U$45" gate="G$1" x="-17.78" y="175.26" smashed="yes"/>
+<instance part="U$46" gate="G$1" x="-17.78" y="180.34" smashed="yes"/>
+<instance part="U$47" gate="G$1" x="-17.78" y="182.88" smashed="yes"/>
+<instance part="U$48" gate="G$1" x="-17.78" y="187.96" smashed="yes"/>
+<instance part="U$49" gate="G$1" x="-17.78" y="190.5" smashed="yes"/>
+<instance part="U$50" gate="G$1" x="-17.78" y="215.9" smashed="yes"/>
+<instance part="U$51" gate="G$1" x="-17.78" y="218.44" smashed="yes"/>
+<instance part="U$52" gate="G$1" x="-17.78" y="220.98" smashed="yes"/>
+<instance part="U$53" gate="G$1" x="-17.78" y="228.6" smashed="yes"/>
+<instance part="U$54" gate="G$1" x="-17.78" y="231.14" smashed="yes"/>
+<instance part="U$55" gate="G$1" x="73.66" y="220.98" smashed="yes" rot="R180"/>
+<instance part="U$56" gate="G$1" x="73.66" y="226.06" smashed="yes" rot="R180"/>
+<instance part="U$57" gate="G$1" x="73.66" y="236.22" smashed="yes" rot="R180"/>
+<instance part="U$58" gate="G$1" x="-154.94" y="236.22" smashed="yes" rot="R180"/>
+<instance part="U$5" gate="G$1" x="73.66" y="208.28" smashed="yes" rot="R180"/>
+<instance part="U$27" gate="G$1" x="73.66" y="127" smashed="yes" rot="R180"/>
+<instance part="U$81" gate="G$1" x="73.66" y="124.46" smashed="yes" rot="R180"/>
+<instance part="U$82" gate="G$1" x="-17.78" y="195.58" smashed="yes"/>
+<instance part="U$83" gate="G$1" x="73.66" y="132.08" smashed="yes" rot="R180"/>
+<instance part="U$84" gate="G$1" x="73.66" y="129.54" smashed="yes" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -20068,41 +20242,6 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-96.52" y="276.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="G_ADC2" class="0">
-<segment>
-<pinref part="EC200_GSM" gate="G$1" pin="ADC2"/>
-<wire x1="-10.16" y1="195.58" x2="-30.48" y2="195.58" width="0.1524" layer="91"/>
-<label x="-30.48" y="195.58" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="G_SPI_CLK" class="0">
-<segment>
-<pinref part="EC200_GSM" gate="G$1" pin="SPI_CLK"/>
-<wire x1="60.96" y1="132.08" x2="76.2" y2="132.08" width="0.1524" layer="91"/>
-<label x="78.74" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="G_SPI_CS" class="0">
-<segment>
-<pinref part="EC200_GSM" gate="G$1" pin="SPI_CS"/>
-<wire x1="60.96" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
-<label x="78.74" y="129.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="G_SPI_MOSI" class="0">
-<segment>
-<pinref part="EC200_GSM" gate="G$1" pin="SPI_MOSI"/>
-<wire x1="60.96" y1="127" x2="76.2" y2="127" width="0.1524" layer="91"/>
-<label x="78.74" y="127" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="G_SPI_MISO" class="0">
-<segment>
-<pinref part="EC200_GSM" gate="G$1" pin="SPI_MISO"/>
-<wire x1="60.96" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
-<label x="78.74" y="124.46" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R502" gate="G$1" pin="1"/>
@@ -20142,6 +20281,433 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <pinref part="EC200_GSM" gate="G$1" pin="USB_DP"/>
 <wire x1="60.96" y1="154.94" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
 <label x="63.5" y="154.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="KEYOUT0"/>
+<wire x1="68.58" y1="215.9" x2="60.96" y2="215.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U$55" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="BT_EN"/>
+<wire x1="68.58" y1="220.98" x2="60.96" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="KEYOUT1"/>
+<wire x1="68.58" y1="213.36" x2="60.96" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="KEYOUT2"/>
+<wire x1="68.58" y1="210.82" x2="60.96" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="LOUDSPK_P"/>
+<wire x1="68.58" y1="203.2" x2="60.96" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$60" class="0">
+<segment>
+<pinref part="U$7" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="LOUDSPK_N"/>
+<wire x1="68.58" y1="200.66" x2="60.96" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$64" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="LCD_SEL"/>
+<wire x1="68.58" y1="195.58" x2="60.96" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$65" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="LCD_FMARK"/>
+<wire x1="68.58" y1="193.04" x2="60.96" y2="193.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="U$10" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="LCD_CLK"/>
+<wire x1="68.58" y1="190.5" x2="60.96" y2="190.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$67" class="0">
+<segment>
+<pinref part="U$11" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="LCD_CS"/>
+<wire x1="68.58" y1="187.96" x2="60.96" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$68" class="0">
+<segment>
+<pinref part="U$12" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="LCD_RSTB"/>
+<wire x1="68.58" y1="185.42" x2="60.96" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$69" class="0">
+<segment>
+<pinref part="U$13" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="LCD_SDC"/>
+<wire x1="68.58" y1="182.88" x2="60.96" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$70" class="0">
+<segment>
+<pinref part="U$14" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="LCD_SI/O"/>
+<wire x1="68.58" y1="180.34" x2="60.96" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$71" class="0">
+<segment>
+<pinref part="U$15" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="WLAN_EN"/>
+<wire x1="68.58" y1="175.26" x2="60.96" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$72" class="0">
+<segment>
+<pinref part="U$16" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="WLAN_PWR_EN"/>
+<wire x1="68.58" y1="172.72" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$73" class="0">
+<segment>
+<pinref part="U$17" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="WLAN_SLP_CLK"/>
+<wire x1="68.58" y1="170.18" x2="60.96" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$74" class="0">
+<segment>
+<pinref part="U$18" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="WLAN_WAKE"/>
+<wire x1="68.58" y1="167.64" x2="60.96" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$75" class="0">
+<segment>
+<pinref part="U$19" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="GRFC1"/>
+<wire x1="68.58" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$76" class="0">
+<segment>
+<pinref part="U$20" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="GRFC2"/>
+<wire x1="68.58" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$77" class="0">
+<segment>
+<pinref part="U$21" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SDIO2_DATA0"/>
+<wire x1="68.58" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$78" class="0">
+<segment>
+<pinref part="U$23" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SDIO2_DATA1"/>
+<wire x1="68.58" y1="104.14" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$79" class="0">
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SDIO2_DATA2"/>
+<wire x1="68.58" y1="101.6" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$80" class="0">
+<segment>
+<pinref part="U$24" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SDIO2_DATA3"/>
+<wire x1="68.58" y1="99.06" x2="60.96" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$81" class="0">
+<segment>
+<pinref part="U$25" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SDIO2_CMD"/>
+<wire x1="68.58" y1="96.52" x2="60.96" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$82" class="0">
+<segment>
+<pinref part="U$26" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SDIO2_CLK"/>
+<wire x1="68.58" y1="93.98" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$84" class="0">
+<segment>
+<pinref part="U$28" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SDIO1_CLK"/>
+<wire x1="-15.24" y1="93.98" x2="-10.16" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$85" class="0">
+<segment>
+<pinref part="U$29" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SDIO1_CMD"/>
+<wire x1="-15.24" y1="96.52" x2="-10.16" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$86" class="0">
+<segment>
+<pinref part="U$30" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SDIO1_DATA3"/>
+<wire x1="-15.24" y1="99.06" x2="-10.16" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$87" class="0">
+<segment>
+<pinref part="U$31" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SDIO1_DATA2"/>
+<wire x1="-15.24" y1="101.6" x2="-10.16" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$88" class="0">
+<segment>
+<pinref part="U$32" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SDIO1_DATA1"/>
+<wire x1="-15.24" y1="104.14" x2="-10.16" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$89" class="0">
+<segment>
+<pinref part="U$33" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SDIO1_DATA0"/>
+<wire x1="-15.24" y1="106.68" x2="-10.16" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$90" class="0">
+<segment>
+<pinref part="U$34" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SDIO1_VDD"/>
+<wire x1="-15.24" y1="109.22" x2="-10.16" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$91" class="0">
+<segment>
+<pinref part="U$35" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="PCM_DOUT"/>
+<wire x1="-15.24" y1="114.3" x2="-10.16" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$92" class="0">
+<segment>
+<pinref part="U$36" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="PCM_SYNC"/>
+<wire x1="-15.24" y1="116.84" x2="-10.16" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$93" class="0">
+<segment>
+<pinref part="U$37" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="PCM_DIN"/>
+<wire x1="-15.24" y1="119.38" x2="-10.16" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$94" class="0">
+<segment>
+<pinref part="U$38" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="PCM_CLK"/>
+<wire x1="-15.24" y1="121.92" x2="-10.16" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$95" class="0">
+<segment>
+<pinref part="U$49" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="AUX_RXD"/>
+<wire x1="-12.7" y1="190.5" x2="-10.16" y2="190.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$96" class="0">
+<segment>
+<pinref part="U$48" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="AUX_TXD"/>
+<wire x1="-12.7" y1="187.96" x2="-10.16" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$97" class="0">
+<segment>
+<pinref part="U$47" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="DBG_RXD"/>
+<wire x1="-12.7" y1="182.88" x2="-10.16" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$98" class="0">
+<segment>
+<pinref part="U$46" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="DBG_TXD"/>
+<wire x1="-12.7" y1="180.34" x2="-10.16" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$99" class="0">
+<segment>
+<pinref part="U$45" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="KEYIN1"/>
+<wire x1="-12.7" y1="175.26" x2="-10.16" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$100" class="0">
+<segment>
+<pinref part="U$44" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="KEYIN2"/>
+<wire x1="-12.7" y1="172.72" x2="-10.16" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$101" class="0">
+<segment>
+<pinref part="U$43" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="KEYIN3"/>
+<wire x1="-12.7" y1="170.18" x2="-10.16" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$102" class="0">
+<segment>
+<pinref part="U$42" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="MIC_P"/>
+<wire x1="-12.7" y1="165.1" x2="-10.16" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$103" class="0">
+<segment>
+<pinref part="U$41" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="MIC_N"/>
+<wire x1="-12.7" y1="162.56" x2="-10.16" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$104" class="0">
+<segment>
+<pinref part="U$40" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="I2C2_SDA"/>
+<wire x1="-12.7" y1="149.86" x2="-10.16" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$105" class="0">
+<segment>
+<pinref part="U$39" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="I2C2_SCL"/>
+<wire x1="-12.7" y1="147.32" x2="-10.16" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$106" class="0">
+<segment>
+<pinref part="U$50" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="!W_DISABLE"/>
+<wire x1="-12.7" y1="215.9" x2="-10.16" y2="215.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$107" class="0">
+<segment>
+<pinref part="U$51" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="WAKEUP_IN"/>
+<wire x1="-12.7" y1="218.44" x2="-10.16" y2="218.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$108" class="0">
+<segment>
+<pinref part="U$52" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SD_DET"/>
+<wire x1="-12.7" y1="220.98" x2="-10.16" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$109" class="0">
+<segment>
+<pinref part="U$53" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="ISINK"/>
+<wire x1="-12.7" y1="228.6" x2="-10.16" y2="228.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$110" class="0">
+<segment>
+<pinref part="U$54" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="AP_READY"/>
+<wire x1="-12.7" y1="231.14" x2="-10.16" y2="231.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$111" class="0">
+<segment>
+<pinref part="U$57" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="USIM2_VDD"/>
+<wire x1="68.58" y1="236.22" x2="60.96" y2="236.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$112" class="0">
+<segment>
+<pinref part="U$56" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SLEEP_IND"/>
+<wire x1="68.58" y1="226.06" x2="60.96" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$113" class="0">
+<segment>
+<pinref part="U$58" gate="G$1" pin="P$1"/>
+<pinref part="SIMCARD" gate="G$1" pin="VPP"/>
+<wire x1="-160.02" y1="236.22" x2="-165.1" y2="236.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="KEYOUT3"/>
+<wire x1="68.58" y1="208.28" x2="60.96" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$83" class="0">
+<segment>
+<pinref part="U$27" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SPI_MOSI"/>
+<wire x1="68.58" y1="127" x2="60.96" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$134" class="0">
+<segment>
+<pinref part="U$81" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SPI_MISO"/>
+<wire x1="68.58" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$135" class="0">
+<segment>
+<pinref part="U$82" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="ADC2"/>
+<wire x1="-12.7" y1="195.58" x2="-10.16" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$136" class="0">
+<segment>
+<pinref part="U$84" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SPI_CS"/>
+<wire x1="68.58" y1="129.54" x2="60.96" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$137" class="0">
+<segment>
+<pinref part="U$83" gate="G$1" pin="P$1"/>
+<pinref part="EC200_GSM" gate="G$1" pin="SPI_CLK"/>
+<wire x1="68.58" y1="132.08" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -20596,11 +21162,6 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="-259.08" y1="304.8" x2="-274.32" y2="304.8" width="0.1524" layer="91"/>
 <junction x="-259.08" y="294.64"/>
 <label x="-271.78" y="307.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$12" class="3">
-<segment>
-<wire x1="7.112" y1="226.314" x2="7.112" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -21570,6 +22131,22 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="GND48" gate="1" x="104.14" y="74.93" smashed="yes">
 <attribute name="VALUE" x="101.6" y="72.39" size="1.778" layer="96"/>
 </instance>
+<instance part="U$59" gate="G$1" x="381" y="134.62" smashed="yes" rot="R180"/>
+<instance part="U$60" gate="G$1" x="381" y="132.08" smashed="yes" rot="R180"/>
+<instance part="U$61" gate="G$1" x="381" y="127" smashed="yes" rot="R180"/>
+<instance part="U$62" gate="G$1" x="381" y="124.46" smashed="yes" rot="R180"/>
+<instance part="U$63" gate="G$1" x="381" y="121.92" smashed="yes" rot="R180"/>
+<instance part="U$64" gate="G$1" x="381" y="109.22" smashed="yes" rot="R180"/>
+<instance part="U$65" gate="G$1" x="381" y="106.68" smashed="yes" rot="R180"/>
+<instance part="U$66" gate="G$1" x="342.9" y="93.98" smashed="yes" rot="R180"/>
+<instance part="U$67" gate="G$1" x="342.9" y="96.52" smashed="yes" rot="R180"/>
+<instance part="U$68" gate="G$1" x="342.9" y="99.06" smashed="yes" rot="R180"/>
+<instance part="U$69" gate="G$1" x="342.9" y="101.6" smashed="yes" rot="R180"/>
+<instance part="U$70" gate="G$1" x="342.9" y="104.14" smashed="yes" rot="R180"/>
+<instance part="U$71" gate="G$1" x="342.9" y="124.46" smashed="yes" rot="R180"/>
+<instance part="U$72" gate="G$1" x="342.9" y="127" smashed="yes" rot="R180"/>
+<instance part="U$73" gate="G$1" x="317.5" y="124.46" smashed="yes"/>
+<instance part="U$74" gate="G$1" x="317.5" y="127" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -21582,13 +22159,11 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </segment>
 <segment>
 <pinref part="GND53" gate="1" pin="GND"/>
-<wire x1="120.65" y1="132.08" x2="124.968" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="RESET" gate="G$1" pin="2"/>
 <wire x1="124.968" y1="132.08" x2="135.89" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND63" gate="1" pin="GND"/>
-<wire x1="124.46" y1="109.22" x2="128.778" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="FLASH" gate="G$1" pin="2"/>
 <wire x1="128.778" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
 </segment>
@@ -21814,7 +22389,6 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </net>
 <net name="IO0" class="0">
 <segment>
-<wire x1="114.3" y1="109.22" x2="113.538" y2="109.22" width="0.1524" layer="91"/>
 <label x="105.41" y="109.22" size="1.778" layer="95"/>
 <pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="113.538" y1="109.22" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
@@ -22009,6 +22583,118 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="276.86" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$114" class="0">
+<segment>
+<pinref part="U$70" gate="G$1" pin="P$1"/>
+<pinref part="U1" gate="G$1" pin="GPIO.2/RS485"/>
+<wire x1="337.82" y1="104.14" x2="327.406" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="327.406" y1="104.14" x2="327.406" y2="104.648" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$115" class="0">
+<segment>
+<pinref part="U$69" gate="G$1" pin="P$1"/>
+<pinref part="U1" gate="G$1" pin="GPIO.3/WAKEUP"/>
+<wire x1="337.82" y1="101.6" x2="327.406" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="327.406" y1="101.6" x2="327.406" y2="102.108" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$116" class="0">
+<segment>
+<pinref part="U$68" gate="G$1" pin="P$1"/>
+<pinref part="U1" gate="G$1" pin="GPIO.4"/>
+<wire x1="337.82" y1="99.06" x2="327.406" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="327.406" y1="99.06" x2="327.406" y2="99.568" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$117" class="0">
+<segment>
+<pinref part="U$67" gate="G$1" pin="P$1"/>
+<pinref part="U1" gate="G$1" pin="GPIO.5"/>
+<wire x1="337.82" y1="96.52" x2="327.406" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="327.406" y1="96.52" x2="327.406" y2="97.028" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$118" class="0">
+<segment>
+<pinref part="U$66" gate="G$1" pin="P$1"/>
+<pinref part="U1" gate="G$1" pin="GPIO.6"/>
+<wire x1="337.82" y1="93.98" x2="327.406" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="327.406" y1="93.98" x2="327.406" y2="94.488" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$119" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="DSR"/>
+<pinref part="U$65" gate="G$1" pin="P$1"/>
+<wire x1="373.126" y1="107.188" x2="375.92" y2="107.188" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="107.188" x2="375.92" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$120" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="CTS"/>
+<pinref part="U$64" gate="G$1" pin="P$1"/>
+<wire x1="373.126" y1="109.728" x2="375.92" y2="109.728" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="109.728" x2="375.92" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$121" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="CHR1"/>
+<pinref part="U$63" gate="G$1" pin="P$1"/>
+<wire x1="373.126" y1="122.428" x2="375.92" y2="122.428" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="122.428" x2="375.92" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$122" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="CHR0"/>
+<pinref part="U$62" gate="G$1" pin="P$1"/>
+<wire x1="373.126" y1="124.968" x2="375.92" y2="124.968" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="124.968" x2="375.92" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$123" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="CHREN"/>
+<pinref part="U$61" gate="G$1" pin="P$1"/>
+<wire x1="373.126" y1="127.508" x2="375.92" y2="127.508" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="127.508" x2="375.92" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$124" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SUSPEND"/>
+<pinref part="U$60" gate="G$1" pin="P$1"/>
+<wire x1="373.126" y1="132.588" x2="375.92" y2="132.588" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="132.588" x2="375.92" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$125" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="!SUSPEND"/>
+<pinref part="U$59" gate="G$1" pin="P$1"/>
+<wire x1="373.126" y1="135.128" x2="375.92" y2="135.128" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="135.128" x2="375.92" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$126" class="0">
+<segment>
+<pinref part="U$73" gate="G$1" pin="P$1"/>
+<pinref part="U1" gate="G$1" pin="RI/CLK"/>
+<wire x1="322.58" y1="124.46" x2="327.406" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="327.406" y1="124.46" x2="327.406" y2="124.968" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$127" class="0">
+<segment>
+<pinref part="U$74" gate="G$1" pin="P$1"/>
+<pinref part="U1" gate="G$1" pin="DCD"/>
+<wire x1="322.58" y1="127" x2="327.406" y2="127" width="0.1524" layer="91"/>
+<wire x1="327.406" y1="127" x2="327.406" y2="127.508" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -22038,6 +22724,12 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="+3V4" gate="G$1" x="18.804" y="12.732" smashed="yes" rot="R180">
 <attribute name="VALUE" x="16.518" y="12.478" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="U$75" gate="G$1" x="27.94" y="10.16" smashed="yes"/>
+<instance part="U$76" gate="G$1" x="27.94" y="7.62" smashed="yes"/>
+<instance part="U$77" gate="G$1" x="27.94" y="5.08" smashed="yes"/>
+<instance part="U$78" gate="G$1" x="27.94" y="2.54" smashed="yes"/>
+<instance part="U$79" gate="G$1" x="73.66" y="7.62" smashed="yes" rot="R180"/>
+<instance part="U$80" gate="G$1" x="73.66" y="5.08" smashed="yes" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -22124,6 +22816,48 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <pinref part="U$1" gate="G$1" pin="SCK"/>
 <wire x1="66.04" y1="10.16" x2="73.66" y2="10.16" width="0.1524" layer="91"/>
 <label x="66.04" y="10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$128" class="0">
+<segment>
+<pinref part="U$75" gate="G$1" pin="P$1"/>
+<pinref part="U$1" gate="G$1" pin="DIO0"/>
+<wire x1="33.02" y1="10.16" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$129" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="DIO1"/>
+<pinref part="U$76" gate="G$1" pin="P$1"/>
+<wire x1="35.56" y1="7.62" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$130" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="DIO2"/>
+<pinref part="U$77" gate="G$1" pin="P$1"/>
+<wire x1="35.56" y1="5.08" x2="33.02" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$131" class="0">
+<segment>
+<pinref part="U$78" gate="G$1" pin="P$1"/>
+<pinref part="U$1" gate="G$1" pin="DIO3"/>
+<wire x1="33.02" y1="2.54" x2="35.56" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$132" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="DIO4"/>
+<pinref part="U$80" gate="G$1" pin="P$1"/>
+<wire x1="66.04" y1="5.08" x2="68.58" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$133" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="DIO5"/>
+<pinref part="U$79" gate="G$1" pin="P$1"/>
+<wire x1="66.04" y1="7.62" x2="68.58" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -22258,6 +22992,8 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </sheet>
 </sheets>
 <errors>
+<approved hash="206,4,-139.7,175.26,5V0UT1,,,,,"/>
+<approved hash="206,4,-142.24,149.86,5V0UT1,,,,,"/>
 <approved hash="106,2,294.64,96.52,MCU_CTS,,,,,"/>
 <approved hash="106,2,294.64,99.06,MCU_DCD,,,,,"/>
 <approved hash="106,2,294.64,101.6,MCU_RI,,,,,"/>
