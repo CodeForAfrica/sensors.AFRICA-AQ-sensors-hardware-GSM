@@ -18625,9 +18625,9 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="307.34" y="226.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="IO45"/>
-<wire x1="58.42" y1="124.46" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
-<label x="38.1" y="124.46" size="1.778" layer="95"/>
+<pinref part="X1" gate="G$1" pin="IO21"/>
+<wire x1="58.42" y1="147.32" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
+<label x="38.1" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMS_TX" class="0">
@@ -18637,9 +18637,9 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="307.34" y="228.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="IO21"/>
-<wire x1="58.42" y1="147.32" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
-<label x="38.1" y="147.32" size="1.778" layer="95"/>
+<pinref part="X1" gate="G$1" pin="IO45"/>
+<wire x1="58.42" y1="124.46" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
+<label x="38.1" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ESP_RST" class="0">
@@ -18884,9 +18884,9 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="45.72" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="IO41"/>
-<wire x1="58.42" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
-<label x="38.1" y="129.54" size="1.778" layer="95"/>
+<pinref part="X1" gate="G$1" pin="IO40"/>
+<wire x1="58.42" y1="132.08" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
+<label x="38.1" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SD_CS" class="0">
@@ -18920,9 +18920,9 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="35.56" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="IO40"/>
-<wire x1="58.42" y1="132.08" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
-<label x="38.1" y="132.08" size="1.778" layer="95"/>
+<pinref part="X1" gate="G$1" pin="IO41"/>
+<wire x1="58.42" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
+<label x="38.1" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EUSB_N" class="0">
