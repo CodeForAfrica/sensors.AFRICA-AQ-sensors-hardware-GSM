@@ -18837,7 +18837,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <part name="U$72" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="U$73" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="U$74" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
-<part name="U$75" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="U$76" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="U$77" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="U$78" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
@@ -18959,6 +18958,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <part name="R66" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="GND97" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R67" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
+<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19081,6 +19081,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <attribute name="NAME" x="42.1386" y="227.33" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="37.338" y="227.33" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="GND8" gate="1" x="281.94" y="165.1" smashed="yes">
+<attribute name="VALUE" x="279.4" y="162.56" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19160,6 +19163,17 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="GND97" gate="1" pin="GND"/>
 <wire x1="40.64" y1="218.44" x2="40.64" y2="214.63" width="0.1524" layer="91"/>
 <pinref part="R67" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="JTAG" gate="G$1" pin="SHELL_GND"/>
+<wire x1="269.24" y1="172.72" x2="279.4" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="172.72" x2="279.4" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="JTAG" gate="G$1" pin="GND"/>
+<wire x1="279.4" y1="175.26" x2="269.24" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="281.94" y1="167.64" x2="279.4" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="167.64" x2="279.4" y2="172.72" width="0.1524" layer="91"/>
+<junction x="279.4" y="172.72"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
@@ -19356,7 +19370,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <label x="106.68" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IO11" class="0">
+<net name="DIO0" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="IO11"/>
 <wire x1="91.44" y1="134.62" x2="111.76" y2="134.62" width="0.1524" layer="91"/>
@@ -19461,15 +19475,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <segment>
 <pinref part="JTAG" gate="G$1" pin="SBU1"/>
 <wire x1="228.6" y1="180.34" x2="218.44" y2="180.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$140" class="0">
-<segment>
-<pinref part="JTAG" gate="G$1" pin="SHELL_GND"/>
-<wire x1="269.24" y1="172.72" x2="279.4" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="172.72" x2="279.4" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="JTAG" gate="G$1" pin="GND"/>
-<wire x1="279.4" y1="175.26" x2="269.24" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$141" class="0">
@@ -23524,7 +23529,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <instance part="+3V4" gate="G$1" x="18.804" y="12.732" smashed="yes" rot="R180">
 <attribute name="VALUE" x="16.518" y="12.478" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="U$75" gate="G$1" x="27.94" y="10.16" smashed="yes"/>
 <instance part="U$76" gate="G$1" x="27.94" y="7.62" smashed="yes"/>
 <instance part="U$77" gate="G$1" x="27.94" y="5.08" smashed="yes"/>
 <instance part="U$78" gate="G$1" x="27.94" y="2.54" smashed="yes"/>
@@ -23597,11 +23601,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <label x="66.04" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$128" class="0">
+<net name="DIO0" class="0">
 <segment>
-<pinref part="U$75" gate="G$1" pin="P$1"/>
 <pinref part="U$1" gate="G$1" pin="DIO0"/>
 <wire x1="33.02" y1="10.16" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
+<label x="27.94" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$129" class="0">
