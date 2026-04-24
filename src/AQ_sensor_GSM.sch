@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -18959,6 +18959,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <part name="GND97" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R67" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R4" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" deviceset="CRCW08050000Z0EA" device="" package3d_urn="urn:adsk.eagle:package:10872899/3" value="0.4R"/>
+<part name="R11" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" deviceset="CRCW08050000Z0EA" device="" package3d_urn="urn:adsk.eagle:package:10872899/3" value="0.4R"/>
 </parts>
 <sheets>
 <sheet>
@@ -21092,8 +21094,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <attribute name="NAME" x="44.44906875" y="393.7" size="1.77843125" layer="95" rot="R90"/>
 <attribute name="VALUE" x="48.26848125" y="393.7" size="1.78096875" layer="96" rot="R90"/>
 </instance>
-<instance part="GND13" gate="1" x="22.86" y="324.358" smashed="yes">
-<attribute name="VALUE" x="20.32" y="321.818" size="1.778" layer="96"/>
+<instance part="GND13" gate="1" x="35.56" y="324.358" smashed="yes">
+<attribute name="VALUE" x="33.02" y="321.818" size="1.778" layer="96"/>
 </instance>
 <instance part="U3" gate="G$1" x="-142.24" y="347.98" smashed="yes">
 <attribute name="NAME" x="-152.4" y="361.188" size="1.778" layer="95"/>
@@ -21414,6 +21416,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <attribute name="NAME" x="104.14" y="257.556" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="104.14" y="260.604" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
+<instance part="R4" gate="G$1" x="149.86" y="264.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="153.67" y="262.6614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="153.67" y="267.462" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R11" gate="G$1" x="-236.22" y="373.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="-232.41" y="371.8814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-232.41" y="376.682" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21476,22 +21486,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <wire x1="-239.776" y1="257.81" x2="-233.68" y2="257.81" width="0.1524" layer="91"/>
 <wire x1="-233.68" y1="257.81" x2="-233.68" y2="255.778" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="22.86" y1="326.898" x2="22.86" y2="329.946" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="2"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="24.384" y1="329.946" x2="35.56" y2="329.946" width="0.1524" layer="91"/>
-<junction x="24.384" y="329.946"/>
-<wire x1="12.7" y1="329.946" x2="24.384" y2="329.946" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="330.2" x2="12.7" y2="329.946" width="0.1524" layer="91"/>
-<junction x="12.7" y="330.2"/>
-<wire x1="2.54" y1="330.2" x2="12.7" y2="330.2" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="330.2" x2="22.86" y2="329.946" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="329.946" x2="24.384" y2="329.946" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -21715,6 +21709,21 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="R64" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="236.22" x2="162.56" y2="238.76" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="330.2" x2="12.7" y2="330.2" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="330.2" x2="12.7" y2="329.946" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="329.946" x2="24.384" y2="329.946" width="0.1524" layer="91"/>
+<junction x="12.7" y="330.2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="24.384" y1="329.946" x2="35.56" y2="329.946" width="0.1524" layer="91"/>
+<junction x="24.384" y="329.946"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="35.56" y1="326.898" x2="35.56" y2="329.946" width="0.1524" layer="91"/>
+<junction x="35.56" y="329.946"/>
+</segment>
 </net>
 <net name="V_LIPO" class="3">
 <segment>
@@ -21920,11 +21929,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <label x="-271.78" y="259.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="5V_REG_1" gate="G$1" pin="OUTPUT"/>
-<wire x1="-246.38" y1="373.38" x2="-238.76" y2="373.38" width="0.1524" layer="91"/>
-<label x="-243.84" y="373.38" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="5V_JST" gate="G$1" pin="1"/>
 <wire x1="-276.86" y1="304.8" x2="-292.1" y2="304.8" width="0.1524" layer="91"/>
 <label x="-312.42" y="307.34" size="1.778" layer="95"/>
@@ -21944,9 +21948,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <label x="-241.3" y="281.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U7" gate="G$1" pin="VOUT"/>
 <pinref part="C38" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="264.16" x2="162.56" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="264.16" x2="172.72" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="264.16" x2="172.72" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="C32" gate="G$1" pin="1"/>
@@ -21955,10 +21957,17 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <junction x="172.72" y="264.16"/>
 <pinref part="R63" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="261.62" x2="162.56" y2="264.16" width="0.1524" layer="91"/>
-<junction x="162.56" y="264.16"/>
 <wire x1="180.34" y1="264.16" x2="198.12" y2="264.16" width="0.1524" layer="91"/>
 <junction x="180.34" y="264.16"/>
 <label x="187.96" y="264.16" size="1.778" layer="95"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="264.16" x2="162.56" y2="264.16" width="0.1524" layer="91"/>
+<junction x="162.56" y="264.16"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="-231.14" y1="373.38" x2="-223.52" y2="373.38" width="0.1524" layer="91"/>
+<label x="-228.6" y="373.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -22230,18 +22239,19 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="337.82" x2="12.7" y2="337.82" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="337.82" x2="12.7" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="337.82" x2="12.7" y2="340.36" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="340.36" x2="12.7" y2="345.44" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="345.44" x2="25.4" y2="345.44" width="0.1524" layer="91"/>
 <junction x="12.7" y="337.82"/>
 <label x="17.78" y="345.44" size="1.778" layer="95"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="340.36" x2="35.56" y2="337.566" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="337.566" x2="35.56" y2="340.36" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="340.36" x2="12.7" y2="340.36" width="0.1524" layer="91"/>
+<junction x="12.7" y="340.36"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="340.36" x2="24.384" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="24.384" y1="340.36" x2="24.384" y2="337.566" width="0.1524" layer="91"/>
-<wire x1="24.384" y1="340.36" x2="12.7" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="340.36" x2="12.7" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="24.384" y1="337.566" x2="35.56" y2="337.566" width="0.1524" layer="91"/>
+<junction x="35.56" y="337.566"/>
 </segment>
 </net>
 <net name="BOOST_EN" class="0">
@@ -22315,6 +22325,20 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <wire x1="154.94" y1="259.08" x2="154.94" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="251.46" x2="162.56" y2="251.46" width="0.1524" layer="91"/>
 <junction x="162.56" y="251.46"/>
+</segment>
+</net>
+<net name="N$115" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="VOUT"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="264.16" x2="142.24" y2="264.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$116" class="0">
+<segment>
+<pinref part="5V_REG_1" gate="G$1" pin="OUTPUT"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="-241.3" y1="373.38" x2="-246.38" y2="373.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
