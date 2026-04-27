@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -18568,6 +18568,74 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 </deviceset>
 </devicesets>
 </library>
+<library name="AMS1117-3.3">
+<packages>
+<package name="SOT229P700X180-4N">
+<wire x1="-1.7525" y1="3.2525" x2="1.7525" y2="3.2525" width="0.127" layer="51"/>
+<wire x1="1.7525" y1="3.2525" x2="1.7525" y2="-3.2525" width="0.127" layer="51"/>
+<wire x1="1.7525" y1="-3.2525" x2="-1.7525" y2="-3.2525" width="0.127" layer="51"/>
+<wire x1="-1.7525" y1="-3.2525" x2="-1.7525" y2="3.2525" width="0.127" layer="51"/>
+<wire x1="-1.7525" y1="3.2525" x2="1.7525" y2="3.2525" width="0.127" layer="21"/>
+<wire x1="1.7525" y1="3.2525" x2="1.7525" y2="-3.2525" width="0.127" layer="21"/>
+<wire x1="1.7525" y1="-3.2525" x2="-1.7525" y2="-3.2525" width="0.127" layer="21"/>
+<wire x1="-1.7525" y1="-3.2525" x2="-1.7525" y2="3.2525" width="0.127" layer="21"/>
+<wire x1="4.25" y1="3.5025" x2="-4.25" y2="3.5025" width="0.05" layer="39"/>
+<wire x1="-4.25" y1="3.5025" x2="-4.25" y2="-3.5025" width="0.05" layer="39"/>
+<wire x1="-4.25" y1="-3.5025" x2="4.25" y2="-3.5025" width="0.05" layer="39"/>
+<wire x1="4.25" y1="-3.5025" x2="4.25" y2="3.5025" width="0.05" layer="39"/>
+<circle x="-5" y="2.29" radius="0.1" width="0.2" layer="21"/>
+<circle x="-5" y="2.29" radius="0.1" width="0.2" layer="51"/>
+<text x="-3.5025" y="5.25" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.5025" y="-5.45" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="1" x="-3.345" y="2.29" dx="1.31" dy="0.93" layer="1" roundness="15"/>
+<smd name="2" x="-3.345" y="0" dx="1.31" dy="0.93" layer="1" roundness="15"/>
+<smd name="3" x="-3.345" y="-2.29" dx="1.31" dy="0.93" layer="1" roundness="15"/>
+<smd name="4" x="3.345" y="0" dx="1.31" dy="3.24" layer="1" roundness="15"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AMS1117-3.3">
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="5.588" size="2.54" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-8.128" size="2.54" layer="96">&gt;VALUE</text>
+<pin name="VIN" x="-15.24" y="2.54" length="middle" direction="in"/>
+<pin name="VOUT" x="15.24" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="GND/ADJ" x="15.24" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AMS1117-3.3" prefix="U">
+<description> &lt;a href="https://pricing.snapeda.com/parts/AMS1117-3.3/Advanced%20Monolithic%20Systems/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="AMS1117-3.3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT229P700X180-4N">
+<connects>
+<connect gate="G$1" pin="GND/ADJ" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Not in stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/AMS1117-3.3/Advanced+Monolithic+Systems/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value="                                                      Sot223/Pkg 1-Amp 3.3-Volt Low Drop Out Voltage Regulatator                                              "/>
+<attribute name="MF" value="Advanced Monolithic Systems"/>
+<attribute name="MP" value="AMS1117-3.3"/>
+<attribute name="PACKAGE" value="SOT-223 Seeed Technology"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/AMS1117-3.3/Advanced+Monolithic+Systems/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18751,7 +18819,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0R"/>
 <part name="U$1" library="sx1278S2" deviceset="SX1278" device="" override_package3d_urn="urn:adsk.eagle:package:45904841/2" override_package_urn="urn:adsk.eagle:footprint:45904842/1"/>
-<part name="LORA" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/2"/>
+<part name="LORA" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/2" value="NA"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0R"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -18961,6 +19029,37 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R4" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" deviceset="CRCW08050000Z0EA" device="" package3d_urn="urn:adsk.eagle:package:10872899/3" value="0.4R"/>
 <part name="R11" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" deviceset="CRCW08050000Z0EA" device="" package3d_urn="urn:adsk.eagle:package:10872899/3" value="0.4R"/>
+<part name="U8" library="AMS1117-3.3" deviceset="AMS1117-3.3" device=""/>
+<part name="JUMPVL" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" deviceset="CRCW08050000Z0EA" device="" package3d_urn="urn:adsk.eagle:package:10872899/3" value="0.4R"/>
+<part name="R40" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" deviceset="CRCW08050000Z0EA" device="" package3d_urn="urn:adsk.eagle:package:10872899/3" value="0.4R"/>
+<part name="GND64" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="JUMP4V" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" deviceset="CRCW08050000Z0EA" device="" package3d_urn="urn:adsk.eagle:package:10872899/3" value="0.4R"/>
+<part name="JUMP5V" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" deviceset="CRCW08050000Z0EA" device="" package3d_urn="urn:adsk.eagle:package:10872899/3" value="0.4R"/>
+<part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="R16" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" deviceset="CRCW08050000Z0EA" device="" package3d_urn="urn:adsk.eagle:package:10872899/3" value="0.4R"/>
+<part name="U$75" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$86" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$87" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$88" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$89" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$90" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$91" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$92" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$93" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$94" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$95" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$85" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$96" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$97" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$98" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$99" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$100" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$101" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$102" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$103" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$104" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$105" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
+<part name="U$106" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19086,6 +19185,24 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <instance part="GND8" gate="1" x="281.94" y="165.1" smashed="yes">
 <attribute name="VALUE" x="279.4" y="162.56" size="1.778" layer="96"/>
 </instance>
+<instance part="U$86" gate="G$1" x="116.84" y="137.16" smashed="yes" rot="R180"/>
+<instance part="U$87" gate="G$1" x="33.02" y="147.32" smashed="yes"/>
+<instance part="U$88" gate="G$1" x="33.02" y="144.78" smashed="yes"/>
+<instance part="U$89" gate="G$1" x="33.02" y="142.24" smashed="yes"/>
+<instance part="U$90" gate="G$1" x="33.02" y="139.7" smashed="yes"/>
+<instance part="U$91" gate="G$1" x="33.02" y="137.16" smashed="yes"/>
+<instance part="U$92" gate="G$1" x="33.02" y="132.08" smashed="yes"/>
+<instance part="U$93" gate="G$1" x="33.02" y="129.54" smashed="yes"/>
+<instance part="U$94" gate="G$1" x="33.02" y="127" smashed="yes"/>
+<instance part="U$95" gate="G$1" x="116.84" y="139.7" smashed="yes" rot="R180"/>
+<instance part="U$99" gate="G$1" x="210.82" y="187.96" smashed="yes"/>
+<instance part="U$100" gate="G$1" x="210.82" y="180.34" smashed="yes"/>
+<instance part="U$101" gate="G$1" x="284.48" y="180.34" smashed="yes" rot="R180"/>
+<instance part="U$102" gate="G$1" x="312.42" y="233.68" smashed="yes"/>
+<instance part="U$103" gate="G$1" x="312.42" y="236.22" smashed="yes"/>
+<instance part="U$104" gate="G$1" x="312.42" y="231.14" smashed="yes"/>
+<instance part="U$105" gate="G$1" x="312.42" y="223.52" smashed="yes"/>
+<instance part="U$106" gate="G$1" x="284.48" y="187.96" smashed="yes" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -19363,6 +19480,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="X1" gate="G$1" pin="IO9"/>
 <wire x1="91.44" y1="139.7" x2="111.76" y2="139.7" width="0.1524" layer="91"/>
 <label x="106.68" y="139.7" size="1.778" layer="95"/>
+<pinref part="U$95" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="IO10" class="0">
@@ -19370,6 +19488,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="X1" gate="G$1" pin="IO10"/>
 <wire x1="91.44" y1="137.16" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
 <label x="106.68" y="137.16" size="1.778" layer="95"/>
+<pinref part="U$86" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="DIO0" class="0">
@@ -19398,6 +19517,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="X1" gate="G$1" pin="IO40"/>
 <wire x1="58.42" y1="132.08" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
 <label x="38.1" y="132.08" size="1.778" layer="95"/>
+<pinref part="U$92" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="SD_CS" class="0">
@@ -19417,6 +19537,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="X1" gate="G$1" pin="IO41"/>
 <wire x1="58.42" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
 <label x="38.1" y="129.54" size="1.778" layer="95"/>
+<pinref part="U$93" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="EUSB_N" class="0">
@@ -19471,24 +19592,28 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <segment>
 <pinref part="JTAG" gate="G$1" pin="CC1"/>
 <wire x1="228.6" y1="187.96" x2="215.9" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="U$99" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$139" class="0">
 <segment>
 <pinref part="JTAG" gate="G$1" pin="SBU1"/>
-<wire x1="228.6" y1="180.34" x2="218.44" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="180.34" x2="215.9" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="U$100" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$141" class="0">
 <segment>
 <pinref part="JTAG" gate="G$1" pin="SBU2"/>
 <wire x1="269.24" y1="180.34" x2="279.4" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="U$101" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$144" class="0">
 <segment>
 <pinref part="JTAG" gate="G$1" pin="CC2"/>
 <wire x1="269.24" y1="187.96" x2="279.4" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="U$106" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="IO21" class="0">
@@ -19496,6 +19621,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="X1" gate="G$1" pin="IO21"/>
 <wire x1="58.42" y1="147.32" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
 <label x="38.1" y="147.32" size="1.778" layer="95"/>
+<pinref part="U$87" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="IO45" class="0">
@@ -19515,6 +19641,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="X1" gate="G$1" pin="IO36"/>
 <wire x1="58.42" y1="142.24" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
 <label x="38.1" y="142.24" size="1.778" layer="95"/>
+<pinref part="U$89" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="IO35" class="0">
@@ -19522,6 +19649,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="X1" gate="G$1" pin="IO35"/>
 <wire x1="58.42" y1="144.78" x2="38.1" y2="144.78" width="0.1524" layer="91"/>
 <label x="38.1" y="144.78" size="1.778" layer="95"/>
+<pinref part="U$88" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="IO37" class="0">
@@ -19529,6 +19657,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="X1" gate="G$1" pin="IO37"/>
 <wire x1="58.42" y1="139.7" x2="38.1" y2="139.7" width="0.1524" layer="91"/>
 <label x="38.1" y="139.7" size="1.778" layer="95"/>
+<pinref part="U$90" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="SPI_CLK" class="0">
@@ -19548,6 +19677,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="X1" gate="G$1" pin="IO38"/>
 <wire x1="58.42" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
 <label x="38.1" y="137.16" size="1.778" layer="95"/>
+<pinref part="U$91" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="IO42" class="0">
@@ -19555,6 +19685,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="X1" gate="G$1" pin="IO42"/>
 <wire x1="58.42" y1="127" x2="38.1" y2="127" width="0.1524" layer="91"/>
 <label x="38.1" y="127" size="1.778" layer="95"/>
+<pinref part="U$94" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -19591,6 +19722,34 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="X1" gate="G$1" pin="IO2"/>
 <wire x1="91.44" y1="157.48" x2="111.76" y2="157.48" width="0.1524" layer="91"/>
 <label x="106.68" y="157.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$140" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="U$103" gate="G$1" pin="P$1"/>
+<wire x1="317.5" y1="236.22" x2="322.58" y2="236.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$153" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="U$102" gate="G$1" pin="P$1"/>
+<wire x1="317.5" y1="233.68" x2="322.58" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$154" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="U$104" gate="G$1" pin="P$1"/>
+<wire x1="317.5" y1="231.14" x2="322.58" y2="231.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$155" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="6"/>
+<pinref part="U$105" gate="G$1" pin="P$1"/>
+<wire x1="317.5" y1="223.52" x2="322.58" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -19648,6 +19807,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <instance part="GND58" gate="1" x="367.03" y="80.518" smashed="yes">
 <attribute name="VALUE" x="364.49" y="77.978" size="1.778" layer="96"/>
 </instance>
+<instance part="U$85" gate="G$1" x="279.4" y="101.6" smashed="yes"/>
+<instance part="U$96" gate="G$1" x="279.4" y="99.06" smashed="yes"/>
+<instance part="U$97" gate="G$1" x="279.4" y="96.52" smashed="yes"/>
+<instance part="U$98" gate="G$1" x="279.4" y="93.98" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -19751,6 +19914,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="U5" gate="G$1" pin="B1"/>
 <wire x1="294.64" y1="101.6" x2="284.48" y2="101.6" width="0.1524" layer="91"/>
 <label x="274.32" y="101.6" size="1.778" layer="95"/>
+<pinref part="U$85" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="MCU_DCD" class="0">
@@ -19758,6 +19922,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="U5" gate="G$1" pin="B2"/>
 <wire x1="294.64" y1="99.06" x2="284.48" y2="99.06" width="0.1524" layer="91"/>
 <label x="274.32" y="99.06" size="1.778" layer="95"/>
+<pinref part="U$96" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="MCU_CTS" class="0">
@@ -19765,6 +19930,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="U5" gate="G$1" pin="B3"/>
 <wire x1="294.64" y1="96.52" x2="284.48" y2="96.52" width="0.1524" layer="91"/>
 <label x="274.32" y="96.52" size="1.778" layer="95"/>
+<pinref part="U$97" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="MCU_RTS" class="0">
@@ -19772,6 +19938,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="U5" gate="G$1" pin="B4"/>
 <wire x1="294.64" y1="93.98" x2="284.48" y2="93.98" width="0.1524" layer="91"/>
 <label x="274.32" y="93.98" size="1.778" layer="95"/>
+<pinref part="U$98" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="MAIN_DTR" class="0">
@@ -20034,6 +20201,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <instance part="GND39" gate="1" x="-83.312" y="206.248" smashed="yes">
 <attribute name="VALUE" x="-85.852" y="203.708" size="1.778" layer="96"/>
 </instance>
+<instance part="U$75" gate="G$1" x="73.66" y="111.76" smashed="yes" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -20434,13 +20602,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="GSM_EXP" gate="G$1" pin="3"/>
 <wire x1="-76.2" y1="279.4" x2="-96.52" y2="279.4" width="0.1524" layer="91"/>
 <label x="-96.52" y="279.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="G_GPIO1" class="0">
-<segment>
-<pinref part="EC200_GSM" gate="G$1" pin="GPIO1"/>
-<wire x1="60.96" y1="111.76" x2="76.2" y2="111.76" width="0.1524" layer="91"/>
-<label x="66.04" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="G_ADC1" class="0">
@@ -20945,6 +21106,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <junction x="-159.766" y="154.94"/>
 </segment>
 </net>
+<net name="N$128" class="0">
+<segment>
+<pinref part="EC200_GSM" gate="G$1" pin="GPIO1"/>
+<pinref part="U$75" gate="G$1" pin="P$1"/>
+<wire x1="68.58" y1="111.76" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -21000,6 +21168,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <wire x1="205.74" y1="215.9" x2="63.5" y2="215.9" width="0.1524" layer="94"/>
 <wire x1="63.5" y1="215.9" x2="63.5" y2="302.26" width="0.1524" layer="94"/>
 <text x="111.76" y="292.1" size="1.778" layer="94">5V In Buck CIRCUIT</text>
+<text x="-12.7" y="297.18" size="1.778" layer="91">DO NOT SOLDER JUMP RESISTORS!</text>
+<text x="-2.54" y="205.74" size="1.778" layer="91">DO NOT SOLDER JUMP RESISTORS!</text>
+<text x="-304.8" y="210.82" size="1.778" layer="91">DO NOT SOLDER JUMP RESISTORS!</text>
 </plain>
 <instances>
 <instance part="C10" gate="G$1" x="27.94" y="395.986" smashed="yes">
@@ -21424,6 +21595,36 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <attribute name="NAME" x="-232.41" y="371.8814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-232.41" y="376.682" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="U8" gate="G$1" x="-289.56" y="185.42" smashed="yes">
+<attribute name="NAME" x="-299.72" y="191.008" size="2.54" layer="95"/>
+<attribute name="VALUE" x="-299.72" y="177.292" size="2.54" layer="96"/>
+</instance>
+<instance part="JUMPVL" gate="G$1" x="-317.5" y="195.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="-313.69" y="194.0814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-313.69" y="198.882" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R40" gate="G$1" x="-317.5" y="185.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="-313.69" y="183.9214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-313.69" y="188.722" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND64" gate="1" x="-269.24" y="172.72" smashed="yes">
+<attribute name="VALUE" x="-271.78" y="170.18" size="1.778" layer="96"/>
+</instance>
+<instance part="JUMP4V" gate="G$1" x="-25.4" y="193.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="-21.59" y="191.5414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-21.59" y="196.342" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="JUMP5V" gate="G$1" x="-27.94" y="284.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="-24.13" y="282.9814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-24.13" y="287.782" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V6" gate="G$1" x="-251.714" y="198.628" smashed="yes">
+<attribute name="VALUE" x="-249.428" y="198.12" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R16" gate="G$1" x="-261.62" y="187.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="-257.81" y="186.4614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-257.81" y="191.262" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21724,6 +21925,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <wire x1="35.56" y1="326.898" x2="35.56" y2="329.946" width="0.1524" layer="91"/>
 <junction x="35.56" y="329.946"/>
 </segment>
+<segment>
+<pinref part="GND64" gate="1" pin="GND"/>
+<wire x1="-269.24" y1="175.26" x2="-269.24" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="GND/ADJ"/>
+<wire x1="-269.24" y1="182.88" x2="-274.32" y2="182.88" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="V_LIPO" class="3">
 <segment>
@@ -21752,7 +21959,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <wire x1="-58.42" y1="264.16" x2="-63.5" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="259.08" x2="-86.36" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="271.78" x2="-78.74" y2="271.78" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="271.78" x2="-53.34" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="271.78" x2="-60.96" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="271.78" x2="-53.34" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="271.78" x2="-50.8" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="271.78" x2="-50.8" y2="264.16" width="0.1524" layer="91"/>
 <pinref part="C23" gate="G$1" pin="1"/>
@@ -21765,6 +21973,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="R59" gate="G$1" pin="2"/>
 <wire x1="-58.42" y1="259.08" x2="-58.42" y2="264.16" width="0.1524" layer="91"/>
 <junction x="-58.42" y="264.16"/>
+<pinref part="JUMP5V" gate="G$1" pin="2"/>
+<wire x1="-33.02" y1="284.48" x2="-60.96" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="284.48" x2="-60.96" y2="271.78" width="0.1524" layer="91"/>
+<junction x="-60.96" y="271.78"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="VIN"/>
@@ -21776,7 +21988,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <wire x1="-58.42" y1="172.72" x2="-63.5" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="167.64" x2="-86.36" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="180.34" x2="-78.74" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="180.34" x2="-53.34" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="180.34" x2="-63.5" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="180.34" x2="-53.34" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="180.34" x2="-50.8" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="180.34" x2="-50.8" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="1"/>
@@ -21789,12 +22002,21 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="R60" gate="G$1" pin="2"/>
 <wire x1="-58.42" y1="167.64" x2="-58.42" y2="172.72" width="0.1524" layer="91"/>
 <junction x="-58.42" y="172.72"/>
+<pinref part="JUMP4V" gate="G$1" pin="2"/>
+<wire x1="-30.48" y1="193.04" x2="-63.5" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="193.04" x2="-63.5" y2="180.34" width="0.1524" layer="91"/>
+<junction x="-63.5" y="180.34"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="-144.78" y1="254" x2="-144.78" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="-144.78" y1="251.46" x2="-132.08" y2="251.46" width="0.1524" layer="91"/>
 <label x="-137.16" y="251.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JUMPVL" gate="G$1" pin="2"/>
+<wire x1="-322.58" y1="195.58" x2="-335.28" y2="195.58" width="0.1524" layer="91"/>
+<label x="-335.28" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V_OUT" class="3">
@@ -21808,7 +22030,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="U4" gate="G$1" pin="VOUT"/>
 <pinref part="C24" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="264.16" x2="5.08" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="264.16" x2="15.24" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="264.16" x2="10.16" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="264.16" x2="15.24" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="264.16" x2="15.24" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="259.08" x2="22.86" y2="264.16" width="0.1524" layer="91"/>
@@ -21820,6 +22043,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <wire x1="22.86" y1="264.16" x2="40.64" y2="264.16" width="0.1524" layer="91"/>
 <junction x="22.86" y="264.16"/>
 <label x="30.48" y="264.16" size="1.778" layer="95"/>
+<pinref part="JUMP5V" gate="G$1" pin="1"/>
+<wire x1="-22.86" y1="284.48" x2="10.16" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="284.48" x2="10.16" y2="264.16" width="0.1524" layer="91"/>
+<junction x="10.16" y="264.16"/>
+</segment>
+<segment>
+<pinref part="R40" gate="G$1" pin="2"/>
+<wire x1="-322.58" y1="185.42" x2="-335.28" y2="185.42" width="0.1524" layer="91"/>
+<label x="-335.28" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="G_USB_P" class="0">
@@ -22201,7 +22433,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="U6" gate="G$1" pin="VOUT"/>
 <pinref part="C30" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="172.72" x2="5.08" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="172.72" x2="15.24" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="172.72" x2="12.7" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="172.72" x2="15.24" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="172.72" x2="15.24" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="167.64" x2="22.86" y2="172.72" width="0.1524" layer="91"/>
@@ -22213,6 +22446,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <wire x1="22.86" y1="172.72" x2="40.64" y2="172.72" width="0.1524" layer="91"/>
 <junction x="22.86" y="172.72"/>
 <label x="30.48" y="172.72" size="1.778" layer="95"/>
+<pinref part="JUMP4V" gate="G$1" pin="1"/>
+<wire x1="-20.32" y1="193.04" x2="7.62" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="193.04" x2="7.62" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="195.58" x2="12.7" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="195.58" x2="12.7" y2="172.72" width="0.1524" layer="91"/>
+<junction x="12.7" y="172.72"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
@@ -22339,6 +22578,33 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <pinref part="5V_REG_1" gate="G$1" pin="OUTPUT"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="-241.3" y1="373.38" x2="-246.38" y2="373.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$117" class="0">
+<segment>
+<pinref part="R40" gate="G$1" pin="1"/>
+<pinref part="U8" gate="G$1" pin="VIN"/>
+<wire x1="-312.42" y1="185.42" x2="-304.8" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="-304.8" y1="185.42" x2="-304.8" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="JUMPVL" gate="G$1" pin="1"/>
+<wire x1="-312.42" y1="195.58" x2="-304.8" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="-304.8" y1="195.58" x2="-304.8" y2="187.96" width="0.1524" layer="91"/>
+<junction x="-304.8" y="187.96"/>
+</segment>
+</net>
+<net name="N$118" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="VOUT"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="-266.7" y1="187.96" x2="-274.32" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+3V3" class="1">
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<wire x1="-256.54" y1="187.96" x2="-251.714" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="-251.714" y1="187.96" x2="-251.714" y2="196.088" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
