@@ -19647,14 +19647,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <part name="U$96" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="U$97" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="U$98" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
-<part name="U$99" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="U$100" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="U$101" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="U$102" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="U$103" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="U$104" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="U$105" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
-<part name="U$106" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="AE1" library="W3011" deviceset="W3011" device=""/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0R"/>
@@ -19696,6 +19694,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS54-HF.pdf"&
 <part name="FRAME7" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="F1"/>
 <part name="FRAME8" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="F1"/>
 <part name="FRAME9" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="F1"/>
+<part name="R73" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5k1"/>
+<part name="GND106" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R74" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5k1"/>
+<part name="GND107" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19832,14 +19834,12 @@ Email: augustinemwendwa72@gmail.com</text>
 <instance part="U$92" gate="G$1" x="33.02" y="132.08" smashed="yes"/>
 <instance part="U$93" gate="G$1" x="33.02" y="129.54" smashed="yes"/>
 <instance part="U$94" gate="G$1" x="33.02" y="127" smashed="yes"/>
-<instance part="U$99" gate="G$1" x="210.82" y="187.96" smashed="yes"/>
 <instance part="U$100" gate="G$1" x="210.82" y="180.34" smashed="yes"/>
 <instance part="U$101" gate="G$1" x="284.48" y="180.34" smashed="yes" rot="R180"/>
 <instance part="U$102" gate="G$1" x="312.42" y="233.68" smashed="yes"/>
 <instance part="U$103" gate="G$1" x="312.42" y="236.22" smashed="yes"/>
 <instance part="U$104" gate="G$1" x="312.42" y="231.14" smashed="yes"/>
 <instance part="U$105" gate="G$1" x="312.42" y="223.52" smashed="yes"/>
-<instance part="U$106" gate="G$1" x="284.48" y="187.96" smashed="yes" rot="R180"/>
 <instance part="JP1" gate="A" x="170.18" y="157.48" smashed="yes">
 <attribute name="NAME" x="170.18" y="167.64" size="1.778" layer="95" align="top-center"/>
 <attribute name="VALUE" x="170.18" y="149.86" size="1.778" layer="96" align="bottom-center"/>
@@ -19849,6 +19849,20 @@ Email: augustinemwendwa72@gmail.com</text>
 </instance>
 <instance part="GND105" gate="1" x="153.67" y="146.05" smashed="yes">
 <attribute name="VALUE" x="151.13" y="143.51" size="1.778" layer="96"/>
+</instance>
+<instance part="R73" gate="G$1" x="289.306" y="187.96" smashed="yes">
+<attribute name="NAME" x="285.496" y="189.4586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="285.496" y="184.658" size="1.778" layer="96"/>
+</instance>
+<instance part="GND106" gate="1" x="297.18" y="180.34" smashed="yes">
+<attribute name="VALUE" x="294.64" y="177.8" size="1.778" layer="96"/>
+</instance>
+<instance part="R74" gate="G$1" x="208.026" y="187.96" smashed="yes">
+<attribute name="NAME" x="204.216" y="189.4586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="204.216" y="184.658" size="1.778" layer="96"/>
+</instance>
+<instance part="GND107" gate="1" x="198.12" y="180.34" smashed="yes">
+<attribute name="VALUE" x="195.58" y="177.8" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -19946,6 +19960,18 @@ Email: augustinemwendwa72@gmail.com</text>
 <pinref part="JP1" gate="A" pin="4"/>
 <wire x1="153.67" y1="148.59" x2="153.67" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="153.67" y1="154.94" x2="165.1" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND106" gate="1" pin="GND"/>
+<wire x1="297.18" y1="182.88" x2="297.18" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="R73" gate="G$1" pin="2"/>
+<wire x1="297.18" y1="187.96" x2="294.386" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND107" gate="1" pin="GND"/>
+<pinref part="R74" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="182.88" x2="198.12" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="187.96" x2="202.946" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
@@ -20258,8 +20284,8 @@ Email: augustinemwendwa72@gmail.com</text>
 <net name="N$12" class="0">
 <segment>
 <pinref part="JTAG" gate="G$1" pin="CC1"/>
-<wire x1="228.6" y1="187.96" x2="215.9" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="U$99" gate="G$1" pin="P$1"/>
+<wire x1="228.6" y1="187.96" x2="213.106" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="R74" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$139" class="0">
@@ -20279,8 +20305,8 @@ Email: augustinemwendwa72@gmail.com</text>
 <net name="N$144" class="0">
 <segment>
 <pinref part="JTAG" gate="G$1" pin="CC2"/>
-<wire x1="269.24" y1="187.96" x2="279.4" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="U$106" gate="G$1" pin="P$1"/>
+<wire x1="269.24" y1="187.96" x2="284.226" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="R73" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="IO21" class="0">
