@@ -20357,14 +20357,14 @@ Email: augustinemwendwa72@gmail.com</text>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="MICRO_SD1" gate="G$1" pin="DAT0"/>
-<wire x1="58.42" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
-<label x="45.72" y="66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="X1" gate="G$1" pin="IO1"/>
 <wire x1="91.44" y1="160.02" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
 <label x="106.68" y="160.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MICRO_SD1" gate="G$1" pin="CMD"/>
+<wire x1="58.42" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
+<label x="35.56" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO46" class="0">
@@ -20381,14 +20381,14 @@ Email: augustinemwendwa72@gmail.com</text>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="MICRO_SD1" gate="G$1" pin="CMD"/>
-<wire x1="58.42" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
-<label x="35.56" y="71.12" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="X1" gate="G$1" pin="IO2"/>
 <wire x1="91.44" y1="157.48" x2="111.76" y2="157.48" width="0.1524" layer="91"/>
 <label x="106.68" y="157.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MICRO_SD1" gate="G$1" pin="DAT0"/>
+<wire x1="58.42" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
+<label x="45.72" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$140" class="0">
